@@ -15,7 +15,7 @@ const DressCode = () => {
 					{[
 						"Formal wear is insisted on; suits and ties must be worn.",
 						"Blazers and jackets will need to be worn when speaking.",
-						"Appropriate footwear needs to be work (no sneakers).",
+						"Appropriate footwear needs to be worn (no sneakers).",
 					].map((code) => (
 						<motion.li
 							className="flex items-center space-x-3"
