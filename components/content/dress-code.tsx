@@ -11,7 +11,7 @@ const DressCode = () => {
 		<TwoColumnsLayout title="Dress Code">
 			<div className="md:w-1/2 flex flex-col items-start justify-start">
 				<SubHeading className="mb-8">Gentlemen</SubHeading>
-				<ul className="space-y-4 text-left text-gray-700 font-medium">
+				<ul className="space-y-4 text-left text-black font-medium">
 					{[
 						"Formal wear is insisted on; suits and ties must be worn.",
 						"Blazers and jackets will need to be worn when speaking.",
@@ -22,7 +22,7 @@ const DressCode = () => {
 							key={generateKey()}
 							variants={inViewVariants}
 							initial={"fromLeft"}
-							whileInView="visible"
+							whileInView={inViewVariants.visible(0.9)}
 							transition={{
 								duration: 0.4,
 							}}
@@ -50,7 +50,7 @@ const DressCode = () => {
 			</div>
 			<div className="md:w-1/2 flex flex-col items-start justify-start">
 				<SubHeading className="mb-8">Ladies</SubHeading>
-				<ul className="space-y-4 text-left text-gray-700 font-medium">
+				<ul className="space-y-4 text-left text-black font-medium">
 					{[
 						"Formal wear is insisted on, blazers are encouraged but not required.",
 						"Sleeveless, sheer and cut-out stops are not allowed.",
@@ -62,7 +62,7 @@ const DressCode = () => {
 							key={generateKey()}
 							variants={inViewVariants}
 							initial={"fromLeft"}
-							whileInView="visible"
+							whileInView={inViewVariants.visible(0.9)}
 							transition={{
 								duration: 0.4,
 							}}

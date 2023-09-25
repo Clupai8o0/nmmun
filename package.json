@@ -1,12 +1,12 @@
 {
 	"name": "nmmun",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "next dev -p 3001",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint",
+		"lint": "next lint"
 	},
 	"dependencies": {
 		"framer-motion": "^10.13.0",
