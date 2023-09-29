@@ -76,7 +76,7 @@ export default function Home() {
 
 			<DetailsOnly
 				className="pb-36 pt-36"
-				bgImg="/theme-bg-8.png"
+				bgImg="/theme-bg-7.png"
 				bgOpacity={1}
 				bgImgTransition
 				bgImgMobileBlur
