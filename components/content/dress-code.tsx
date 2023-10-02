@@ -14,7 +14,7 @@ const DressCode = () => {
 				<ul className="space-y-4 text-left text-black font-medium">
 					{[
 						"Formal wear is insisted on; suits and ties must be worn.",
-						"Blazers and jackets will need to be worn when speaking.",
+						"Blazers and jackets must be worn when speaking.",
 						"Appropriate footwear needs to be worn (no sneakers).",
 					].map((code) => (
 						<motion.li
@@ -52,8 +52,8 @@ const DressCode = () => {
 				<SubHeading className="mb-8">Ladies</SubHeading>
 				<ul className="space-y-4 text-left text-black font-medium">
 					{[
-						"Formal wear is insisted on, blazers are encouraged but not required.",
-						"Sleeveless, sheer and cut-out stops are not allowed.",
+						"Formal wear is insisted , blazers are encouraged but not required.",
+						"Sleeveless, sheer and cut-out tops are not allowed.",
 						"Formal dresses and skirts must not be too tightly fitted and the hemline must extend below the knee.",
 						"Appropriate footwear needs to be worn (no brightly colored heels).",
 					].map((code) => (
