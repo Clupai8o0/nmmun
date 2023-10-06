@@ -262,10 +262,11 @@ function Application() {
 					- 5th October, 2023
 				</Details>
 				<CTA
-					title="Apply For Security & Runner"
+					title="Application Closed"
 					href="https://forms.gle/3Jc3ZANZPAEBmtVDA"
 					className="mt-12"
 					target="_blank"
+					disabled
 				/>
 			</DetailsOnly>
 		</main>
