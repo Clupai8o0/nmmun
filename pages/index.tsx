@@ -86,7 +86,7 @@ export default function Home() {
 					<Heading className="mb-6 xl:w-3/4">
 						Zeroth Hour: Breaking the Silence
 					</Heading>
-					<Details opacity={0.9}>
+					<Details opacity={0.8}>
 						Many of us are acutely aware of the social challenges that afflict
 						our society, significantly impacting the quality of life for people
 						worldwide.{" "}
@@ -98,14 +98,14 @@ export default function Home() {
 						to address them, both as a global community and as individuals,
 						progress often seems to be postponed.
 					</Details>
-					<Details opacity={0.9}>
+					<Details opacity={0.8}>
 						For instance, the pandemic has frequently been used as a convenient
 						excuse by numerous governments to justify their failure to
 						effectively pursue the 2030 Sustainable Development Goals (SDGs),
 						even though inadequacies in addressing these issues existed long
 						before the pandemic emerged.
 					</Details>
-					<Details opacity={0.9}>
+					<Details opacity={0.8}>
 						This situation is symbolically referred to as "Zeroth Hour,"
 						carrying a dual meaning. It signifies the pressing nature of the
 						problems we face, emphasizing the limited time available to find

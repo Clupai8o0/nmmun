@@ -8,6 +8,7 @@ export { default as Hero } from "./content/hero";
 export { default as Masonry } from "./content/masonry";
 export { default as Navbar } from "./navigation/navbar";
 export { default as Profile } from "./content/profile";
+export { default as Profile2 } from "./content/profile-2";
 export { default as Quote } from "./content/quote";
 export { default as FloatingScrollToTopButton } from "./navigation/floatingScrollToTopBtn";
 export { default as ScrollToTopButton } from "./navigation/scrollToTopBtn";

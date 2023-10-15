@@ -10,7 +10,7 @@ export const navLinks = [
 		name: "Team",
 		href: "/team",
 		cta: false,
-		showScrollToTop: false,
+		showScrollToTop: true,
 		navDarkMode: true,
 	},
 	{
@@ -187,5 +187,266 @@ export const councils = [
 		href: "#",
 		src: "/councils/fcc.png",
 		alt: "fictional crisis committee Logo",
+	},
+];
+
+interface Team {
+	title: string;
+	src: string;
+	alt: string;
+	members: {
+		name: string;
+		pos: string;
+		src: string;
+	}[];
+}
+
+export const teams: Team[] = [
+	{
+		title: "Secretariats",
+		src: "",
+		alt: "",
+		members: [
+			{
+				name: "Tanishka Bhatia",
+				pos: "Head of Organizing Committee",
+				src: "tanishka",
+			},
+			{
+				name: "Hetvi Shah",
+				pos: "Director General",
+				src: "hetvi",
+			},
+			{
+				name: "Akshat P. Kumar",
+				pos: "Secretary General",
+				src: "akshat",
+			},
+			{
+				name: "Nandana Menon",
+				pos: "Head of R&D",
+				src: "nandana",
+			},
+		],
+	},
+	{
+		title: "IT",
+		src: "it",
+		alt: "",
+		members: [
+			{
+				name: "Samridh Limbu",
+				pos: "Head of IT",
+				src: "samridh",
+			},
+			{
+				name: "Pranav Nambiar",
+				pos: "Member",
+				src: "pranav",
+			},
+			{
+				name: "Yuvraaj Suri",
+				pos: "Member",
+				src: "yuvraaj",
+			},
+			{
+				name: "Nawfaal Rahaman",
+				pos: "Membger",
+				src: "nawfaal",
+			},
+		],
+	},
+	{
+		title: "Design",
+		src: "design",
+		alt: "",
+		members: [
+			{
+				name: "Anvi Tiwari",
+				pos: "Head of Design",
+				src: "anvi",
+			},
+			{
+				name: "Zoha Noor",
+				pos: "Member",
+				src: "zoha",
+			},
+		],
+	},
+	{
+		title: "Logistics",
+		src: "logistics",
+		alt: "",
+		members: [
+			{
+				name: "Romeir Ranjan",
+				pos: "Head of Logistics",
+				src: "romeir",
+			},
+			{
+				name: "Nivya Sajiz",
+				pos: "Member",
+				src: "nivya",
+			},
+			{
+				name: "Sahil Singh",
+				pos: "Member",
+				src: "sahil",
+			},
+			{
+				name: "Joel Joseph",
+				pos: "Member",
+				src: "joel",
+			},
+		],
+	},
+	{
+		title: "Media & PR",
+		src: "press",
+		alt: "",
+		members: [
+			{
+				name: "Kritika Gupta",
+				pos: "Head of Media & PR",
+				src: "kritika",
+			},
+			{
+				name: "Shashwat Srivastava",
+				pos: "Member",
+				src: "shashwat",
+			},
+			{
+				name: "Akshi Jain",
+				pos: "Member",
+				src: "akshi",
+			},
+		],
+	},
+	{
+		title: "Press",
+		src: "media",
+		alt: "",
+		members: [
+			{
+				name: "Abdur Raheem",
+				pos: "Member",
+				src: "abdur",
+			},
+			{
+				name: "Shreyas Birje",
+				pos: "Member",
+				src: "shreyas",
+			},
+			{
+				name: "Mithilesh Tumugante",
+				pos: "Member",
+				src: "mithilesh",
+			},
+			{
+				name: "Chirag Ashwani",
+				pos: "Member",
+				src: "chirag",
+			},
+		],
+	},
+	{
+		title: "Decoration",
+		src: "decor",
+		alt: "",
+		members: [
+			{
+				name: "Zara Kulsum",
+				pos: "Head of Decoration",
+				src: "zara",
+			},
+			{
+				name: "Juwairia Mariam",
+				pos: "Member",
+				src: "juwairia",
+			},
+			{
+				name: "Sana Kelushkar",
+				pos: "Member",
+				src: "sana",
+			},
+			{
+				name: "Diya Zacharia",
+				pos: "Member",
+				src: "diya",
+			},
+		],
+	},
+	{
+		title: "Research & Development",
+		src: "rnd",
+		alt: "",
+		members: [
+			{
+				name: "Sreya Sasi",
+				pos: "Member",
+				src: "sreya",
+			},
+			{
+				name: "Antara Dongre",
+				pos: "Member",
+				src: "antara",
+			},
+			{
+				name: "Mohammed Kaif",
+				pos: "Member",
+				src: "kaif",
+			},
+			{
+				name: "Samarth",
+				pos: "Member",
+				src: "samarth",
+			},
+		],
+	},
+	{
+		title: "Security & Runner",
+		src: "security",
+		alt: "",
+		members: [
+			{
+				name: "Ayman Siddiqui",
+				pos: "Member",
+				src: "ayman",
+			},
+		],
+	},
+	{
+		title: "Finance",
+		src: "finance",
+		alt: "",
+		members: [
+			{
+				name: "Mohammed Ehaan",
+				pos: "Head of Finance",
+				src: "ehaan",
+			},
+			{
+				name: "Surya Sai",
+				pos: "Member",
+				src: "surya",
+			},
+		],
+	},
+	{
+		title: "Food",
+		src: "food",
+		alt: "",
+		members: [
+			{
+				name: "Ali Dar",
+				pos: "Head of Food",
+				src: "ali",
+			},
+			{
+				name: "Shreya Sham",
+				pos: "Member",
+				src: "shreya",
+			},
+		],
 	},
 ];

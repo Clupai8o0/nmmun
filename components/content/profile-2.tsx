@@ -39,13 +39,13 @@ const Profile = ({
 				alt={alt}
 			/>
 
-			<div className="absolute bottom-0 w-full h-36 bg-gradient-to-t from-[#5D2510] to-transparent"></div>
+			<div className="absolute bottom-0 w-full h-36 bg-gradient-to-t from-[#744c24] to-transparent group-hover:bg-[#744c24] group-hover:h-full group-hover:bg-opacity-50 transition duration-300 cursor-pointer"></div>
 			<div
 				className={`p-5 absolute bottom-0 left-0 text-white ${
 					rounded && "text-center"
 				}`}
 			>
-				<h4 className="mb-1 text-2xl font-semibold tracking-tight">{name}</h4>
+				<h4 className="mb-1 text-2xl font-bold tracking-tight">{name}</h4>
 
 				<p className="font-normal opacity-80">{position}</p>
 			</div>

@@ -9,12 +9,14 @@ const ContentLink = ({
 	title,
 	url,
 	delay,
+	circle,
 }: {
 	src: string;
 	alt: string;
 	title: string;
 	url: string;
 	delay?: number;
+	circle?: boolean;
 }) => {
 	return (
 		<Link href={url}>
@@ -50,8 +52,9 @@ const ContentLink = ({
 				<img
 					src={src}
 					alt={alt}
-					className="w-16 h-16 md:w-20 md:h-20 object-contain"
+					className="w-14 h-14 md:w-16 md:h-16 object-contain"
 				/>
+
 				<p className="font-medium opacity-80 md:text-xl text-center">{title}</p>
 			</motion.div>
 		</Link>

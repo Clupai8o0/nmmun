@@ -1,7 +1,7 @@
 import React from "react";
 import { v4 as generateKey } from "uuid";
 
-import { ContentLink, Head, Hero, Profile } from "@/components";
+import { ContentLink, Head, Hero, Profile, Profile2 } from "@/components";
 import { ProfilesContainer, TableOfContent } from "@/layouts";
 
 function Team() {
@@ -18,63 +18,57 @@ function Team() {
 				title="OUR TEAM"
 				src="/hero-team-2.jpg"
 				alt="some dummy pic"
-				desc="Once all the members of the MUN are selected, the teams will be updated. Please be patient."
+				desc="The Heartbeat of Our MUN: Introducing the Team"
 				showTimer
 				showCTA
 				mobileMini
 			/>
 
 			{/* TABLE OF CONTENT */}
-			{/* <TableOfContent>
-				{[1, 2, 3, 4, 5, 6, 7, 8].map((content, i) => (
+			{/* <TableOfContent title="Teams">
+				{teams.map(({ src, alt, title }) => (
 					<ContentLink
-						src="/dummy.png"
-						alt="some dummy image"
-						title="Title"
-						url="#Title"
-						delay={3 + i * 0.2}
+						src={`/teams/${src}.png`}
+						alt={alt}
+						title={title}
+						url={`#${title}`}
 						key={generateKey()}
 					/>
 				))}
 			</TableOfContent> */}
 
 			{/* CONTENT */}
-			{/* <ProfilesContainer title="Organizers">
-				{[1, 2, 3, 4].map((profile, i) => (
-					<Profile
-						key={generateKey()}
-						src="/dummy.png"
-						alt="some dummy"
-						name="Someone"
-						position="Some Position"
-					/>
-				))}
-			</ProfilesContainer>
-			<ProfilesContainer title="IT">
-				{[1, 2, 3, 4].map((profile, i) => (
-					<Profile
-						key={generateKey()}
-						src="/dummy.png"
-						alt="some dummy"
-						name="Someone"
-						position="Some Position"
-						rounded
-					/>
-				))}
-			</ProfilesContainer> */}
+			{teams.map((team) => (
+				<ProfilesContainer title={team.title} key={generateKey()}>
+					{team.members.map(({ name, pos, src }) => (
+						<Profile
+							key={generateKey()}
+							src={`/teams/${src}.png`}
+							alt={name}
+							name={name}
+							position={pos}
+						/>
+					))}
+				</ProfilesContainer>
+			))}
 
 			{/* MARGIN BETWEEN */}
-			{/* <div className="my-12" />
+			<div className="my-12" />
 
 			<Hero
-				src="/dummy.png"
-				alt="some dummy img"
-				title="NMMUN"
+				src="/hero-variant-5.jpeg"
+				// src="/hero-variant-4.jpeg"
+				alt="blurred nmmun logo with a gradient bg"
+				title="SECURE YOUR SPOT"
+				desc="Ready to Start Your Diplomatic Journey?"
 				showCTA
 				showTimer
-				showYear
+				// showYear
 				variant
-			/> */}
+				className=""
+				smallerTitle
+				bgImgOpacity={0.8}
+			/>
 		</main>
 	);
 }
@@ -82,6 +76,7 @@ function Team() {
 export default Team;
 
 import { GetStaticProps } from "next";
+import { teams } from "@/config/links";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
 	return {
