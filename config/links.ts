@@ -204,7 +204,7 @@ interface Team {
 export const teams: Team[] = [
 	{
 		title: "Secretariats",
-		src: "",
+		src: "gov",
 		alt: "",
 		members: [
 			{

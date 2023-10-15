@@ -25,7 +25,7 @@ function Team() {
 			/>
 
 			{/* TABLE OF CONTENT */}
-			{/* <TableOfContent title="Teams">
+			<TableOfContent title="Teams">
 				{teams.map(({ src, alt, title }) => (
 					<ContentLink
 						src={`/teams/${src}.png`}
@@ -35,7 +35,7 @@ function Team() {
 						key={generateKey()}
 					/>
 				))}
-			</TableOfContent> */}
+			</TableOfContent>
 
 			{/* CONTENT */}
 			{teams.map((team) => (
