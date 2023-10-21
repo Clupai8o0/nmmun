@@ -251,7 +251,7 @@ export const teams: Team[] = [
 			},
 			{
 				name: "Nawfaal Rahaman",
-				pos: "Membger",
+				pos: "Member",
 				src: "nawfaal",
 			},
 		],
@@ -410,7 +410,7 @@ export const teams: Team[] = [
 		members: [
 			{
 				name: "Ayman Siddiqui",
-				pos: "Member",
+				pos: "Head of S&R",
 				src: "ayman",
 			},
 		],
