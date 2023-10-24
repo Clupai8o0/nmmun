@@ -137,7 +137,7 @@ const HeroContents = ({
 				<motion.div
 					className={`flex gap-2 md:gap-4 mt-4 relative z-10 ${
 						blackText && "text-black"
-					} ${ctaMargin}`}
+					} ${ctaMargin} ${!showTimer && "mt-8"}`}
 					variants={inViewVariants}
 					initial="fromDown"
 					animate={(!whileInView && "visible") || ""}

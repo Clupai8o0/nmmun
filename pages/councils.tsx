@@ -19,7 +19,6 @@ function Councils() {
 				src="/hero-council-5.jpg"
 				alt="some dummy pic"
 				desc="Unveiling Our Councils: Where Global Issues Find Resolution."
-				showTimer
 				showCTA
 			/>
 

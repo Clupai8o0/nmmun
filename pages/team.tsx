@@ -19,9 +19,7 @@ function Team() {
 				src="/hero-team-2.jpg"
 				alt="some dummy pic"
 				desc="The Heartbeat of Our MUN: Introducing the Team"
-				showTimer
 				showCTA
-				mobileMini
 			/>
 
 			{/* TABLE OF CONTENT */}

@@ -27,7 +27,6 @@ function Info() {
 				src="/hero-info-2.jpg"
 				alt="some dummy"
 				desc="Explore Essential Details: Itinerary, Dress Code, and Rules of Procedure."
-				showTimer
 				showCTA
 				mobileMini
 			/>
