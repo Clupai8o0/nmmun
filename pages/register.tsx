@@ -208,10 +208,11 @@ function Application() {
 					- 20th October, 2023
 				</Details>
 				<CTA
-					title="Apply For Delegate"
+					title="Application Closed"
 					href="https://forms.gle/U89v8mHjhTgddzc87"
 					className="mt-12"
 					target="_blank"
+					disabled
 				/>
 			</DetailsOnly>
 
