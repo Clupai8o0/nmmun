@@ -1,7 +1,15 @@
 import { v4 as generateKey } from "uuid";
 
 import { ImageWithDetails, ImageWithDetails3, TableOfContent } from "@/layouts";
-import { ContentLink, Details, Head, Heading, Hero } from "@/components";
+import {
+	ContentLink,
+	Details,
+	Head,
+	Heading,
+	Hero,
+	List,
+	SubHeading,
+} from "@/components";
 import { councils } from "@/config/links";
 
 function Councils() {
@@ -46,8 +54,10 @@ function Councils() {
 					id={council.id}
 					noBlackBg
 				>
-					<Heading className="mb-6">{council.name}</Heading>
-					<Details opacity={0.8}>
+					<Heading className="mb-6" reverse={i % 2 === 0 ? true : false}>
+						{council.name}
+					</Heading>
+					<Details opacity={0.8} reverse={i % 2 === 0 ? true : false}>
 						{typeof council.desc === "string"
 							? council.desc
 							: council.desc.map((d) => (
@@ -58,6 +68,13 @@ function Councils() {
 									</>
 							  ))}
 					</Details>
+					<SubHeading reverse={i % 2 === 0 ? true : false}>Topics</SubHeading>
+					<List
+						reverse={i % 2 === 0 ? true : false}
+						content={council.topics.map((topic) => (
+							<span className="opacity-80">{topic}</span>
+						))}
+					/>
 				</ImageWithDetails3>
 			))}
 

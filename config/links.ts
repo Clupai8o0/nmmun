@@ -61,6 +61,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/unsc.png",
 		alt: "United Nations Security Council Logo",
+		topics: [
+			"Addressing Sino-Indian Aggressions",
+			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+		],
 	},
 	{
 		name: "SOCHUM",
@@ -72,6 +76,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/sochum.png",
 		alt: "Social, Humanitarian, and Cultural Committee Logo",
+		topics: [
+			"Preserving Freedom of Press and Ensuring Journalistic Integrity in the Digital Era",
+			"Democratic Republic of the Congo (DRC) Crisis",
+		],
 	},
 	{
 		name: "SPECPOL",
@@ -83,6 +91,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/specpol.png",
 		alt: "The Special Political and Decolonization Committee Logo",
+		topics: [
+			"Discussing the Senkaku Island Dispute",
+			"Discussing the Humanitarian and Economic Aspects of Neocolonialist Exploitation",
+		],
 	},
 	{
 		name: "WTO",
@@ -92,6 +104,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/wto.png",
 		alt: "world trade organization Logo",
+		topics: [
+			"The Rise of Green Protectionism and its Impact on Commerce",
+			"Trade-Related Aspects of Intellectual Property Rights",
+		],
 	},
 	{
 		name: "UNEP",
@@ -103,6 +119,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/unep.png",
 		alt: "United Nations environment programs Logo",
+		topics: [
+			"Ensuring the Accountability of Countries to Environmental Conventions",
+			"Overtourism and its impact on the environment",
+		],
 	},
 	{
 		name: "UNCSW",
@@ -111,6 +131,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/uncsw.png",
 		alt: "United Nations commission on the status of women Logo",
+		topics: [
+			"Discussing violence against women and the battered woman syndrome",
+			"Discussing technological change and education in the digital age for achieving gender equality and empowerment of women",
+		],
 	},
 	{
 		name: "UNCCPCJ",
@@ -122,6 +146,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/unccpcj.png",
 		alt: "United Nations commission on crime prevention and criminal justice Logo",
+		topics: [
+			"Addressing the challenges posed by Cybercrime and Online Terrorism.",
+			"Fighting international financial crime in an increasingly cashless economy.",
+		],
 	},
 	{
 		name: "G20",
@@ -130,6 +158,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/g20.png",
 		alt: "group of 20 Logo",
+		topics: [
+			"Green Development, Climate Finance & LiFE",
+			"Technological transformation and digital public infrastructure ",
+		],
 	},
 	{
 		name: "LOK SABHA",
@@ -141,6 +173,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/lok-sabha.png",
 		alt: "lok sabha Logo",
+		topics: [
+			"Seeking To Restore Peace In the Seven Sisters by Deliberating on the Current Situation in the states of the North-Eastern Region of India with emphasis on the Validity of the Armed Forces Special Powers Act",
+			"Challenging the Remission Policy.",
+		],
 	},
 	{
 		name: "IPL",
@@ -149,6 +185,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/ipl.svg",
 		alt: "indian premier league Logo",
+		topics: [
+			"Draft Auction (15 teams, 12-18 players)",
+			"Measures to prevent cheating (spot fixing) in the future.",
+		],
 	},
 	{
 		name: "HJCC",
@@ -157,6 +197,7 @@ export const councils = [
 		href: "#",
 		src: "/councils/hjcc.png",
 		alt: "hjcc Logo",
+		topics: ["Cuban Missile Crisis (Soviets and US)"],
 	},
 	{
 		name: "House of Representatives",
@@ -168,6 +209,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/house-of-representatives.png",
 		alt: "house of representatives Logo",
+		topics: [
+			"Gun Violence and Gun Control",
+			"Abortion- the US' Post-Roe Chapter",
+		],
 	},
 	{
 		name: "SAARC",
@@ -179,6 +224,10 @@ export const councils = [
 		href: "#",
 		src: "/councils/saarc.png",
 		alt: "south asian association for regional cooperation Logo",
+		topics: [
+			"Examining the Economic Crisis in Sri Lanka and its Consequences",
+			"Addressing the Political and Economic situation of Afghanistan and its impact on the South Asian Subcontinent",
+		],
 	},
 	{
 		name: "Fictional Crisis Committee",
@@ -187,6 +236,7 @@ export const councils = [
 		href: "#",
 		src: "/councils/fcc.png",
 		alt: "fictional crisis committee Logo",
+		topics: ["Indira Gandhi’s Cabinet during the Emergency (The Emergency)"],
 	},
 ];
 
