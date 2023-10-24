@@ -460,7 +460,7 @@ export const teams: Team[] = [
 		members: [
 			{
 				name: "Ayman Siddiqui",
-				pos: "Head of S&R",
+				pos: "Head of Security & Runner",
 				src: "ayman",
 			},
 		],
