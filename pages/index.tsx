@@ -54,6 +54,7 @@ export default function Home() {
 				// bottomGradient={
 				// 	<div className="w-full h-1/4 bottom-0 absolute bg-gradient-to-t from-[#885b43] to-[rgba(0,0,0,0)]"></div>
 				// }
+				fullPage
 			/>
 
 			{/* CONTENT */}

@@ -36,6 +36,7 @@ interface Contents {
 	ctaMargin?: string;
 	smallerTitle?: boolean;
 	bottomGradient?: React.ReactNode;
+	fullPage?: boolean;
 }
 
 const HeroContents = ({
@@ -189,7 +190,7 @@ const HeroContents = ({
 };
 
 const Hero = (props: Contents) => {
-	const { className, src, alt, variant, images, carousel, bgImgOpacity, bottomGradient } =
+	const { className, src, alt, variant, images, carousel, bgImgOpacity, bottomGradient, fullPage } =
 		props;
 
 	return variant ? (
@@ -229,7 +230,7 @@ const Hero = (props: Contents) => {
 	) : (
 		// FULL HERO
 		<section
-			className={`text-white w-full min-h-[100vh] flex justify-center items-center p-h bg-black ${className} relative pt-24`}
+			className={`text-white w-full ${fullPage && "min-h-[100vh]"} flex justify-center items-center p-h bg-black ${className} relative pt-24`}
 		>
 			{/* <img
 					src={src}
