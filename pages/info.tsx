@@ -45,7 +45,7 @@ function Info() {
 				</Details>
 				<CTA
 					title="Allocations Doc"
-					href="https://docs.google.com/document/d/1Sue_gBy_raGCYm85uHrLzec3etLiEJ64g51xFMxUVaE/edit"
+					href="https://drive.google.com/file/d/186NDyprRwU2J1_RnGi4sGeumMIgQp4Vw/view?usp=sharing"
 					className="mt-6 mb-12 justify-start"
 					notCenter
 					target="_blank"
