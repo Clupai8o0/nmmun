@@ -32,7 +32,7 @@ function Info() {
 			/>
 
 			{/* CONTENT */}
-			<DetailsOnly className="py-24">
+			<DetailsOnly className="pt-24">
 				<Heading className="mb-6">Allocations</Heading>
 
 				<Details opacity={0.8} className="w-full md:w-2/3">
