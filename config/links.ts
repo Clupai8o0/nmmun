@@ -65,6 +65,12 @@ export const councils = [
 			"Addressing Sino-Indian Aggressions",
 			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
 		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+			},
+		],
 	},
 	{
 		name: "SOCHUM",
@@ -79,6 +85,12 @@ export const councils = [
 		topics: [
 			"Preserving Freedom of Press and Ensuring Journalistic Integrity in the Digital Era",
 			"Democratic Republic of the Congo (DRC) Crisis",
+		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/1OawTzSoq47mfViI2MfgFH6kZkdemAZKA/view?usp=drive_link",
+			},
 		],
 	},
 	{
@@ -95,6 +107,12 @@ export const councils = [
 			"Discussing the Senkaku Island Dispute",
 			"Discussing the Humanitarian and Economic Aspects of Neocolonialist Exploitation",
 		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/1idIZuqjySBwgbQTXGvxdbT8xDSZCJpMs/view?usp=drive_link",
+			},
+		],
 	},
 	{
 		name: "WTO",
@@ -107,6 +125,12 @@ export const councils = [
 		topics: [
 			"The Rise of Green Protectionism and its Impact on Commerce",
 			"Trade-Related Aspects of Intellectual Property Rights",
+		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/1WYxZHkaHLB-sFkHbvmXnO0-6rtJEzwxp/view?usp=drive_link",
+			},
 		],
 	},
 	{
@@ -150,6 +174,12 @@ export const councils = [
 			"Addressing the challenges posed by Cybercrime and Online Terrorism.",
 			"Fighting international financial crime in an increasingly cashless economy.",
 		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/17t1OO9yDCkGqXrRD72SGFqZVw83B1KJ0/view?usp=drive_link",
+			},
+		],
 	},
 	{
 		name: "G20",
@@ -161,6 +191,12 @@ export const councils = [
 		topics: [
 			"Green Development, Climate Finance & LiFE",
 			"Technological transformation and digital public infrastructure ",
+		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/1Dg7QZ33qaaGQ7VpiyjeqBPXdkaIqeH7y/view?usp=drive_link",
+			},
 		],
 	},
 	{
@@ -176,6 +212,12 @@ export const councils = [
 		topics: [
 			"Seeking To Restore Peace In the Seven Sisters by Deliberating on the Current Situation in the states of the North-Eastern Region of India with emphasis on the Validity of the Armed Forces Special Powers Act",
 			"Challenging the Remission Policy.",
+		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/1MW1i0DR_wKA0cGLOm1MeyHT4SMSqGbX6/view?usp=drive_link",
+			},
 		],
 	},
 	{
@@ -198,6 +240,16 @@ export const councils = [
 		src: "/councils/hjcc.png",
 		alt: "hjcc Logo",
 		topics: ["Cuban Missile Crisis (Soviets and US)"],
+		bgs: [
+			{
+				name: "Background Guide #1",
+				url: "https://drive.google.com/file/d/11ONrEytLy5ONBUkd-7ehSGAqlsG9cTrW/view?usp=drive_link",
+			},
+			{
+				name: "Background Guide #2",
+				url: "https://drive.google.com/file/d/16o1A3xEa42TXaixelGScPI6zQOiM6Jql/view?usp=drive_link",
+			},
+		],
 	},
 	{
 		name: "House of Representatives",
@@ -212,6 +264,12 @@ export const councils = [
 		topics: [
 			"Gun Violence and Gun Control",
 			"Abortion- the US' Post-Roe Chapter",
+		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/1aRAedaOZNV_fN0AMBanAVZkbyIbzL_c8/view?usp=drive_link",
+			},
 		],
 	},
 	{
@@ -228,6 +286,12 @@ export const councils = [
 			"Examining the Economic Crisis in Sri Lanka and its Consequences",
 			"Addressing the Political and Economic situation of Afghanistan and its impact on the South Asian Subcontinent",
 		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/1Ml-9zZYyPfvUoNuYIGQLv0yr6dupYACs/view?usp=drive_link",
+			},
+		],
 	},
 	{
 		name: "Fictional Crisis Committee",
@@ -237,6 +301,12 @@ export const councils = [
 		src: "/councils/fcc.png",
 		alt: "fictional crisis committee Logo",
 		topics: ["Indira Gandhi’s Cabinet during the Emergency (The Emergency)"],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/1yBzRsK8HQ-DtBXbfKxhJhVgI913i-hc2/view?usp=drive_link",
+			},
+		],
 	},
 ];
 

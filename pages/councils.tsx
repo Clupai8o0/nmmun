@@ -9,6 +9,7 @@ import {
 	Hero,
 	List,
 	SubHeading,
+	CTA,
 } from "@/components";
 import { councils } from "@/config/links";
 
@@ -75,6 +76,20 @@ function Councils() {
 							<span className="opacity-80">{topic}</span>
 						))}
 					/>
+					{council.bgs && (
+						<div className="mt-8 flex gap-x-4">
+							{council.bgs.map((bg) => (
+								<div>
+									<CTA
+										title={bg.name}
+										href={bg.url}
+										notCenter
+										target="_blank"
+									/>
+								</div>
+							))}
+						</div>
+					)}
 				</ImageWithDetails3>
 			))}
 
