@@ -304,7 +304,7 @@ export const councils = [
 		bgs: [
 			{
 				name: "Background Guide",
-				url: "https://drive.google.com/file/d/1yBzRsK8HQ-DtBXbfKxhJhVgI913i-hc2/view?usp=drive_link",
+				url: "https://drive.google.com/file/d/17qtTbFmg8w4Xh520B2abPgzenGYLYoF3/view?usp=sharing",
 			},
 		],
 	},
