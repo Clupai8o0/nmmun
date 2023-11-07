@@ -22,5 +22,6 @@ export { default as DressCode } from "./content/dress-code";
 export { default as Itinerary } from "./content/itinerary";
 export { default as TransitionOverlay } from "./loading/transition-overlay";
 export { default as UpdatedSoon } from "./content/updated-soon";
-export { default as Map } from './content/map'
-export { default as List } from './content/list'
+export { default as Map } from "./content/map";
+export { default as List } from "./content/list";
+export { default as ScrollDown } from "./navigation/scrollDown";

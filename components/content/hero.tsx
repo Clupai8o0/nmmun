@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import { inViewVariants } from "@/config/animations";
 
 // Components
-import { CTA, Timer } from "..";
+import { CTA, ScrollDown, Timer } from "..";
 import Carousel from "./carousel";
 import { eventDateInWords } from "@/config/details";
 
@@ -230,7 +230,9 @@ const Hero = (props: Contents) => {
 	) : (
 		// FULL HERO
 		<section
-			className={`text-white w-full ${fullPage && "min-h-[100vh]"} flex justify-center items-center p-h bg-black ${className} relative pt-24`}
+			className={`text-white w-full ${
+				fullPage && "min-h-[100vh]"
+			} flex justify-center items-center p-h bg-black ${className} relative pt-24`}
 		>
 			{/* <img
 					src={src}
@@ -267,6 +269,7 @@ const Hero = (props: Contents) => {
 
 			<div className="max-w-7xl w-full flex flex-col justify-center items-center py-28 md:py-20 relative ">
 				<HeroContents {...props} />
+				{/* <ScrollDown /> */}
 			</div>
 		</section>
 	);

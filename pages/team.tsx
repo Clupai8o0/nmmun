@@ -37,7 +37,11 @@ function Team() {
 
 			{/* CONTENT */}
 			{teams.map((team) => (
-				<ProfilesContainer title={team.title} key={generateKey()}>
+				<ProfilesContainer
+					title={team.title}
+					key={generateKey()}
+					grid="md:grid-cols-3 lg:grid-cols-4"
+				>
 					{team.members.map(({ name, pos, src }) => (
 						<Profile
 							key={generateKey()}

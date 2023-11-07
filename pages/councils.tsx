@@ -38,14 +38,14 @@ function Councils() {
 						src={council.src}
 						alt={council.alt}
 						title={council.name}
-						url={`#${council.id}`}
+						url={`/council/${council.id}`}
 						key={generateKey()}
 					/>
 				))}
 			</TableOfContent>
 
 			{/* CONTENT */}
-			{councils.map((council, i) => (
+			{/* {councils.map((council, i) => (
 				<ImageWithDetails3
 					className={`py-16`}
 					src={council.src}
@@ -91,10 +91,10 @@ function Councils() {
 						</div>
 					)}
 				</ImageWithDetails3>
-			))}
+			))} */}
 
 			{/* MARGIN BETWEEN */}
-			<div className="my-4" />
+			{/* <div className="my-4" /> */}
 
 			<Hero
 				src="/hero-variant-5.jpeg"

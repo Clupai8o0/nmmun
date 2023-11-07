@@ -31,6 +31,8 @@ export default function App({ Component, pageProps }: AppProps) {
 	const [navbarDarkMode, setNavbarDarkMode] = useState(false);
 
 	useEffect(() => {
+		setNavbarDarkMode(false);
+		setShowScrollToTop(false);
 		navLinks.forEach((link) => {
 			if (link.href === pathname) {
 				setShowScrollToTop(link.showScrollToTop);

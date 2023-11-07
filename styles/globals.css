@@ -357,3 +357,28 @@ button.stt:hover svg {
 	}
 }
 /** TRANSITION LOADER */
+
+/** SCROLL DOWN BUTTON */
+.scroll-down {
+  /* bottom: 4rem; */
+  color: #fff;
+  opacity: 0.8;
+  /* position: absolute; */
+  text-align: center;
+}
+.scroll-down-arrow {
+	/* width: 0.8rem; */
+	animation: bounce 1s ease infinite;
+  font-size: 0.8rem;
+  /* height: 1.2rem; */
+  letter-spacing: -1px;
+	line-height: 3rem;
+	font-weight: 700;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
+}
+/** SCROLL DOWN BUTTON */

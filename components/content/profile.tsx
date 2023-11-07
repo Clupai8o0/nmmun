@@ -13,7 +13,7 @@ const Profile = ({
 	src: string;
 	alt: string;
 	name: string;
-	position: string;
+	position?: string;
 	rounded?: boolean;
 }) => {
 	return (
@@ -47,7 +47,7 @@ const Profile = ({
 			>
 				<h4 className="mb-1 text-2xl font-semibold tracking-tight">{name}</h4>
 
-				<p className="font-normal opacity-80">{position}</p>
+				{position && <p className="font-normal opacity-80">{position}</p>}
 			</div>
 		</motion.div>
 	);
