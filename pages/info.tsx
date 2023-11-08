@@ -2,7 +2,17 @@ import React from "react";
 import { v4 as generateKey } from "uuid";
 import { motion } from "framer-motion";
 
-import { CTA, Details, DressCode, Head, Heading, Hero, Itinerary, UpdatedSoon} from "@/components";
+import {
+	CTA,
+	Details,
+	DressCode,
+	Head,
+	Heading,
+	Hero,
+	Itinerary,
+	SubHeading,
+	UpdatedSoon,
+} from "@/components";
 
 // Itinerary
 // - Dress code rules
@@ -43,13 +53,26 @@ function Info() {
 					contributions, we're convinced, will enable us to finally Break the
 					Silence!
 				</Details>
-				<CTA
-					title="Allocations Doc"
-					href="https://drive.google.com/file/d/186NDyprRwU2J1_RnGi4sGeumMIgQp4Vw/view?usp=sharing"
-					className="mt-6 mb-12 justify-start"
-					notCenter
-					target="_blank"
-				/>
+				<div className="flex flex-col md:flex-row gap-6">
+					<div>
+						<CTA
+							title="Allocations Doc"
+							href="https://drive.google.com/file/d/186NDyprRwU2J1_RnGi4sGeumMIgQp4Vw/view?usp=sharing"
+							className="mt-6 mb-12 justify-start"
+							notCenter
+							target="_blank"
+						/>
+					</div>
+					<div>
+						<CTA
+							title="Security & Runner Allocations"
+							href="https://drive.google.com/file/d/1OTNAaC7nz0bAuAEqOPuM_mC-5Kr3nz_5/view?usp=sharing"
+							className="mt-6 mb-12 justify-start"
+							notCenter
+							target="_blank"
+						/>
+					</div>
+				</div>
 
 				<Heading>Rules of Procedure</Heading>
 				<Details className="w-full md:w-2/3" opacity={0.8}>
@@ -69,6 +92,7 @@ function Info() {
 							target="_blank"
 						/>
 					</div>
+
 					<div>
 						<CTA
 							title="Crisis ROP"
@@ -79,6 +103,23 @@ function Info() {
 						/>
 					</div>
 				</div>
+
+				<Heading>Code of Conduct</Heading>
+				<Details className="w-full md:w-2/3" opacity={0.8}>
+					Access our Code of Conduct PDF document by clicking the button below.
+					This document outlines the principles and guidelines that govern
+					conduct and interaction within our Model United Nations (MUN)
+					conference. It serves as a fundamental reference for delegates,
+					ensuring a respectful and collaborative environment throughout the
+					event
+				</Details>
+				<CTA
+					title="Code of Conduct"
+					href="https://drive.google.com/file/d/17vB7Kj5mLbXobuKwgLvmoOTG2NH-d80W/view?usp=sharing"
+					className="mt-6 mb-12 justify-start"
+					notCenter
+					target="_blank"
+				/>
 			</DetailsOnly>
 			{/* <UpdatedSoon /> */}
 			{/* <Itinerary /> */}
