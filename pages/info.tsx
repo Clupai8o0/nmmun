@@ -80,7 +80,7 @@ function Info() {
 			</TableOfContent>
 
 			{/* CONTENT */}
-			<DetailsOnly className="pt-24" id="allocations">
+			<DetailsOnly className="pt-12" id="allocations">
 				<Heading className="mb-6">Allocations</Heading>
 
 				<Details opacity={0.8} className="w-full md:w-2/3">
