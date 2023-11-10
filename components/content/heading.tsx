@@ -6,12 +6,12 @@ const Heading = ({
 	children,
 	reverse,
 	delay,
-	className
+	className,
 }: {
 	children: React.ReactNode;
 	reverse?: boolean;
 	delay?: number;
-	className?: string
+	className?: string;
 }) => {
 	return (
 		<motion.h1

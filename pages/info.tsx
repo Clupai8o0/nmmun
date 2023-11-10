@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import {
 	CTA,
+	ContentLink,
 	Details,
 	DressCode,
 	Head,
@@ -41,8 +42,45 @@ function Info() {
 				mobileMini
 			/>
 
+			<TableOfContent>
+				{[
+					{
+						name: "Allocations",
+						id: "allocations",
+						src: "/alloc.png",
+						alt: "seat",
+					},
+					{
+						name: "Rules of Procedure",
+						id: "rop",
+						src: "/rop.png",
+						alt: "a script with rules",
+					},
+					{
+						name: "Itinerary",
+						id: "itinerary",
+						src: "/itinerary.png",
+						alt: "timeline",
+					},
+					{
+						name: "Dress Code",
+						id: "dress-code",
+						src: "/dress.png",
+						alt: "shirt tie logo",
+					},
+				].map((council, i) => (
+					<ContentLink
+						src={council.src}
+						alt={council.alt}
+						title={council.name}
+						url={`#${council.id}`}
+						key={generateKey()}
+					/>
+				))}
+			</TableOfContent>
+
 			{/* CONTENT */}
-			<DetailsOnly className="pt-24">
+			<DetailsOnly className="pt-24" id="allocations">
 				<Heading className="mb-6">Allocations</Heading>
 
 				<Details opacity={0.8} className="w-full md:w-2/3">
@@ -73,7 +111,9 @@ function Info() {
 						/>
 					</div>
 				</div>
+			</DetailsOnly>
 
+			<DetailsOnly className="pt-24" id="rop">
 				<Heading>Rules of Procedure</Heading>
 				<Details className="w-full md:w-2/3" opacity={0.8}>
 					Explore the comprehensive Rules of Procedure PDF document by clicking
@@ -121,13 +161,9 @@ function Info() {
 					target="_blank"
 				/>
 			</DetailsOnly>
-			{/* <UpdatedSoon /> */}
-			{/* <Itinerary /> */}
-			<DressCode />
 
-			{/* RULES OF PROCEDURE */}
-			{/* DELEGATE HANDBOOK */}
-			{/* CHAIR HAND BOOK */}
+			<Itinerary />
+			<DressCode />
 
 			<Hero
 				src="/hero-variant-5.jpeg"
@@ -150,7 +186,7 @@ function Info() {
 export default Info;
 
 import { GetStaticProps } from "next";
-import { DetailsOnly } from "@/layouts";
+import { DetailsOnly, TableOfContent } from "@/layouts";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
 	return {

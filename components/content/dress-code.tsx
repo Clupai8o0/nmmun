@@ -8,7 +8,7 @@ import { inViewVariants } from "@/config/animations";
 
 const DressCode = () => {
 	return (
-		<DetailsOnly className="my-16">
+		<DetailsOnly className="my-16" id="dress-code">
 			<Heading className="mb-8">Dress Code</Heading>
 			<Details className="w-full md:w-2/3" opacity={0.8}>
 				Model United Nation conferences are formal meeting places for tackling
