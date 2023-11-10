@@ -53,7 +53,7 @@ function Info() {
 					contributions, we're convinced, will enable us to finally Break the
 					Silence!
 				</Details>
-				<div className="flex flex-col md:flex-row gap-6">
+				<div className="flex flex-col md:flex-row gap-x-6 gap-y-2">
 					<div>
 						<CTA
 							title="Allocations Doc"
@@ -82,7 +82,7 @@ function Info() {
 					conference, providing delegates with the necessary framework to engage
 					in productive debates and negotiations
 				</Details>
-				<div className="flex gap-6">
+				<div className="flex gap-x-6 gap-y-2">
 					<div>
 						<CTA
 							title="NMMUN ROP"
