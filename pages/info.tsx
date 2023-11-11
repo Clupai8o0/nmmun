@@ -91,12 +91,12 @@ function Info() {
 					contributions, we're convinced, will enable us to finally Break the
 					Silence!
 				</Details>
-				<div className="flex flex-col md:flex-row gap-x-6 gap-y-2">
+				<div className="flex flex-col md:flex-row gap-x-6 gap-y-4 mt-6">
 					<div>
 						<CTA
 							title="Allocations Doc"
 							href="https://drive.google.com/file/d/186NDyprRwU2J1_RnGi4sGeumMIgQp4Vw/view?usp=sharing"
-							className="mt-6 mb-12 justify-start"
+							className="justify-start"
 							notCenter
 							target="_blank"
 						/>
@@ -105,7 +105,7 @@ function Info() {
 						<CTA
 							title="Security & Runner Allocations"
 							href="https://drive.google.com/file/d/1OTNAaC7nz0bAuAEqOPuM_mC-5Kr3nz_5/view?usp=sharing"
-							className="mt-6 mb-12 justify-start"
+							className="justify-start"
 							notCenter
 							target="_blank"
 						/>
