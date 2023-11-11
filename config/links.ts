@@ -313,6 +313,12 @@ export const councils = [
 			"Draft Auction (15 teams, 12-18 players)",
 			"Measures to prevent cheating (spot fixing) in the future.",
 		],
+		bgs: [
+			{
+				name: "Background Guide",
+				url: "https://drive.google.com/file/d/1By73AiglZ1Wv0Jxnzrb2USDZshgCFjP4/view?usp=sharing"
+			},
+		],
 		members: [
 			{
 				name: "Krish Verma",
