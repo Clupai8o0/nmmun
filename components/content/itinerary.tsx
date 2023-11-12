@@ -102,7 +102,7 @@ const Itinerary = () => {
 			</div>
 			<div className="md:w-1/2 flex flex-col items-start justify-start">
 				<SubHeading className="mb-8">
-					Day 2 - Saturday, 18th August, 2023
+					Day 2 - Saturday, 18th November, 2023
 				</SubHeading>
 				<ol className="relative border-l border-blue-400">
 					{[
