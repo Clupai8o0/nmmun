@@ -255,7 +255,7 @@ export const councils = [
 		src: "/councils/g20.png",
 		alt: "group of 20 Logo",
 		topics: [
-			"Green Development, Climate Finance & LiFE",
+			"The Zeroth Hour: Last stretch to acheive sustainable development, noting the immense need for climate action",
 			"Technological transformation and digital public infrastructure ",
 		],
 		bgs: [
