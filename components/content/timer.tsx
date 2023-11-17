@@ -33,6 +33,7 @@ const Timer = ({
 		); //! IOS SUPPORT FIX
 		const now = new Date();
 		const difference = targetTime.getTime() - now.getTime();
+		console.log(difference)
 
 		let gSeconds = Math.floor(difference / 1000),
 			gMinutes = Math.floor(gSeconds / 60),
@@ -83,7 +84,8 @@ const Timer = ({
 				}`}
 			>
 				<span className={`number-span-mini ${darkMode && "text-white"}`}>
-					<span>{days < 10 ? `0${days}` : days}</span>
+					{/* <span>{days < 10 ? `0${days}` : days}</span> */}
+					<span>00</span>
 				</span>
 				<span className={`detail-span-mini ${darkMode && "text-white"}`}>
 					days
@@ -95,7 +97,8 @@ const Timer = ({
 				}`}
 			>
 				<span className={`number-span-mini ${darkMode && "text-white"}`}>
-					<span>{hours < 10 ? `0${hours}` : hours}</span>
+					{/* <span>{hours < 10 ? `0${hours}` : hours}</span> */}
+					<span>00</span>
 				</span>
 				<span className={`detail-span-mini ${darkMode && "text-white"}`}>
 					hours
@@ -107,7 +110,8 @@ const Timer = ({
 				}`}
 			>
 				<span className={`number-span-mini ${darkMode && "text-white"}`}>
-					<span>{minutes < 10 ? `0${minutes}` : minutes}</span>
+					{/* <span>{minutes < 10 ? `0${minutes}` : minutes}</span> */}
+					<span>00</span>
 				</span>
 				<span className={`detail-span-mini ${darkMode && "text-white"}`}>
 					min
@@ -119,7 +123,8 @@ const Timer = ({
 				}`}
 			>
 				<span className={`number-span-mini ${darkMode && "text-white"}`}>
-					<span>{seconds < 10 ? `0${seconds}` : seconds}</span>
+					{/* <span>{seconds < 10 ? `0${seconds}` : seconds}</span> */}
+					<span>00</span>
 				</span>
 				<span className={`detail-span-mini ${darkMode && "text-white"}`}>
 					sec
@@ -140,25 +145,29 @@ const Timer = ({
 			>
 				<div className="timer-container">
 					<span className="number-span">
-						<span>{days < 10 ? `0${days}` : days}</span>
+						<span>00</span>
+						{/* <span>{days < 10 ? `0${days}` : days}</span> */}
 					</span>
 					<span className="detail-span">days</span>
 				</div>
 				<div className="timer-container">
 					<span className="number-span">
-						<span>{hours < 10 ? `0${hours}` : hours}</span>
+						{/* <span>{hours < 10 ? `0${hours}` : hours}</span> */}
+						<span>00</span>
 					</span>
 					<span className="detail-span">hours</span>
 				</div>
 				<div className="timer-container">
 					<span className="number-span">
-						<span>{minutes < 10 ? `0${minutes}` : minutes}</span>
+						{/* <span>{minutes < 10 ? `0${minutes}` : minutes}</span> */}
+						<span>00</span>
 					</span>
 					<span className="detail-span">min</span>
 				</div>
 				<div className="timer-container">
 					<span className="number-span">
-						<span>{seconds < 10 ? `0${seconds}` : seconds}</span>
+						{/* <span>{seconds < 10 ? `0${seconds}` : seconds}</span> */}
+						<span>00</span>
 					</span>
 					<span className="detail-span">sec</span>
 				</div>
