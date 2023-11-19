@@ -109,7 +109,7 @@ const HeroContents = ({
 				}}
 				viewport={(whileInView && { once: true, amount: 0.25 }) || undefined}
 			>
-				{desc} <br /> {showDate && <>Save the date: {eventDateInWords}</>}
+				{desc} <br /> {showDate && <>{eventDateInWords}</>}
 			</motion.p>
 
 			{/* COUNTDOWN */}
@@ -190,8 +190,17 @@ const HeroContents = ({
 };
 
 const Hero = (props: Contents) => {
-	const { className, src, alt, variant, images, carousel, bgImgOpacity, bottomGradient, fullPage } =
-		props;
+	const {
+		className,
+		src,
+		alt,
+		variant,
+		images,
+		carousel,
+		bgImgOpacity,
+		bottomGradient,
+		fullPage,
+	} = props;
 
 	return variant ? (
 		// BOX HERO
