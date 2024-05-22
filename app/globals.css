@@ -1,0 +1,311 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 240 10% 3.9%;
+
+		--card: 0 0% 100%;
+		--card-foreground: 240 10% 3.9%;
+
+		--popover: 0 0% 100%;
+		--popover-foreground: 240 10% 3.9%;
+
+		--primary: 240 5.9% 10%;
+		--primary-foreground: 0 0% 98%;
+
+		--secondary: 240 4.8% 95.9%;
+		--secondary-foreground: 240 5.9% 10%;
+
+		--muted: 240 4.8% 95.9%;
+		--muted-foreground: 240 3.8% 46.1%;
+
+		--accent: 240 4.8% 95.9%;
+		--accent-foreground: 240 5.9% 10%;
+
+		--destructive: 0 84.2% 60.2%;
+		--destructive-foreground: 0 0% 98%;
+
+		--border: 240 5.9% 90%;
+		--input: 240 5.9% 90%;
+		--ring: 240 10% 3.9%;
+
+		--radius: 0.5rem;
+	}
+
+	.dark {
+		--background: 240 10% 3.9%;
+		--foreground: 0 0% 98%;
+
+		--card: 240 10% 3.9%;
+		--card-foreground: 0 0% 98%;
+
+		--popover: 240 10% 3.9%;
+		--popover-foreground: 0 0% 98%;
+
+		--primary: 0 0% 98%;
+		--primary-foreground: 240 5.9% 10%;
+
+		--secondary: 240 3.7% 15.9%;
+		--secondary-foreground: 0 0% 98%;
+
+		--muted: 240 3.7% 15.9%;
+		--muted-foreground: 240 5% 64.9%;
+
+		--accent: 240 3.7% 15.9%;
+		--accent-foreground: 0 0% 98%;
+
+		--destructive: 0 62.8% 30.6%;
+		--destructive-foreground: 0 0% 98%;
+
+		--border: 240 3.7% 15.9%;
+		--input: 240 3.7% 15.9%;
+		--ring: 240 4.9% 83.9%;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	body {
+		@apply bg-background text-foreground;
+	}
+}
+
+@layer components {
+	.p {
+		@apply px-4 md:px-6 lg:px-10;
+	}
+}
+
+html,
+body {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #e7dacd;
+	position: relative;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+	background-color: transparent;
+	width: 8px;
+	border-radius: 16px;
+}
+body::-webkit-scrollbar-track {
+	background-color: transparent;
+	border-radius: 16px;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #a07a65;
+	border-radius: 16px;
+}
+
+/** Transition Overlay Loader */
+.line-wobble {
+	--uib-size: 80px;
+	--uib-speed: 1.55s;
+	--uib-color: rgb(65, 65, 65);
+	--uib-line-weight: 5px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: var(--uib-line-weight);
+	width: var(--uib-size);
+	border-radius: calc(var(--uib-line-weight) / 2);
+	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+}
+.line-wobble::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: var(--uib-color);
+	opacity: 0.1;
+}
+.line-wobble::after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	border-radius: calc(var(--uib-line-weight) / 2);
+	animation: wobble var(--uib-speed) ease-in-out infinite;
+	transform: translateX(-90%);
+	background-color: var(--uib-color);
+}
+@keyframes wobble {
+	0%,
+	100% {
+		transform: translateX(-90%);
+	}
+
+	50% {
+		transform: translateX(90%);
+	}
+}
+/** Transition Overlay Loader */
+
+/** Hamburger */
+.hamburger {
+	cursor: pointer;
+}
+.hamburger input {
+	display: none;
+}
+.hamburger svg {
+	/* The size of the SVG defines the overall size */
+	height: 2.5em;
+	/* Define the transition for transforming the SVG */
+	transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line {
+	fill: none;
+	stroke: #000;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 3;
+	/* Define the transition for transforming the Stroke */
+	transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+		stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line-dark {
+	stroke: #fff;
+}
+.line-top-bottom {
+	stroke-dasharray: 12 63;
+}
+.hamburger input:checked + svg {
+	transform: rotate(-45deg);
+}
+.hamburger input:checked + svg .line-top-bottom {
+	stroke-dasharray: 20 300;
+	stroke-dashoffset: -32.42;
+}
+/** Hamburger */
+
+/** Nav Link Animation */
+.nav-link-anim {
+	padding: 20px 0px;
+	position: relative;
+}
+.nav-link-anim::before {
+	transition: 300ms;
+	height: 5px;
+	content: "";
+	position: absolute;
+	background-color: #031d44;
+}
+.nav-link-anim-dark::before {
+	background-color: #d8d8d8;
+}
+.nav-link-ltr::before {
+	width: 0%;
+	bottom: 10px;
+}
+.nav-link-ltr:hover::before {
+	width: 100%;
+}
+/** Nav Link Animation */
+
+/** Scroll to top */
+button.stt {
+	width: 140px;
+	height: 56px;
+	overflow: hidden;
+	border: none;
+	color: #000;
+	background: none;
+	position: relative;
+	padding-bottom: 2em;
+}
+button.stt > div,
+button.stt > svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+button.stt:before {
+	content: "";
+	position: absolute;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	background: currentColor;
+	transition: transform 0.25s ease-out;
+}
+button.stt:hover:before {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+button.stt .clone > *,
+button.stt .text > * {
+	opacity: 1;
+	font-size: 1.3rem;
+	transition: 0.2s;
+	margin-left: 4px;
+}
+button.stt .clone > * {
+	transform: translateY(60px);
+}
+button.stt:hover .clone > * {
+	opacity: 1;
+	transform: translateY(0px);
+	transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+button.stt:hover .text > * {
+	opacity: 1;
+	transform: translateY(-60px);
+	transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+button.stt:hover .clone > :nth-child(1) {
+	transition-delay: 0.15s;
+}
+button.stt:hover .clone > :nth-child(2) {
+	transition-delay: 0.2s;
+}
+button.stt:hover .clone > :nth-child(3) {
+	transition-delay: 0.25s;
+}
+button.stt:hover .clone > :nth-child(4) {
+	transition-delay: 0.3s;
+}
+button.stt svg {
+	width: 20px;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%) rotate(-50deg);
+	transition: 0.2s ease-out;
+}
+button.stt:hover svg {
+	transform: translateY(-50%) rotate(-90deg);
+}
+/** Scroll to top */
+
+/** Hide Scrollbar */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+/** Hide Scrollbar */
