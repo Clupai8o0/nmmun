@@ -124,7 +124,7 @@ function RegisterPage() {
 					>
 						Upon successful completion of the payment, kindly include the
 						transaction receipt as supporting documentation in response to the
-						'Proof of Payment' query. Furthermore, please ensure the prompt
+						&apos;Proof of Payment&apos; query. Furthermore, please ensure the prompt
 						submission of this receipt to nmmun2023logistics@gmail.com. When
 						sending the email, kindly include your full name, class, and school
 						Paragraph for reference, and attach your transaction receipt as an
@@ -155,7 +155,7 @@ function RegisterPage() {
 					>
 						Passionate about diplomacy, leadership, and international relations?
 						Join us as a Chair at our Model United Nations conferences, where
-						you'll guide critical discussions and foster global collaboration.
+						you&apos;ll guide critical discussions and foster global collaboration.
 						Your role as Chair is pivotal, shaping debates, facilitating
 						negotiations, and guiding proceedings. Your expertise and diplomatic
 						skills will ensure productive dialogues and consensus-building.
@@ -165,7 +165,7 @@ function RegisterPage() {
 							opacity: 0.8,
 						})}
 					>
-						Being a Chair isn't just leadership; it's personal and professional
+						Being a Chair isn&apos;t just leadership; it&apos;s personal and professional
 						growth. Gain valuable experience in public speaking, conflict
 						resolution, and international affairs. Connect with a community of
 						like-minded individuals dedicated to global issues and diplomacy.
@@ -236,7 +236,7 @@ function RegisterPage() {
 					>
 						Step into the shoes of a diplomat and make your voice heard on the
 						world stage. Our delegate application section is your gateway to the
-						thrilling world of international relations. Here, you'll have the
+						thrilling world of international relations. Here, you&apos;ll have the
 						opportunity to represent a nation, engage in thought-provoking
 						debates, and work towards finding solutions to pressing global
 						issues.
@@ -246,8 +246,8 @@ function RegisterPage() {
 							opacity: 0.8,
 						})}
 					>
-						Whether you're a seasoned delegate with years of MUN experience or
-						someone who's new to this exciting world, our application process is
+						Whether you&apos;re a seasoned delegate with years of MUN experience or
+						someone who&apos;s new to this exciting world, our application process is
 						designed to welcome all levels of expertise. We believe in the power
 						of diversity and inclusivity in shaping global conversations.
 					</Paragraph>
@@ -258,7 +258,7 @@ function RegisterPage() {
 					>
 						Join us in promoting diplomacy, understanding, and positive change.
 						Apply today and become part of an inspiring community of future
-						leaders. Together, we'll contribute to a more informed,
+						leaders. Together, we&apos;ll contribute to a more informed,
 						compassionate, and interconnected world.
 					</Paragraph>
 					<SubHeading
@@ -312,7 +312,7 @@ function RegisterPage() {
 					>
 						Join our MUN team in one of two crucial roles: Security or Runner.
 						In the Security position, your top priority is ensuring a secure
-						environment for all conference attendees. You'll oversee access
+						environment for all conference attendees. You&apos;ll oversee access
 						control, monitor conference areas, and promptly address security
 						concerns.
 					</Paragraph>
@@ -345,11 +345,11 @@ function RegisterPage() {
 							opacity: 0.8,
 						})}
 					>
-						In this dynamic, fast-paced role, you'll deliver messages and
+						In this dynamic, fast-paced role, you&apos;ll deliver messages and
 						documents between committees, troubleshoot technical issues, and
 						ensure delegates have access to vital resources. Your adaptability
 						and organization under pressure directly contribute to our
-						conference's overall success. Join our passionate MUN community as a
+						conference&apos;s overall success. Join our passionate MUN community as a
 						Runner, gaining valuable hands-on experience in event logistics and
 						coordination.
 					</Paragraph>

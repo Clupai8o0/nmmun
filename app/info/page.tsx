@@ -83,8 +83,8 @@ function InfoPage() {
 						accessible. To ensure that everyone of you has a pleasant and
 						intellectually stimulating experience, the logistics staff has
 						carefully arranged for each of you to be in your proper council.
-						Your contributions, we're convinced, will enable us to finally Break
-						the Silence!
+						Your contributions, we&apos;re convinced, will enable us to finally
+						Break the Silence!
 					</Paragraph>
 
 					<motion.div

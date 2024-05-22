@@ -83,7 +83,9 @@ function Council({ params: { id } }: Props) {
 									type="bullets"
 									className=""
 									elements={council?.topics.map((topic: string) => (
-										<span className="opacity-80 mt-2">{topic}</span>
+										<span className="opacity-80 mt-2" key={generateKey()}>
+											{topic}
+										</span>
 									))}
 									animation={animation(av.FromDown, {
 										delay: 2,
@@ -163,7 +165,7 @@ function Council({ params: { id } }: Props) {
 							opacity: 0.8,
 						})}
 					>
-						Sorry, we couldn't find the council you were looking for
+						Sorry, we couldn&apos;t find the council you were looking for
 					</Paragraph>
 					<motion.div
 						className="flex gap-4 mt-6"

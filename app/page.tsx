@@ -126,8 +126,8 @@ export default function Home() {
 					>
 						Many of us are acutely aware of the social challenges that afflict
 						our society, significantly impacting the quality of life for people
-						worldwide. These issues demand our attention, and while there's much
-						we can do to address them, both as a global community and as
+						worldwide. These issues demand our attention, and while there&apos;s
+						much we can do to address them, both as a global community and as
 						individuals, progress often seems to be postponed.
 					</Paragraph>
 					<Paragraph
@@ -146,16 +146,17 @@ export default function Home() {
 							opacity: 0.8,
 						})}
 					>
-						This situation is symbolically referred to as "Zeroth Hour,"
-						carrying a dual meaning. It signifies the pressing nature of the
-						problems we face, emphasizing the limited time available to find
-						solutions. Additionally, it alludes to the military term
-						"zero-hour," denoting the moment when a planned operation commences.
-						This metaphor underscores that delaying action on these critical
-						concerns only compounds the irreversible damage they cause. We, as
-						humans, find ourselves in a precarious position where time is
-						running out, and it's imperative that we break this cycle of
-						inaction as we approach our own "zeroth hour."
+						This situation is symbolically referred to as &quot;Zeroth
+						Hour,&quot; carrying a dual meaning. It signifies the pressing
+						nature of the problems we face, emphasizing the limited time
+						available to find solutions. Additionally, it alludes to the
+						military term &quot;zero-hour,&quot; denoting the moment when a
+						planned operation commences. This metaphor underscores that delaying
+						action on these critical concerns only compounds the irreversible
+						damage they cause. We, as humans, find ourselves in a precarious
+						position where time is running out, and it&apos;s imperative that we
+						break this cycle of inaction as we approach our own &quot;zeroth
+						hour.&quot;
 					</Paragraph>
 				</Details>
 			</Container>
@@ -175,10 +176,10 @@ export default function Home() {
 						opacity: 0.8,
 					})}
 				>
-					The NMMUN Conference isn't just an event; it's an opportunity to
-					explore the complexities of global diplomacy. Here, you'll step into
-					the shoes of world leaders, debate critical global issues, and draft
-					resolutions to make a real impact.
+					The NMMUN Conference isn&apos;t just an event; it&apos;s an
+					opportunity to explore the complexities of global diplomacy. Here,
+					you&apos;ll step into the shoes of world leaders, debate critical
+					global issues, and draft resolutions to make a real impact.
 				</Paragraph>
 			</ImageContainer>
 
