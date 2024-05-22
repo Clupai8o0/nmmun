@@ -1,10 +1,8 @@
 import clsx from "clsx";
 import Image from "next/image";
 
-import { Colors } from "@/lib/colors";
-
 interface Props {
-	color: Colors | string;
+	color: string;
 	img?: {
 		src: string;
 		alt: string;
