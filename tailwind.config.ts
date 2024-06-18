@@ -1,8 +1,12 @@
-import type { Config } from "tailwindcss"
+//* Main css styling and variables.
+//* Most the styling here is by default from shadcn ui
+
+import type { Config } from "tailwindcss";
 
 const config = {
 	darkMode: ["class"],
 	content: [
+		//? if you add any new folders with components, mention them here for styling
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
@@ -19,11 +23,19 @@ const config = {
 		},
 		extend: {
 			fontFamily: {
+				//? if you wish to change the font, do them here
 				sans: ["Poppins", "sans-serif"],
 				mono: ["IBM Plex Mono", "monospace"],
 				serif: ["Playfair Display", "serif"],
 			},
 			colors: {
+				//? add your custom colors here
+				"color-1": "#e7dacd",
+				"color-2": "#cca071",
+				"color-3": "#a07a65",
+				"color-4": "#885b43",
+				"color-5": "#d4af88",
+				"color-6": "#f4dcb3",
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",
 				ring: "hsl(var(--ring))",
@@ -57,12 +69,6 @@ const config = {
 					DEFAULT: "hsl(var(--card))",
 					foreground: "hsl(var(--card-foreground))",
 				},
-				"color-1": "#e7dacd",
-				"color-2": "#cca071",
-				"color-3": "#a07a65",
-				"color-4": "#885b43",
-				"color-5": "#d4af88",
-				"color-6": "#f4dcb3",
 			},
 			borderRadius: {
 				lg: "var(--radius)",
@@ -88,4 +94,4 @@ const config = {
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
 
-export default config
+export default config;

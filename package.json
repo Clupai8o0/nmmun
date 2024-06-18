@@ -1,7 +1,22 @@
 {
-	"name": "nmmun-2",
-	"version": "0.1.0",
-	"private": true,
+	"name": "nmmun",
+	"description": "Explore the world of diplomacy and global affairs with the New Millennium Model United Nations Conference. Engage in debates, draft resolutions, and broaden your horizons. Join us for an educational journey that shapes future leaders.",
+	"keywords": [
+		"MUN",
+		"website",
+		"conference",
+		"new millennium school",
+		"event"
+	],
+	"author": "Clupai8o0 <clupaio4@gmail.com>",
+	"engines": {
+		"node": ">=18.7.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Clupai8o0/nmmun.git"
+	},
+	"version": "1.0.0",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",

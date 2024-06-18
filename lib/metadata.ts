@@ -13,21 +13,13 @@ export const generate_metadata = (
 		description,
 		url: "https://nmmun.org",
 		type: "website",
-		images: [
-			process.env.NEXT_PUBLIC_STATUS
-				? new URL(img, "http://localhost:3000/").href
-				: new URL(img, "https://nmmun.org/").href,
-		],
+		images: [new URL(img, "https://nmmun.org/").href],
 	},
 	twitter: {
 		title,
 		description,
 		card: "summary_large_image",
-		images: [
-			process.env.NEXT_PUBLIC_STATUS
-				? new URL(img, "http://localhost:3000/").href
-				: new URL(img, "https://nmmun.org/").href,
-		],
+		images: [new URL(img, "https://nmmun.org/").href],
 		creator: "Clupai8o0",
 	},
 	robots: {

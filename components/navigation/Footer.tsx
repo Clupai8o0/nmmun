@@ -4,9 +4,6 @@ import { Instagram, Mail } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import Logo from "./Logo";
-import clsx from "clsx";
-import { isDevelopment } from "@/lib/config";
-import { fontSerif } from "@/lib/fonts";
 
 const Footer = ({ className }: { className?: string }) => {
 	return (
@@ -16,13 +13,7 @@ const Footer = ({ className }: { className?: string }) => {
 					<Link href="/" className="flex items-start mb-4 sm:mb-0">
 						<Logo h={54} w={54} />
 
-						<span
-							className={clsx(
-								"self-center text-2xl font-semibold whitespace-nowrap text-white ml-4",
-								isDevelopment() && "font-serif"
-							)}
-							style={(!isDevelopment() && { ...fontSerif.style }) || undefined}
-						>
+						<span className="self-center text-2xl font-semibold whitespace-nowrap text-white ml-4 font-serif">
 							NMMUN
 						</span>
 					</Link>

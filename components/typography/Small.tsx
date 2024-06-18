@@ -1,11 +1,18 @@
-import { TypographyProps } from "@/lib/types";
-import React from "react";
+import clsx from "clsx";
+import { motion } from "framer-motion";
 
-const Small = ({ children, className }: TypographyProps) => {
+import { TypographyProps } from "@/lib/types";
+import { animationVariants } from "@/lib/animations";
+
+const Small = ({ children, className, animation }: TypographyProps) => {
 	return (
-		<small className={`text-sm font-medium leading-none ${className}`}>
+		<motion.small
+			className={clsx("text-sm font-medium leading-none", className)}
+			variants={animationVariants}
+			{...animation}
+		>
 			{children}
-		</small>
+		</motion.small>
 	);
 };
 

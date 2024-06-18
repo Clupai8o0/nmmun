@@ -1,31 +1,148 @@
-# Todo
+# NMMUN
 
-- [x] Add animation
-- [ ] Change config status to 'PRODUCTION'
-- [x] Get rid of font import in global.css
-- [ ] Specify the font weights
-- [ ] Fix colors
-- [x] Set the banner colors
-- [x] Stylize the sidebar
-- [ ] JS Docs
-- [x] Make the footer more professional
-- [x] Make footer responsive
-- [x] Making nav links dynamic
-- [ ] Move all data to config?
-- [x] Compress the images properly
-- [x] Make the meta data properly
-- [ ] Move reused classnames
-- [x] Animate component
-- [x] links and config in a json file (extracting function)
+Explore the world of diplomacy and global affairs with the New Millennium Model United Nations Conference. Engage in debates, draft resolutions, and broaden your horizons. Join us for an educational journey that shapes future leaders. This is a web project for NMMUN, built using Next.js to be aesthetically pleasing, smooth, and SEO friendly. Targeted towards the NMMUN participants, any alterations are to be made only by the IT team of that year's NMMUN after being approved by the Organizing Committee and Design Team.
 
-# Concept
+## Table of Content
 
-- Lots of components that can be updated as needed
-- Each page having a *config* file
-- Config file giving the option for custom components
+- [Prerequisite](#prerequisite)
+- [About this project](#about-this-project)
+- [Installation](#installation)
+- [Development Setup](#development-setup)
+- [Project Structure](#project-structure)
+- [Configurations](#configurations)
+- [Components](#components)
+- [Layouts](#layouts)
+- [Styling](#styling)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Additional Resources](#additional-resources)
+- [Contact Information](#contact-information)
 
-# .env
+## Prerequisite
 
-```env
+- Basic knowledge in HTML, CSS, and JS
+- Some knowledge in React.js
+- At least one web project
+- Completed TODO.md
+
+## About this Project
+
+This project is built using [Next.js](https://nextjs.org/). Though experience in Next.js isn't required as [React.js](https://react.dev/) (or JavaScript) knowledge should be enough to make basic changes. Big changes on the other hand, like adding new pages and routes requires experience in Next.js. In that situation, I would recommend this [tutorial](https://youtu.be/wm5gMKuwSYk?si=9tTceNfV_CIPP4Ka). If you lack experience in React.js as well watch this [tutorial](https://youtu.be/b9eMGE7QtTk?si=-T_NzTsGCF6_wIdH).
+
+## Installation
+
+Hopefully you already have [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en) already installed in your system. Once you do, open git bash in your desired folder and then clone the repo and install the dependencies.
+
+```
+git clone https://github.com/<your username>/nmmun.git
+cd nmmun
+npm install
+```
+
+## Development Setup
+
+Create a file .env.local
+
+```.env
 NEXT_PUBLIC_STATUS=DEVELOPMENT
 ```
+
+Start the development server
+
+```
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) on your browser
+
+## Project Structure
+
+Main project structure
+
+```powershell
+├── /app                # main folder where all pages and content is rendered
+├── /components         # the components and layouts to assist content creation
+├── /hooks              # react hooks to help
+├── /lib                # all the helper functions and configurations
+├── /public             # the static content (images)
+├── tailwind.config.ts  # color and font configuration
+├── README.md           # important information about the project
+└── TODO.md             # All the to-dos
+```
+
+Main App Directory
+
+```powershell
+├── /app
+│   ├── /contact      # contact us page
+│   ├── /council/id   # individual council page
+│   ├── /councils     # councils page
+│   ├── /gallery      # gallery page
+│   ├── /info         # information page
+│   ├── /register     # mun registration page
+│   ├── /team         # organizing committee page
+│   ├── layout.tsx    # ignore
+│   ├── page.tsx      # home page
+│   └── global.css    # main css file
+└── ...
+```
+
+Components Directory
+
+```powershell
+├── ...
+├── /components
+│   ├── /content      # all components that render some content
+│   ├── /layouts      # layout components
+│   ├── /navigation   # components that assist navigation
+│   ├── /typography   # heading and paragraph components
+│   └── /ui           # shadcn ui components (leave as it is)
+└── ...
+```
+
+## Configurations
+
+Details on configuration files and environment variables.
+
+## Components
+
+Guidelines for creating and organizing components.
+
+## Layouts
+
+Explanation of layout components and their usage.
+
+## Styling
+
+Preferred styling methods and examples.
+
+## Deployment
+
+The deployment and domain are entirely up to you. You can either:
+
+1. Deploy the project independently on [Vercel](https://vercel.com/).
+2. Contribute changes to this project.
+
+Domain is on [NameCheap](https://namecheap.com/), you need only contact the last owner and gain domain access from them (it needs renewal every September 17th).
+
+## Contributing
+
+The NMMUN project source code is built in such a way that you shouldn't have to make any alterations in the components and layouts. The only alterations required should be in the /lib/config.ts file and the individual page styling anc content. I would recommend not altering components and layouts code as much to avoid errors, but if big changes are made please update the README.md and comment your changes when contributing.
+
+## Additional Resources
+
+Don't limit your ideas. If you have a creative vision or idea and don't know how to proceed with it, contact me (Head of IT 2023) or check out the resources below.
+
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [React.js](https://react.dev/)
+- [Next.js](https://nextjs.org)
+- UI components - [Shad CN](https://ui.shadcn.com/)
+- CSS classes - [Tailwind](https://tailwindcss.com/)
+- Animations - [Framer Motion](https://www.framer.com/motion/)
+
+## Contact Information
+
+NMMUN'23 Head of IT - Samridh Limbu
+[Github](https://github.com/Clupai8o0)
+[Instagram](https://instagram.com/clupai8o0)
+Email - limbusamaka@icloud.com

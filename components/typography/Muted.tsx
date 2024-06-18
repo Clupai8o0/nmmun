@@ -1,9 +1,18 @@
-import { TypographyProps } from "@/lib/types";
-import React from "react";
+import clsx from "clsx";
+import { motion } from "framer-motion";
 
-const Muted = ({ children, className }: TypographyProps) => {
+import { TypographyProps } from "@/lib/types";
+import { animationVariants } from "@/lib/animations";
+
+const Muted = ({ children, className, animation }: TypographyProps) => {
 	return (
-		<p className={`text-sm text-muted-foreground ${className}`}>{children}</p>
+		<motion.p
+			className={clsx("text-sm text-muted-foreground", className)}
+			variants={animationVariants}
+			{...animation}
+		>
+			{children}
+		</motion.p>
 	);
 };
 

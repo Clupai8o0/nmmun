@@ -1,13 +1,21 @@
-import { TypographyProps } from "@/lib/types";
-import React from "react";
+import clsx from "clsx";
+import { motion } from "framer-motion";
 
-const SubSubHeading = ({ children, className }: TypographyProps) => {
+import { TypographyProps } from "@/lib/types";
+import { animationVariants } from "@/lib/animations";
+
+const SubSubHeading = ({ children, className, animation }: TypographyProps) => {
 	return (
-		<h3
-			className={`scroll-m-20 text-2xl font-semibold tracking-tight ${className}`}
+		<motion.h3
+			className={clsx(
+				"scroll-m-20 text-2xl font-semibold tracking-tight",
+				className
+			)}
+			variants={animationVariants}
+			{...animation}
 		>
 			{children}
-		</h3>
+		</motion.h3>
 	);
 };
 
