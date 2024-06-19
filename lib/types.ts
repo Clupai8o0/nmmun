@@ -52,7 +52,7 @@ export interface navLink {
 	showScrollToTop: boolean;
 	navDarkMode: boolean;
 	menu?: boolean;
-	children: { title: string; href: string }[];
+	children: any[];
 }
 
 export interface BaseLink {
