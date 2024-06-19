@@ -32,7 +32,7 @@ export interface BaseAnimationProps {
 		viewport?: {
 			once: boolean;
 			amount: number;
-		}
+		};
 	};
 }
 
@@ -45,6 +45,16 @@ export enum AnimationVariants {
 	Visible = "visible",
 }
 
+export interface navLink {
+	title: string;
+	href: string;
+	button: boolean;
+	showScrollToTop: boolean;
+	navDarkMode: boolean;
+	menu?: boolean;
+	children: { title: string; href: string }[];
+}
+
 export interface BaseLink {
 	title: string;
 	id: string;
@@ -52,7 +62,7 @@ export interface BaseLink {
 	icon: {
 		src: string;
 		alt: string;
-	}
+	};
 }
 
 export interface TeamLink extends BaseLink {
@@ -60,20 +70,20 @@ export interface TeamLink extends BaseLink {
 		name: string;
 		pos?: string;
 		src: string;
-	}[]
+	}[];
 }
 
 export interface CouncilLink extends TeamLink {
 	desc: string[] | string;
-	topics: string[],
+	topics: string[];
 	bgs?: {
 		title: string;
 		url: string;
-	}[]
+	}[];
 }
 
 export interface EventStates {
 	beforeEvent: string;
-	duringEvent: string; 
+	duringEvent: string;
 	afterEvent: string;
 }

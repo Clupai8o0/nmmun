@@ -1,10 +1,14 @@
+//* For configuring banner content, hero text, event timing, and info page details (itinerary & dress code)
+
 import { EventStates } from "./types";
 
-const status: string = process.env.NEXT_PUBLIC_STATUS || ""; //todo: change to PRODUCTION
-export const isDevelopment = () => status === "DEVELOPMENT";
+//! don't alter status code
+const status: string = process.env.NEXT_PUBLIC_STATUS || ""; 
+export const isDevelopment = () => status === "DEVELOPMENT"; //* check project status
 
+//* banner content states (banner doesn't appear unless content is there)
 export const banner: EventStates = {
-	beforeEvent: "",
+	beforeEvent: "", //todo: test it out if you like
 	// beforeEvent:
 	// 	"NMMUN 2023 registrations are open. Join us quickly before the deadline!!",
 	duringEvent: "NMMUN 2023 has started. We wish all the very best!!",
@@ -12,6 +16,7 @@ export const banner: EventStates = {
 		"NMMUN 2023 is over. Thank you for joining and we hope to see you next year!!",
 };
 
+//* Hero text
 export const hero: EventStates = {
 	beforeEvent: "Engage, Debate, Lead: Your diplomatic journey begins here",
 	duringEvent: "NMMUN 2023 has started, we wish you all the very best!",
@@ -19,10 +24,12 @@ export const hero: EventStates = {
 		"NMMUN 2023 is over. Thank you for joining us and we hope to see you next year!",
 };
 
+//* Event timings for the timer & register button (timer only shows up before the event and register button is disabled otherwise)
 export const eventDate = "2023-11-17 08:00:00"; // YYYY-MM-DD HH-MM-SS
 export const eventEndDate = "2023-11-18 18:00:00"; //! must always be after the event
 export const eventDateInWords = "17th & 18th November, 2023";
 
+//* Itinerary
 export const itineraryDay1 = [
 	{
 		time: "8:00-8:45 a.m.",
@@ -60,7 +67,6 @@ export const itineraryDay1 = [
 		time: "End",
 	},
 ];
-
 export const itineraryDay2 = [
 	{
 		time: "8:00-10:00 a.m.",
@@ -99,6 +105,7 @@ export const itineraryDay2 = [
 	},
 ];
 
+//* Dress code
 export const dressCodeMen = [
 	"All participants must ensure that they are in formal attire.",
 	"No T-shirts are allowed under the suit jacket, only formal shirts.",

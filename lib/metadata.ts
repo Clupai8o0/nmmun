@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 
+//* generates all the metadata configurations
 export const generate_metadata = (
 	title: string,
 	description: string,
@@ -41,6 +42,7 @@ export const generate_metadata = (
 	},
 });
 
+//* each individual page's metadata
 export const homeMetaData: Metadata = generate_metadata(
 	"NMMUN - Empowering Tomorrow's Global Leaders",
 	"Explore the world of diplomacy and global affairs with the New Millennium Model United Nations Conference. Engage in debates, draft resolutions, and broaden your horizons. Join us for an educational journey that shapes future leaders.",

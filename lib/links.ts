@@ -1,5 +1,8 @@
-import { BaseLink, CouncilLink, TeamLink } from "./types";
+//* all the navigation links (navbar + table of content of most pages)
 
+import { BaseLink, CouncilLink, TeamLink, navLink } from "./types";
+
+//* all the councils and their details
 export const councils: CouncilLink[] = [
 	{
 		title: "UNSC",
@@ -411,6 +414,7 @@ export const councils: CouncilLink[] = [
 	},
 ];
 
+//* all the teams, their details and links
 export const teamLinks: TeamLink[] = [
 	{
 		title: "Secretariats",
@@ -672,7 +676,8 @@ export const teamLinks: TeamLink[] = [
 	},
 ];
 
-export const navLinks = [
+//* navbar and sidebar links
+export const navLinks: navLink[] = [
 	{
 		title: "Home",
 		href: "/",
@@ -810,6 +815,7 @@ export const navLinks = [
 	},
 ];
 
+//* table of content links for info page
 export const infoLinks: BaseLink[] = [
 	{
 		title: "Allocations",
@@ -837,6 +843,7 @@ export const infoLinks: BaseLink[] = [
 	},
 ];
 
+//* table of content links for register page
 export const registerLinks: BaseLink[] = [
 	{
 		title: "Payment Guide",

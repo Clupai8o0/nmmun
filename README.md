@@ -103,7 +103,14 @@ Components Directory
 
 ## Configurations
 
-Details on configuration files and environment variables.
+There are 4 ways to configure content
+
+```powershell
+1. /lib/config.ts     # for configuring hero text, banner text, event date, info page content
+2. /lib/links.ts      # for configuring the navbar links and the council and team page links & content
+3. /lib/metadata.ts   # for configuring the metadata of each page
+4. /app/**/page.ts    # configuring the content in each page
+```
 
 ## Components
 

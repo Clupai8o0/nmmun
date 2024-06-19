@@ -176,7 +176,7 @@ function InfoPage() {
 				</Details>
 			</Container>
 
-			<Container id="itinerary" className="py-8">
+			<Container id="itinerary" className="pt-12">
 				<Heading animation={onScrollAnimation(av.FromLeft)}>Itinerary</Heading>
 				<div className="flex flex-col md:flex-row gap-8 mt-6">
 					<div className="md:w-1/2 flex flex-col items-start justify-start">
@@ -236,7 +236,7 @@ function InfoPage() {
 				</div>
 			</Container>
 
-			<Container className="my-16" id="dress-code">
+			<Container className="pt-12" id="dress-code">
 				<Details>
 					<Heading className="mb-8">Dress Code</Heading>
 					<Paragraph animation={onScrollAnimation(av.FromLeft)}>

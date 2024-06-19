@@ -13,7 +13,7 @@ const Title = ({ children, className, small, animation, center }: Props) => {
 		<motion.h1
 			className={clsx(
 				"font-semibold tracking-tight",
-				small ? "text-5xl md:text-8xl" : "text-7xl md:text-[160px] font-serif",
+				small ? "text-5xl md:text-8xl font-serif" : "text-7xl md:text-[160px] font-serif",
 				center && "text-center",
 				className
 			)}

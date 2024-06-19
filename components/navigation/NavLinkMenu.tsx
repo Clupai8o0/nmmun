@@ -50,7 +50,7 @@ export default function NavLinkMenu({ trigger, content, dark }: Props) {
 							{trigger.title}
 						</NavLink>
 					</NavigationMenuTrigger>
-					<NavigationMenuContent className="bg-gray-50">
+					<NavigationMenuContent className="bg-color-1">
 						<ul className="grid w-[500px] gap-3 p-4 grid-cols-4">
 							{content.map((element) => (
 								<li key={generateKey()}>
