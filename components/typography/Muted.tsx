@@ -7,7 +7,7 @@ import { animationVariants } from "@/lib/animations";
 const Muted = ({ children, className, animation }: TypographyProps) => {
 	return (
 		<motion.p
-			className={clsx("text-sm text-muted-foreground", className)}
+			className={clsx("text-sm text-muted-foreground font-sans", className)}
 			variants={animationVariants}
 			{...animation}
 		>

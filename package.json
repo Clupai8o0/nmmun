@@ -16,7 +16,7 @@
 		"type": "git",
 		"url": "https://github.com/Clupai8o0/nmmun.git"
 	},
-	"version": "1.0.0",
+	"version": "1.18.4",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",

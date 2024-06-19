@@ -8,7 +8,7 @@ const SubSubHeading = ({ children, className, animation }: TypographyProps) => {
 	return (
 		<motion.h3
 			className={clsx(
-				"scroll-m-20 text-2xl font-semibold tracking-tight",
+				"scroll-m-20 text-2xl font-semibold tracking-tight font-serif",
 				className
 			)}
 			variants={animationVariants}

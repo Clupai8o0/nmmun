@@ -13,6 +13,7 @@ Explore the world of diplomacy and global affairs with the New Millennium Model 
 - [Components](#components)
 - [Layouts](#layouts)
 - [Styling](#styling)
+- [Animation](#animation)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [Additional Resources](#additional-resources)
@@ -31,7 +32,7 @@ This project is built using [Next.js](https://nextjs.org/). Though experience in
 
 ## Installation
 
-Hopefully you already have [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en) already installed in your system. Once you do, open git bash in your desired folder and then clone the repo and install the dependencies.
+Download [Git](https://git-scm.com/downloads) & [Node.js](https://nodejs.org/en), and follow the procedure to install them. Once you do, open git bash or any terminal of your choice, in your desired folder, then clone the repo, and install the dependencies.
 
 ```
 git clone https://github.com/<your username>/nmmun.git
@@ -41,9 +42,9 @@ npm install
 
 ## Development Setup
 
-Create a file .env.local
+Open the folder in your desired code editor. Create a file .env.local ()
 
-```.env
+```powershell
 NEXT_PUBLIC_STATUS=DEVELOPMENT
 ```
 
@@ -116,6 +117,8 @@ Explanation of layout components and their usage.
 
 Preferred styling methods and examples.
 
+## Animation
+
 ## Deployment
 
 The deployment and domain are entirely up to you. You can either:
@@ -123,7 +126,7 @@ The deployment and domain are entirely up to you. You can either:
 1. Deploy the project independently on [Vercel](https://vercel.com/).
 2. Contribute changes to this project.
 
-Domain is on [NameCheap](https://namecheap.com/), you need only contact the last owner and gain domain access from them (it needs renewal every September 17th).
+Domain is on [NameCheap](https://namecheap.com/), you need only contact the last Head of IT (check [contact information](#contact-information)) and gain domain access from them (it needs renewal every September 17th).
 
 ## Contributing
 
@@ -139,6 +142,15 @@ Don't limit your ideas. If you have a creative vision or idea and don't know how
 - UI components - [Shad CN](https://ui.shadcn.com/)
 - CSS classes - [Tailwind](https://tailwindcss.com/)
 - Animations - [Framer Motion](https://www.framer.com/motion/)
+
+Recommended extensions
+
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Better Components](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Colorful comments
+- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Preview markdown code
+- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Avoid spelling mistakes
+- [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) - My recommended theme
 
 ## Contact Information
 

@@ -12,7 +12,7 @@ const Quote = ({ children, className, animation, quotationSize }: Props) => {
 	return (
 		<blockquote
 			className={clsx(
-				"mt-6 border-l-2 pl-6 italic gap-2 font-serif",
+				"mt-6 border-l pl-6 italic gap-2 font-serif",
 				className
 			)}
 		>

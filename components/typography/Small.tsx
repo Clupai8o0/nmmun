@@ -7,7 +7,7 @@ import { animationVariants } from "@/lib/animations";
 const Small = ({ children, className, animation }: TypographyProps) => {
 	return (
 		<motion.small
-			className={clsx("text-sm font-medium leading-none", className)}
+			className={clsx("text-sm font-medium leading-none font-sans", className)}
 			variants={animationVariants}
 			{...animation}
 		>

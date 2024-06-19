@@ -16,8 +16,10 @@ const List = ({ className, elements, type, animation, stagger }: ListProps) => {
 	return (
 		<ul
 			className={clsx(
-				"my-6 [&>li]:mt-2",
-				type && type !== "tick" && (type === "bullets" ? "list-disc ml-6" : "list-decimal ml-6"),
+				"my-6 [&>li]:mt-2 font-sans",
+				type &&
+					type !== "tick" &&
+					(type === "bullets" ? "list-disc ml-6" : "list-decimal ml-6"),
 				className
 			)}
 		>

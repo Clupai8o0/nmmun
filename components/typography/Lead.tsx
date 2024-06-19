@@ -7,7 +7,7 @@ import { animationVariants } from "@/lib/animations";
 const Lead = ({ children, className, animation }: TypographyProps) => {
 	return (
 		<motion.p
-			className={clsx("text-xl text-muted-foreground", className)}
+			className={clsx("text-xl text-muted-foreground font-sans", className)}
 			variants={animationVariants}
 			{...animation}
 		>

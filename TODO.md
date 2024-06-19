@@ -2,10 +2,11 @@
 
 ## New Contributor Tasks
 
-- [ ] Read the README.md
+- [ ] Completely read the README.md
 - [ ] Add your contact details in the README.md
+- [ ] Create the .env.local file
+- [ ] Go to package.json and update the version to the next gen (e.g. 1.0.0 -> 2.0.0)
 - [ ] Learn about [tailwindcss](https://tailwindcss.com)
-- [ ] For VS Code developers, recommended extension [Better Components](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 
 ## Documentations
 

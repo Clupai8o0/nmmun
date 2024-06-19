@@ -22,7 +22,7 @@ import { CTA } from "@/components/navigation";
 import { useTime } from "@/hooks/useTime";
 import { AnimationVariants } from "@/lib/types";
 import { onScrollAnimation, animation } from "@/lib/animations";
-import { hero } from "@/lib/config";
+import { hero, eventDateInWords } from "@/lib/config";
 
 export default function Home() {
 	const { isEventHappening, isEventOver } = useTime();
@@ -70,6 +70,14 @@ export default function Home() {
 						else if (isEventOver) return hero.afterEvent;
 						else return hero.beforeEvent;
 					})()}
+				</Paragraph>
+				<Paragraph
+					animation={animation(AnimationVariants.FromDown, {
+						opacity: 0.8,
+						delay: 2.6,
+					})}
+				>
+					{!isEventHappening && !isEventOver ? eventDateInWords : ""}
 				</Paragraph>
 				<CTA
 					animation={animation(AnimationVariants.FromDown, {
