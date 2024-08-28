@@ -10,18 +10,18 @@ export const isDevelopment = () => status === "DEVELOPMENT"; //* check project s
 export const banner: EventStates = {
 	beforeEvent: "", //todo: test it out if you like
 	// beforeEvent:
-	// 	"NMMUN 2023 registrations are open. Join us quickly before the deadline!!",
-	duringEvent: "NMMUN 2023 has started. We wish all the very best!!",
+	// 	"NMMUN 2024 registrations are open. Join us quickly before the deadline!!",
+	duringEvent: "NMMUN 2024 has started. We wish all the very best!!",
 	afterEvent:
-		"NMMUN 2023 is over. Thank you for joining and we hope to see you next year!!",
+		"NMMUN 2024 is over. Thank you for joining and we hope to see you next year!!",
 };
 
 //* Hero text
 export const hero: EventStates = {
 	beforeEvent: "Engage, Debate, Lead: Your diplomatic journey begins here",
-	duringEvent: "NMMUN 2023 has started, we wish you all the very best!",
+	duringEvent: "NMMUN 2024 has started, we wish you all the very best!",
 	afterEvent:
-		"NMMUN 2023 is over. Thank you for joining us and we hope to see you next year!",
+		"NMMUN 2024 is over. Thank you for joining us and we hope to see you next year!",
 };
 
 //* Event timings for the timer & register button (timer only shows up before the event and register button is disabled otherwise)
