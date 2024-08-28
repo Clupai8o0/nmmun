@@ -4,7 +4,6 @@ Forked from https://github.com/clupai8o0/nmmun.
 This repo is for 2024-2025 NMMUN.
 Since we were rushing the clock, we decided to use the same website as the previous year.
 
-
 # NMMUN
 
 Explore the world of diplomacy and global affairs with the New Millennium Model United Nations Conference. Engage in debates, draft resolutions, and broaden your horizons. Join us for an educational journey that shapes future leaders. This is a web project for NMMUN, built using Next.js to be aesthetically pleasing, smooth, and SEO friendly. Targeted towards the NMMUN participants, any alterations are to be made only by the IT team of that year's NMMUN after being approved by the Organizing Committee and Design Team.
