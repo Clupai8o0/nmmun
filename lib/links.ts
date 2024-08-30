@@ -354,7 +354,7 @@ export const councils: CouncilLink[] = [
 		],
 		href: "/council/jcc",
 		icon: {
-			src: "/councils/jcc.png",
+			src: "/councils/un.svg",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
