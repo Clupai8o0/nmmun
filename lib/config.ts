@@ -25,9 +25,9 @@ export const hero: EventStates = {
 };
 
 //* Event timings for the timer & register button (timer only shows up before the event and register button is disabled otherwise)
-export const eventDate = "2024-11-17 08:00:00"; // YYYY-MM-DD HH-MM-SS
-export const eventEndDate = "2024-11-18 18:00:00"; //! must always be after the event
-export const eventDateInWords = "17th & 18th November, 2024";
+export const eventDate = "2024-11-15 08:00:00"; // YYYY-MM-DD HH-MM-SS
+export const eventEndDate = "2024-11-16 18:00:00"; //! must always be after the event
+export const eventDateInWords = "15th & 16th November, 2024";
 
 //* Itinerary
 export const itineraryDay1 = [
