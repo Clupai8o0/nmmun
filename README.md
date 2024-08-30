@@ -2,7 +2,7 @@
 
 Forked from https://github.com/clupai8o0/nmmun.
 This repo is for 2024-2025 NMMUN.
-So much work was put into this website by @cupai8o0 and team. Its obvious to carry it forward to the next batch.❤️💯
+So much work was put into this website by @cupai8o0 and team. It was obvious to carry it forward to the next batch.❤️💯
 
 # NMMUN
 
