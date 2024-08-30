@@ -42,7 +42,7 @@ export const councils: CouncilLink[] = [
 		],
 		href: "/council/cstd",
 		icon: {
-			src: "/councils/unsc.png",
+			src: "/councils/cstd.png",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
