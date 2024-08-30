@@ -71,7 +71,7 @@ export const councils: CouncilLink[] = [
 		],
 		href: "/council/unhrc",
 		icon: {
-			src: "/councils/unsc.png",
+			src: "/councils/UNHRC.png",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
