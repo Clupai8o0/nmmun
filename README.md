@@ -167,6 +167,9 @@ Recommended extensions
 
 ## Contact Information
 
+NMMUN'24 Head of IT - Hiranya Bansal
+[Instagram]()
+
 NMMUN'23 Head of IT - Samridh Limbu
 [Github](https://github.com/Clupai8o0)
 [Instagram](https://instagram.com/clupai8o0)
