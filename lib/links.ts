@@ -100,7 +100,7 @@ export const councils: CouncilLink[] = [
 		],
 		href: "/council/unodc",
 		icon: {
-			src: "/councils/unsc.png",
+			src: "/councils/unodc.png",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
@@ -129,7 +129,7 @@ export const councils: CouncilLink[] = [
 		],
 		href: "/council/imf",
 		icon: {
-			src: "/councils/unsc.png",
+			src: "/councils/imf.png",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
@@ -185,7 +185,7 @@ export const councils: CouncilLink[] = [
 		],
 		href: "/council/who",
 		icon: {
-			src: "/councils/unsc.png",
+			src: "/councils/who.png",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
@@ -214,7 +214,7 @@ export const councils: CouncilLink[] = [
 		],
 		href: "/council/icj",
 		icon: {
-			src: "/councils/unsc.png",
+			src: "/councils/icj.png",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
