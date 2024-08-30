@@ -212,9 +212,9 @@ function RegisterPage() {
 							href="https://forms.gle/DzrdayBH12kPoqBh7"
 							className="mt-12"
 							animation
-							disabled
+							enable
 						>
-							Application Closed
+							Application Open
 						</Button>
 					</Animate>
 				</Details>
