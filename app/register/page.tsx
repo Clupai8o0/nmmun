@@ -205,11 +205,11 @@ function RegisterPage() {
 						<span className="underline font-bold">
 							Last Date for applicants
 						</span>{" "}
-						- 21st September, 2023
+						- 4th September, 2024
 					</Paragraph>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 						<Button
-							href="https://forms.gle/Ay87fK7jNz3kQa1u5"
+							href="https://forms.gle/DzrdayBH12kPoqBh7"
 							className="mt-12"
 							animation
 							disabled
