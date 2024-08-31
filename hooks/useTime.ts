@@ -104,10 +104,10 @@ export const useTime = () => {
 				clearInterval(timerInterval);
 			};
 		}
-
+		
 		setIsEventHappening(time.isEventHappening());
 		setIsEventOver(time.isEventOver());
-	}, [seconds]);
+	}, []);
 
 	return { seconds, minutes, hours, days, isEventHappening, isEventOver };
 };
