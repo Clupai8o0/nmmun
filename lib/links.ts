@@ -434,22 +434,17 @@ export const teamLinks: TeamLink[] = [
 		id: "it",
 		members: [
 			{
-				name: "Samridh Limbu",
+				name: "Hiranya Bansal",
 				pos: "Head of IT",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Pranav Nambiar",
+				name: "Aarin Niranjane",
 				pos: "Member",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Yuvraaj Suri",
-				pos: "Member",
-				src: "/teams/placeholder.png",
-			},
-			{
-				name: "Nawfaal Rahaman",
+				name: "Anirudh Ramachandran",
 				pos: "Member",
 				src: "/teams/placeholder.png",
 			},
@@ -615,7 +610,7 @@ export const teamLinks: TeamLink[] = [
 		id: "security",
 		members: [
 			{
-				name: "Ayman Siddiqui",
+				name: "Abhinav Patnaik",
 				pos: "Head of Security & Runner",
 				src: "/teams/placeholder.png",
 			},
