@@ -57,7 +57,7 @@ export default function Home() {
 						delay: 2.5,
 					})}
 				>
-					2023-24
+					2024-25
 				</Lead>
 				<Paragraph
 					animation={animation(AnimationVariants.FromDown, {

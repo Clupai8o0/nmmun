@@ -28,8 +28,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -57,8 +57,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -86,8 +86,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -115,8 +115,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -144,8 +144,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -167,12 +167,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Aarefah K.",
-				src: "/councils/chairs/aarefah.png",
-			},
-			{
-				name: "Vishrutta Jayashekhar",
-				src: "/councils/chairs/vishrutta.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -200,8 +196,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -229,8 +225,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -258,8 +254,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -281,12 +277,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Aryan Arora",
-				src: "/councils/chairs/aryan.png",
-			},
-			{
-				name: "Aira Nair",
-				src: "/councils/chairs/aira.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -314,8 +306,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -340,8 +332,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Nikhil Nandi",
-				src: "/councils/chairs/nikhil.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -369,8 +361,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -398,8 +390,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},

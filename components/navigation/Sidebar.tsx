@@ -82,7 +82,7 @@ const Sidebar = ({ className, dark }: Props) => {
 				<SheetFooter>
 					<div className="sm:flex sm:items-center sm:justify-between py-6">
 						<span className="text-sm text-gray-500 dark:text-gray-400">
-							© 2023 NMMUN™. All Rights Reserved.
+							© 2024 NMMUN™. All Rights Reserved.
 						</span>
 
 						<div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
