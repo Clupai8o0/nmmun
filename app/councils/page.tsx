@@ -28,7 +28,7 @@ function CouncilsPage() {
 						delay: 2.4,
 					})}
 				>
-					OUR TEAM
+					COUNCILS
 				</Title>
 				<Paragraph
 					animation={animation(AnimationVariants.FromDown, {
@@ -36,7 +36,7 @@ function CouncilsPage() {
 						opacity: 0.8,
 					})}
 				>
-					The heartbeat of our MUN: Introducing the Team
+					Debate, Discuss, Delegate: Introducing our Councils
 				</Paragraph>
 				<CTA
 					animation={animation(AnimationVariants.FromDown, {
