@@ -49,10 +49,22 @@ function GalleryPage() {
 			<Container>
 				<TimelineContainer>
 					<Timeline time={{ date: "More coming soon..." }} start />
+					<Timeline time={{ date: "November, 2023" }}>
+						<Masonry
+							title="NMMUN 2023"
+							dir="23-24"
+							href="https://drive.google.com/drive/folders/1zcQiauT-H2_NVyGsMeabcbmCWRI6QTg4?usp=sharing"
+							gridMatrix={[
+								[1, 1, 1, 1, 1, 1, 1],
+								[1, 1, 1, 1, 1, 1, 1],
+								[1, 1, 1, 1, 1, 1],
+							]}
+						/>
+					</Timeline>
 					<Timeline time={{ date: "October, 2022" }}>
 						<Masonry
 							title="NMMUN 2022"
-							dir="21-22"
+							dir="22-23"
 							href="https://drive.google.com/drive/folders/1zcQiauT-H2_NVyGsMeabcbmCWRI6QTg4?usp=sharing"
 							gridMatrix={[
 								[1, 2, 3, 4, 5, 6, 7],
