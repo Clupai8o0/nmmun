@@ -112,24 +112,7 @@ export default function Home() {
 				</Quote>
 			</Container>
 
-			<Container
-				id="theme"
-				background={
-					<Background
-						color=""
-						img={{ src: "/home/theme-bg.png", alt: "a sand clock drawing" }}
-					/>
-				}
-			>
-				<Details>
-					<Heading
-						className="mb-6 xl:w-3/4"
-						animation={onScrollAnimation(AnimationVariants.FromLeft)}
-					>
-						Stay Tuned for the Theme!
-					</Heading>
-				</Details>
-			</Container>
+			#theme was here
 
 			<ImageContainer
 				id="about"
