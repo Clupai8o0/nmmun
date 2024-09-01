@@ -97,6 +97,7 @@ function InfoPage() {
 							className="justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							Allocations Doc
 						</Button>
@@ -106,6 +107,7 @@ function InfoPage() {
 							className="justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							Security & Runner Allocations
 						</Button>
@@ -135,6 +137,7 @@ function InfoPage() {
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							NMMUN ROP
 						</Button>
@@ -144,6 +147,7 @@ function InfoPage() {
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							Crisis ROP
 						</Button>
@@ -169,6 +173,7 @@ function InfoPage() {
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							Code of Conduct
 						</Button>

@@ -53,7 +53,7 @@ function GalleryPage() {
 						<Masonry
 							title="NMMUN 2023"
 							dir="23-24"
-							href="https://drive.google.com/drive/folders/1zcQiauT-H2_NVyGsMeabcbmCWRI6QTg4?usp=sharing"
+							href="https://docs.google.com/document/d/1gkwsk8HJ_FiIcI_6SLQyrQ_IvCCqK58mw-pbqx_PwXE/edit?usp=sharing"
 							gridMatrix={[
 								[1, 1, 1, 1, 1, 1, 1],
 								[1, 1, 1, 1, 1, 1, 1],
