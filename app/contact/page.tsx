@@ -1,12 +1,9 @@
 "use client";
 
 import {
-	Calendar,
 	Instagram,
 	Mail,
-	PiggyBank,
-	Search,
-	Shield,
+	Github,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -103,8 +100,8 @@ function ContactPage() {
 									target="_blank"
 									key={generateKey()}
 								>
-									<Instagram className="w-6 h-6" />
-									@Github
+									<Github className="w-6 h-6" />
+									Github.com
 								</a>,
 							]}
 						/>
