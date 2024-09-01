@@ -112,7 +112,7 @@ export default function Home() {
 				</Quote>
 			</Container>
 
-			#theme was here
+			
 
 			<ImageContainer
 				id="about"
