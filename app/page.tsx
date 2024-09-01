@@ -94,7 +94,7 @@ export default function Home() {
 					<Background
 						color="bg-black"
 						img={{
-							src: "/hero/hero-home-4.jpg",
+							src: "/hero/quote.jpg",
 							alt: "A conference image",
 							opacity: 0.4,
 						}}
@@ -156,7 +156,7 @@ export default function Home() {
 			<ImageContainerFull
 				id="why-us"
 				img={{
-					src: "/home/join-us.jpeg",
+					src: "/home/join-us.jpg",
 					alt: "conference in session",
 				}}
 				reverse

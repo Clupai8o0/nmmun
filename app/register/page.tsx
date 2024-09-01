@@ -36,14 +36,14 @@ function RegisterPage() {
 			>
 				<Title
 					animation={animation(av.FromDown, {
-						delay: 2.4,
+						delay: 2,
 					})}
 				>
 					REGISTER
 				</Title>
 				<Paragraph
 					animation={animation(av.FromDown, {
-						delay: 2.5,
+						delay: 2.1,
 						opacity: 0.8,
 					})}
 				>
@@ -52,7 +52,7 @@ function RegisterPage() {
 				</Paragraph>
 				<CTA
 					animation={animation(av.FromDown, {
-						delay: 2.6,
+						delay: 2.2,
 					})}
 				/>
 			</Hero>

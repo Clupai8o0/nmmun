@@ -112,7 +112,7 @@ function ContactPage() {
 							<SubHeading
 								className="mb-4"
 								animation={animation(av.FromRight, {
-									delay: 2,
+									delay: 2.2,
 								})}
 							>
 								Address:{" "}
@@ -120,7 +120,7 @@ function ContactPage() {
 							<Paragraph
 								className="w-full md:w-2/3"
 								animation={animation(av.FromRight, {
-									delay: 2.1,
+									delay: 2.3,
 								})}
 							>
 								New Millennium School, Building 399, Road 3009, Block 330,
@@ -130,7 +130,7 @@ function ContactPage() {
 							<motion.div
 								variants={animationVariants}
 								{...animation(av.FromRight, {
-									delay: 2.2,
+									delay: 2.4,
 								})}
 							>
 								<iframe

@@ -405,23 +405,23 @@ export const teamLinks: TeamLink[] = [
 		id: "gov",
 		members: [
 			{
-				name: "Tanishka Bhatia",
-				pos: "Head of Organizing Committee",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Hetvi Shah",
-				pos: "Director General",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Akshat P. Kumar",
-				pos: "Secretary General",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Nandana Menon",
-				pos: "Head of R&D",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 		],
@@ -456,13 +456,23 @@ export const teamLinks: TeamLink[] = [
 		id: "design",
 		members: [
 			{
-				name: "Anvi Tiwari",
-				pos: "Head of Design",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Zoha Noor",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 		],
@@ -474,23 +484,23 @@ export const teamLinks: TeamLink[] = [
 		id: "logistics",
 		members: [
 			{
-				name: "Romeir Ranjan",
-				pos: "Head of Logistics",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Nivya Sajiz",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Sahil Singh",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Joel Joseph",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 		],
@@ -502,18 +512,23 @@ export const teamLinks: TeamLink[] = [
 		id: "press",
 		members: [
 			{
-				name: "Kritika Gupta",
-				pos: "Head of Media & PR",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Shashwat Srivastava",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Akshi Jain",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 		],
@@ -525,23 +540,23 @@ export const teamLinks: TeamLink[] = [
 		id: "media",
 		members: [
 			{
-				name: "Abdur Raheem",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Shreyas Birje",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Mithilesh Tumugante",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Chirag Ashwani",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 		],
@@ -553,23 +568,23 @@ export const teamLinks: TeamLink[] = [
 		id: "decor",
 		members: [
 			{
-				name: "Zara Kulsum",
-				pos: "Head of Decoration",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Juwairia Mariam",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Sana Kelushkar",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Diya Zacharia",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 		],
@@ -581,23 +596,23 @@ export const teamLinks: TeamLink[] = [
 		id: "rnd",
 		members: [
 			{
-				name: "Sreya Sasi",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Antara Dongre",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Mohammed Kaif",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Samarth",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 		],
@@ -622,13 +637,23 @@ export const teamLinks: TeamLink[] = [
 		id: "finance",
 		members: [
 			{
-				name: "Mohammed Ehaan",
-				pos: "Head of Finance",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Surya Sai",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 		],
@@ -640,13 +665,23 @@ export const teamLinks: TeamLink[] = [
 		id: "food",
 		members: [
 			{
-				name: "Ali Dar",
-				pos: "Head of Food",
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Shreya Sham",
-				pos: "Member",
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "To be announced",
+				pos: "To be announced",
 				src: "/teams/placeholder.png",
 			},
 		],

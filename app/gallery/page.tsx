@@ -26,14 +26,14 @@ function GalleryPage() {
 			>
 				<Title
 					animation={animation("fromDown", {
-						delay: 2.4,
+						delay: 2,
 					})}
 				>
 					GALLERY
 				</Title>
 				<Paragraph
 					animation={animation("fromDown", {
-						delay: 2.5,
+						delay: 2.1,
 						opacity: 0.8,
 					})}
 				>
@@ -41,7 +41,7 @@ function GalleryPage() {
 				</Paragraph>
 				<CTA
 					animation={animation("fromDown", {
-						delay: 2.6,
+						delay: 2.2,
 					})}
 				/>
 			</Hero>
