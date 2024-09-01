@@ -86,7 +86,7 @@ function ContactPage() {
 								delay: 2.6,
 							})}
 						>
-							Report Bug
+							Report Bugs
 						</SubHeading>
 
 						<List
