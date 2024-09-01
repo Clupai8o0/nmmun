@@ -82,6 +82,32 @@ function ContactPage() {
 								</span>
 							]}
 						/>
+
+						<SubHeading
+							className="mb-4"
+							animation={animation(av.FromLeft, {
+								delay: 2.6,
+							})}
+						>
+							Report Bug
+						</SubHeading>
+
+						<List
+							animation={animation(av.FromLeft, {
+								delay: 2.7,
+							})}
+							elements={[
+								<a
+									href="https://github.com/Shawarma22/nmmun"
+									className="hover:text-primary hover:underline transition duration-300 ease-in-out flex gap-2 items-center mt-2"
+									target="_blank"
+									key={generateKey()}
+								>
+									<Instagram className="w-6 h-6" />
+									@Github
+								</a>,
+							]}
+						/>
 					</div>
 
 					<div className="w-full md:w-1/2">
