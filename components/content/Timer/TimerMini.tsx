@@ -1,10 +1,58 @@
 import clsx from "clsx";
 
-import { useTime } from "@/hooks/useTime";
+import { Time } from "@/hooks/useTime";
+import { useEffect, useState } from "react";
 
 const TimerMini = ({ dark }: { dark?: boolean }) => {
-	const { seconds, minutes, days, hours, isEventHappening, isEventOver } =
-		useTime();
+	const [days, setDays] = useState(0);
+	const [hours, setHours] = useState(0);
+	const [minutes, setMinutes] = useState(0);
+	const [seconds, setSeconds] = useState(0);
+
+	const [isEventHappening, setIsEventHappening] = useState(false);
+	const [isEventOver, setIsEventOver] = useState(false);
+
+	useEffect(() => {
+		//? runs only on page refresh
+		const time = new Time();
+
+		if (time.difference > 0) {
+			setSeconds(time.seconds);
+			setMinutes(time.minutes);
+			setHours(time.hours);
+			setDays(time.days);
+
+			const timerInterval = setInterval(() => {
+				if (seconds > 0) {
+					setSeconds(seconds - 1);
+				}
+				if (seconds === 0) {
+					if (minutes === 0) {
+						if (hours === 0) {
+							if (days === 0) {
+								clearInterval(timerInterval);
+							} else {
+								setDays(days - 1);
+								setHours(23);
+							}
+						} else {
+							setHours(hours - 1);
+							setMinutes(59);
+						}
+					} else {
+						setMinutes(minutes - 1);
+						setSeconds(59);
+					}
+				}
+			}, 1000);
+			return () => {
+				clearInterval(timerInterval);
+			};
+		}
+
+		setIsEventHappening(time.isEventHappening());
+		setIsEventOver(time.isEventOver());
+	}, [seconds]);
 
 	return (
 		<div className="grid grid-flow-col gap-2 md:gap-4 text-center auto-cols-max relative z-10">

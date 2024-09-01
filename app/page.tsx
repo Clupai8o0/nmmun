@@ -76,6 +76,7 @@ export default function Home() {
 						opacity: 0.8,
 						delay: 2.6,
 					})}
+					className="!mt-0"
 				>
 					{!isEventHappening && !isEventOver ? eventDateInWords : ""}
 				</Paragraph>

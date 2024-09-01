@@ -107,7 +107,7 @@ export const useTime = () => {
 
 		setIsEventHappening(time.isEventHappening());
 		setIsEventOver(time.isEventOver());
-	}, []);
+	}, [days]);
 
 	return { seconds, minutes, hours, days, isEventHappening, isEventOver };
 };
