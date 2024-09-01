@@ -125,10 +125,8 @@ function RegisterPage() {
 						Upon successful completion of the payment, kindly include the
 						transaction receipt as supporting documentation in response to the
 						&apos;Proof of Payment&apos; query. Furthermore, please ensure the prompt
-						submission of this receipt to nmmun2023logistics@gmail.com. When
-						sending the email, kindly include your full name, class, and school
-						Paragraph for reference, and attach your transaction receipt as an
-						integral component of the correspondence.
+						submission of this receipt on the registration form link. You can also contact us on our email or instagram
+						if in the case of a technical error. We will be happy to assist you.
 					</Paragraph>
 					<Paragraph
 						animation={onScrollAnimation(av.FromLeft, {
@@ -136,9 +134,7 @@ function RegisterPage() {
 						})}
 					>
 						<span className="font-semibold underline">Note:</span> Kindly ensure
-						that you grant viewing access of the proof of payment to the
-						designated email address, nmmun2023logistics@gmail.com, to
-						facilitate the verification process.
+						that you grant viewing access of the proof of payment to us.
 					</Paragraph>
 				</Details>
 			</Container>
@@ -187,10 +183,10 @@ function RegisterPage() {
 					</SubHeading>
 					<List
 						elements={[
-							"The application is only open to students of Grades X-XII",
+							"The application is only open to students of Grades XI and XII",
 							"Interviews will be held in person at New Millennium School",
 							"Applicants are requested to check their emails regularly for further updates",
-							"Please note that the minimum requirements to apply for the position of chairperson is 1-3 prior delegate experiences",
+							"Please note that the minimum requirements to apply for the position of chairperson is 3 prior delegate experiences",
 							"NMS applicants are only required to pay in person",
 						]}
 						animation={onScrollAnimation(av.FromLeft, {
@@ -212,7 +208,6 @@ function RegisterPage() {
 							href="https://forms.gle/DzrdayBH12kPoqBh7"
 							className="mt-12"
 							animation
-							enable
 						>
 							Application Open
 						</Button>
@@ -275,7 +270,7 @@ function RegisterPage() {
 							"Registration will only be confirmed once payment is received.",
 							"In the last question where proof of payment is asked, please add the transaction receipt.",
 							"NMS applicants are required to pay in person.",
-							"Allocations will be out by 1st November, 2023.",
+							"Further information about allocations will be updated.",
 						]}
 						animation={onScrollAnimation(av.FromLeft, {
 							opacity: 0.8,
@@ -285,7 +280,7 @@ function RegisterPage() {
 						<span className="underline font-bold">
 							Last Date for applicants
 						</span>{" "}
-						- 20th October, 2023
+						- To be announced
 					</Paragraph>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 						<Button
@@ -294,7 +289,7 @@ function RegisterPage() {
 							animation
 							disabled
 						>
-							Application Closed
+							Application to be announced
 						</Button>
 					</Animate>
 				</Details>
@@ -373,7 +368,7 @@ function RegisterPage() {
 						<span className="underline font-bold">
 							Last Date for applicants
 						</span>{" "}
-						- 10th October, 2023
+						- To be announced
 					</Paragraph>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 						<Button
@@ -382,7 +377,7 @@ function RegisterPage() {
 							animation
 							disabled
 						>
-							Application closed
+							Application to be announced
 						</Button>
 					</Animate>
 				</Details>

@@ -181,7 +181,7 @@ function InfoPage() {
 				<div className="flex flex-col md:flex-row gap-8 mt-6">
 					<div className="md:w-1/2 flex flex-col items-start justify-start">
 						<SubHeading className="mb-8">
-							Day 1 - Friday, 17th November, 2023
+							Day 1 - Friday, 15th November, 2024
 						</SubHeading>
 						<TimelineContainer>
 							{itineraryDay1.map((timeline, i) => (
@@ -208,7 +208,7 @@ function InfoPage() {
 					</div>
 					<div className="md:w-1/2 flex flex-col items-start justify-start">
 						<SubHeading className="mb-8">
-							Day 2 - Saturday, 18th November, 2023
+							Day 2 - Saturday, 16th November, 2024
 						</SubHeading>
 						<TimelineContainer>
 							{itineraryDay2.map((timeline, i) => (

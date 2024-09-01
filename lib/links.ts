@@ -17,13 +17,12 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -46,13 +45,12 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -75,13 +73,12 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -104,13 +101,12 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -162,8 +158,13 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations environment programs Logo",
 		},
 		topics: [
-			"Ensuring the Accountability of Countries to Environmental Conventions",
-			"Overtourism and its impact on the environment",
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
 		],
 		members: [
 			{
@@ -185,13 +186,12 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -214,13 +214,12 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -239,17 +238,16 @@ export const councils: CouncilLink[] = [
 		],
 		href: "/council/fifa",
 		icon: {
-			src: "/councils/un.svg",
+			src: "/councils/fifa.png",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -272,8 +270,13 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations commission on the status of women Logo",
 		},
 		topics: [
-			"Discussing violence against women and the battered woman syndrome",
-			"Discussing technological change and education in the digital age for achieving gender equality and empowerment of women",
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
 		],
 		members: [
 			{
@@ -295,13 +298,12 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -321,13 +323,12 @@ export const councils: CouncilLink[] = [
 		href: "/council/lok-sabha",
 		icon: { src: "/councils/lok-sabha.png", alt: "lok sabha Logo" },
 		topics: [
-			"Seeking To Restore Peace In the Seven Sisters by Deliberating on the Current Situation in the states of the North-Eastern Region of India with emphasis on the Validity of the Armed Forces Special Powers Act",
-			"Challenging the Remission Policy.",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/1MW1i0DR_wKA0cGLOm1MeyHT4SMSqGbX6/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -346,17 +347,16 @@ export const councils: CouncilLink[] = [
 		],
 		href: "/council/jcc",
 		icon: {
-			src: "/councils/un.svg",
+			src: "/councils/jcc.png",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
@@ -379,13 +379,12 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [

@@ -76,6 +76,7 @@ export default function Home() {
 						opacity: 0.8,
 						delay: 2.6,
 					})}
+					className="!mt-0"
 				>
 					{!isEventHappening && !isEventOver ? eventDateInWords : ""}
 				</Paragraph>
@@ -125,47 +126,8 @@ export default function Home() {
 						className="mb-6 xl:w-3/4"
 						animation={onScrollAnimation(AnimationVariants.FromLeft)}
 					>
-						Zeroth Hour: Breaking the Silence
+						Stay Tuned for the Theme!
 					</Heading>
-					<Paragraph
-						animation={onScrollAnimation(AnimationVariants.FromLeft, {
-							opacity: 0.8,
-						})}
-					>
-						Many of us are acutely aware of the social challenges that afflict
-						our society, significantly impacting the quality of life for people
-						worldwide. These issues demand our attention, and while there&apos;s
-						much we can do to address them, both as a global community and as
-						individuals, progress often seems to be postponed.
-					</Paragraph>
-					<Paragraph
-						animation={onScrollAnimation(AnimationVariants.FromLeft, {
-							opacity: 0.8,
-						})}
-					>
-						For instance, the pandemic has frequently been used as a convenient
-						excuse by numerous governments to justify their failure to
-						effectively pursue the 2030 Sustainable Development Goals (SDGs),
-						even though inadequacies in addressing these issues existed long
-						before the pandemic emerged.
-					</Paragraph>
-					<Paragraph
-						animation={onScrollAnimation(AnimationVariants.FromLeft, {
-							opacity: 0.8,
-						})}
-					>
-						This situation is symbolically referred to as &quot;Zeroth
-						Hour,&quot; carrying a dual meaning. It signifies the pressing
-						nature of the problems we face, emphasizing the limited time
-						available to find solutions. Additionally, it alludes to the
-						military term &quot;zero-hour,&quot; denoting the moment when a
-						planned operation commences. This metaphor underscores that delaying
-						action on these critical concerns only compounds the irreversible
-						damage they cause. We, as humans, find ourselves in a precarious
-						position where time is running out, and it&apos;s imperative that we
-						break this cycle of inaction as we approach our own &quot;zeroth
-						hour.&quot;
-					</Paragraph>
 				</Details>
 			</Container>
 

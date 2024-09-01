@@ -8,7 +8,7 @@ export const isDevelopment = () => status === "DEVELOPMENT"; //* check project s
 
 //* banner content states (banner doesn't appear unless content is there)
 export const banner: EventStates = {
-	beforeEvent: "NMMUN 2024 registrations are open. Join us quickly before the deadline!!", //todo: test it out if you like
+	beforeEvent: "The website is in heavy development so if you find any bugs, please don't hesitate to contact us.", //todo: test it out if you like
 	// beforeEvent:
 	// 	"NMMUN 2024 registrations are open. Join us quickly before the deadline!!",
 	duringEvent: "NMMUN 2024 has started. We wish all the very best!!",
@@ -32,76 +32,14 @@ export const eventDateInWords = "15th & 16th November, 2024";
 //* Itinerary
 export const itineraryDay1 = [
 	{
-		time: "8:00-8:45 a.m.",
-		name: "Registration",
-	},
-	{
-		time: "8:45-9:30 a.m.",
-		name: "Opening Ceremony",
-	},
-	{
-		time: "9:30-9:45 a.m.",
-		name: "Breakfast (In Council)",
-	},
-	{
-		time: "9:45-12:30 p.m.",
-		name: "Council Session One",
-	},
-	{
-		time: "12:30-2:00 p.m.",
-		name: "Lunch Break",
-	},
-	{
-		time: "2:00-4:00 p.m.",
-		name: "Council Session Two",
-	},
-	{
-		time: "4:00-4:15 p.m.",
-		name: "Snacks Break",
-	},
-	{
-		time: "4:15-5:00 p.m.",
-		name: "Council Session Three",
-	},
-	{
-		time: "End",
+		time: "Stay tuned!",
+		name: "To be announced"
 	},
 ];
 export const itineraryDay2 = [
 	{
-		time: "8:00-10:00 a.m.",
-		name: "Council Session Four",
-	},
-	{
-		time: "10:00-10:30 a.m.",
-		name: "Breakfast (In Council)",
-	},
-	{
-		time: "10:30-12:30 p.m.",
-		name: "Council Session Five",
-	},
-	{
-		time: "12:30-2:00 p.m.",
-		name: "Lunch Break",
-	},
-	{
-		time: "2:00-3:30 p.m.",
-		name: "Council Session Six",
-	},
-	{
-		time: "3:30-3:45 p.m.",
-		name: "Snacks Break",
-	},
-	{
-		time: "3:45-4:45 p.m.",
-		name: "Council Session Seven",
-	},
-	{
-		time: "4:45-6:00 p.m.",
-		name: "Closing Ceremony",
-	},
-	{
-		time: "end",
+		time: "Stay tuned!",
+		name: "To be announced"
 	},
 ];
 

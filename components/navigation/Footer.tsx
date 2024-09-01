@@ -57,14 +57,14 @@ const Footer = ({ className }: { className?: string }) => {
 
 					<div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
 						<a
-							href="https://www.instagram.com/nmmun_23/"
+							href="https://www.instagram.com/nmmun_24/"
 							className="text-gray-300 hover:text-white"
 						>
 							<Instagram className="w-6 h-6" />
 							<span className="sr-only">Instagram Page</span>
 						</a>
 						<a
-							href="mailto:nmmun2023cs@gmail.com"
+							href="mailto:nmmun2024.25@gmail.com"
 							className="text-gray-300 hover:text-white"
 						>
 							<Mail className="w-6 h-6" />
