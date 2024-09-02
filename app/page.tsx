@@ -32,10 +32,10 @@ export default function Home() {
 			<HeroCarousel
 				images={[
 					{ src: "/hero/hero-home-1.jpg", alt: "Hero image" },
-					{ src: "/hero/hero-home-3.jpg", alt: "Hero image" },
-					{ src: "/hero/hero-home-5.jpg", alt: "Hero image" },
 					{ src: "/hero/hero-home-2.jpg", alt: "Hero image" },
+					{ src: "/hero/hero-home-3.jpg", alt: "Hero image" },
 					{ src: "/hero/hero-home-4.jpg", alt: "Hero image" },
+					{ src: "/hero/hero-home-5.jpg", alt: "Hero image" },
 				]}
 				opacity={0.4}
 				className="text-white"
