@@ -112,7 +112,61 @@ export default function Home() {
 				</Quote>
 			</Container>
 
-			
+			<Container
+				id="theme"
+				background={
+					<Background
+						color=""
+						img={{ src: "/home/bgtemp.jpg", alt: "theme bg" }}
+					/>
+				}
+			>
+				<Details>
+					<Heading
+						className="mb-6 xl:w-3/4"
+						animation={onScrollAnimation(AnimationVariants.FromLeft)}
+					>
+						Grassroots to the Global Stage: Localizing Solutions to World Issues
+					</Heading>
+					<Paragraph
+						animation={onScrollAnimation(AnimationVariants.FromLeft, {
+							opacity: 0.8,
+						})}
+					>
+						The world is rife with various problems of different kinds; international
+						disputes, refugee crises, food shortages, global epidemics at risk of 
+						becoming pandemics, and other problems that seem to be multiplying ever more.
+						The issues appear perpetual, but the solutions are within our grasp,
+						for they lie neither on an international or national level, rather they
+						lie on the local level from where the everyday man is capable of making a change.
+					</Paragraph>
+					<Paragraph
+						animation={onScrollAnimation(AnimationVariants.FromLeft, {
+							opacity: 0.8,
+						})}
+					>
+						The pandemic was a crisis unlike any other as people were confused, worried, 
+						and anguished over what would happen next, as the future at the time seemed 
+						to be murky and bleak, yet these common citizens of everyday life 
+						themselves held mask-up campaigns, setting up community kitchens for 
+						those without jobs as community healthcare workers managed the crisis, 
+						all these acts would spread throughout the world as the local man of everyday
+						life dealt with critical issues with simple and easily implementable ideas.
+					</Paragraph>
+					<Paragraph
+						animation={onScrollAnimation(AnimationVariants.FromLeft, {
+							opacity: 0.8,
+						})}
+					>
+						These common people and their everyday knowledge and skills are the 
+						grassroots of the world, something which has long since been ignored 
+						in favor of high-stakes multinational diplomacy on the global stage. 
+						Still, the time is here, the time to bring a new and fresh outlook 
+						on global issues by raising these grassroots and bringing them to 
+						the forefront and solving these issues with a local solution and idea.
+					</Paragraph>
+				</Details>
+			</Container>
 
 			<ImageContainer
 				id="about"

@@ -183,7 +183,6 @@ function RegisterPage() {
 					</SubHeading>
 					<List
 						elements={[
-							"The application is only open to students of Grades XI and XII",
 							"Interviews will be held in person at New Millennium School",
 							"Applicants are requested to check their emails regularly for further updates",
 							"Please note that the minimum requirements to apply for the position of chairperson is 3 prior delegate experiences",
@@ -199,9 +198,19 @@ function RegisterPage() {
 						})}
 					>
 						<span className="underline font-bold">
-							Last Date for applicants
+							Last Date for applicants for NMS Students
 						</span>{" "}
 						- 4th September, 2024
+					</Paragraph>
+					<Paragraph
+						animation={onScrollAnimation(av.FromLeft, {
+							opacity: 0.8,
+						})}
+					>
+						<span className="underline font-bold">
+							Last Date for applicants for non NMS Students
+						</span>{""}
+						- To be announced
 					</Paragraph>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 						<Button
@@ -209,7 +218,17 @@ function RegisterPage() {
 							className="mt-12"
 							animation
 						>
-							Application Open
+							Applications for NMS Students
+						</Button>
+					</Animate>
+					<Animate animation={onScrollAnimation(av.FromLeft)}>
+					<Button
+							href="https://forms.gle/DzrdayBH12kPoqBh7"
+							className="mt-12"
+							animation
+							disabled
+						>
+							Application for non NMS Students soon
 						</Button>
 					</Animate>
 				</Details>

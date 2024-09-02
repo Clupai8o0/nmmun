@@ -435,7 +435,7 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Hiranya Bansal",
 				pos: "Head of IT",
-				src: "/teams/placeholder.png",
+				src: "/teams/hiranya.png",
 			},
 			{
 				name: "Aarin Niranjane",
