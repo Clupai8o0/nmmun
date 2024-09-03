@@ -400,19 +400,14 @@ export const councils: CouncilLink[] = [
 export const teamLinks: TeamLink[] = [
 	{
 		title: "Secretariats",
-		href: "/team#gov",
+		href: "/team#secretariats",
 		icon: { src: "/teams/gov.png", alt: "" },
-		id: "gov",
+		id: "secretariats",
 		members: [
 			{
-				name: "To be announced",
-				pos: "To be announced",
-				src: "/teams/placeholder.png",
-			},
-			{
-				name: "To be announced",
-				pos: "To be announced",
-				src: "/teams/placeholder.png",
+				name: "Lakshmi Bala",
+				pos: "Head of Organizing Committee",
+				src: "/teams/lakshmi.png",
 			},
 			{
 				name: "To be announced",
@@ -481,7 +476,7 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Ishaan Gupta",
 				pos: "Head of Logistics",
-				src: "/teams/placeholder.png",
+				src: "/teams/ishaan.png",
 			},
 			{
 				name: "Tanvi Nair",
@@ -496,7 +491,12 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Bryl Lizen Dias",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/bryl.png",
+			},
+			{
+				name: "Nikhil Reddy",
+				pos: "Member",
+				src: "/teams/nikhil.png",
 			},
 		],
 	},
@@ -520,6 +520,11 @@ export const teamLinks: TeamLink[] = [
 				name: "Diyashree Dinesh",
 				pos: "Member",
 				src: "/teams/dhiyashree.png",
+			},
+			{
+				name: "Arya Chaudhary",
+				pos: "Member",
+				src: "/teams/arya.png",
 			},
 		],
 	},
@@ -560,12 +565,12 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Arya Rastogi",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/arya.r.png",
 			},
 			{
 				name: "Akunth Khanna",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/akunth.png",
 			},
 			{
 				name: "Aishwarya",
@@ -629,7 +634,7 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Saurav Sanal",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/saurav.png",
 			},
 		],
 	},
