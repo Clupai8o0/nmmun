@@ -126,7 +126,7 @@ export default function Home() {
 						className="mb-6 xl:w-3/4"
 						animation={onScrollAnimation(AnimationVariants.FromLeft)}
 					>
-						Grassroots to the Global Stage: Localizing Solutions to World Issues
+						Grassroots to the Global Stage: Localizing Solutions to Global Challenges
 					</Heading>
 					<Paragraph
 						animation={onScrollAnimation(AnimationVariants.FromLeft, {

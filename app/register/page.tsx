@@ -87,8 +87,9 @@ function RegisterPage() {
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
-							Download Consent Form
+							Consent Form in the works
 						</Button>
 					</Animate>
 
@@ -228,7 +229,7 @@ function RegisterPage() {
 							animation
 							disabled
 						>
-							Application for non NMS Students soon
+							Application for non NMS Students in the works
 						</Button>
 					</Animate>
 				</Details>
