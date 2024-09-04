@@ -201,7 +201,7 @@ function RegisterPage() {
 						<span className="underline font-bold">
 							Last Date for applicants for NMS Students
 						</span>{" "}
-						- 4th September, 2024
+						- 11th September, 2024
 					</Paragraph>
 					<Paragraph
 						animation={onScrollAnimation(av.FromLeft, {

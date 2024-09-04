@@ -117,7 +117,7 @@ export default function Home() {
 				background={
 					<Background
 						color=""
-						img={{ src: "/home/bgtemp.jpg", alt: "theme bg" }}
+						img={{ src: "/home/green.webp", alt: "theme bg" }}
 					/>
 				}
 			>

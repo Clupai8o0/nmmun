@@ -33,7 +33,7 @@ export const councils: CouncilLink[] = [
 		],
 	},
 	{
-		title: "CSTD",
+		title: "UNCSTD",
 		id: "cstd",
 		desc: [
 			"The United Nations Commission on Science and Technology for Development (CSTD) is a key body within the UN, tasked with guiding the international community in harnessing science and technology to foster sustainable development. ", 
@@ -417,7 +417,7 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Kushagra",
 				pos: "Head of Research & Development",
-				src: "/teams/placeholder.png",
+				src: "/teams/kushagra.png",
 			},
 		],
 	},
@@ -434,6 +434,11 @@ export const teamLinks: TeamLink[] = [
 			},
 			{
 				name: "Aarin Niranjane",
+				pos: "Member",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "Vaibhav Raj Saxena",
 				pos: "Member",
 				src: "/teams/placeholder.png",
 			},
