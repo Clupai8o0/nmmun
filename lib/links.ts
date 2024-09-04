@@ -410,9 +410,9 @@ export const teamLinks: TeamLink[] = [
 				src: "/teams/lakshmi.png",
 			},
 			{
-				name: "To be announced",
-				pos: "To be announced",
-				src: "/teams/placeholder.png",
+				name: "Rudra Dev Sumod",
+				pos: "Secratary General",
+				src: "/teams/rudra.png",
 			},
 			{
 				name: "Kushagra",
