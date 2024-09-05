@@ -440,7 +440,7 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Vaibhav Raj Saxena",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/vaibhav.png",
 			},
 			{
 				name: "Anirudh Ramasubramanian",
@@ -456,17 +456,22 @@ export const teamLinks: TeamLink[] = [
 		id: "design",
 		members: [
 			{
-				name: "Vaidehi",
+				name: "Vaidehi Pramod",
 				pos: "Head of Design & Decoration",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Krishang",
+				name: "Krishang Mayur",
 				pos: "Member",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Leann",
+				name: "Leann Dennis",
+				pos: "Member",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "Asmi Amit Vanare",
 				pos: "Member",
 				src: "/teams/placeholder.png",
 			},
@@ -502,6 +507,11 @@ export const teamLinks: TeamLink[] = [
 				name: "Nikhil Reddy",
 				pos: "Member",
 				src: "/teams/nikhil.png",
+			},
+			{
+				name: "Fathima Hazeeb",
+				pos: "Member",
+				src: "/teams/fathima.png",
 			},
 		],
 	},
