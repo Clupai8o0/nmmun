@@ -463,12 +463,12 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Krishang Mayur",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/krishang.png",
 			},
 			{
 				name: "Leann Dennis",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/leann.png",
 			},
 			{
 				name: "Asmi Amit Vanare",
@@ -514,9 +514,14 @@ export const teamLinks: TeamLink[] = [
 				src: "/teams/fathima.png",
 			},
 			{
-				name: "Alaine",
+				name: "Alaine Bijosh",
 				pos: "Member",
 				src: "/teams/alaine.png",
+			},
+			{
+				name: "Ridhima Pai",
+				pos: "Member",
+				src: "/teams/ridhima.png",
 			},
 		],
 	},
@@ -593,9 +598,9 @@ export const teamLinks: TeamLink[] = [
 				src: "/teams/akunth.png",
 			},
 			{
-				name: "Aishwarya",
+				name: "Aishwarya Saravanan",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/ashwarya.png",
 			},
 		],
 	},
@@ -626,12 +631,12 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Ashi Bhatt",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/ashi.png",
 			},
 			{
 				name: "Saranya Balasubramanian",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/saranya.png",
 			},
 			{
 				name: "Mohammed Omar",
