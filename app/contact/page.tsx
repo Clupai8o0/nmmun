@@ -1,12 +1,9 @@
 "use client";
 
 import {
-	Calendar,
 	Instagram,
 	Mail,
-	PiggyBank,
-	Search,
-	Shield,
+	Github,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -52,13 +49,13 @@ function ContactPage() {
 							})}
 							elements={[
 								<a
-									href="https://www.instagram.com/nmmun_23/"
+									href="https://www.instagram.com/nmmun_24/"
 									className="hover:text-primary hover:underline transition duration-300 ease-in-out flex gap-2 items-center mt-2"
 									target="_blank"
 									key={generateKey()}
 								>
 									<Instagram className="w-6 h-6" />
-									@nmmun_23
+									@nmmun_24
 								</a>,
 							]}
 						/>
@@ -78,24 +75,34 @@ function ContactPage() {
 							stagger={0.05}
 							elements={[
 								<span className="gap-2 flex items-center" key={generateKey()}>
-									<Mail className="w-6 h-6" /> nmmun2023cs@gmail.com
-								</span>,
-								<span className="gap-2 flex items-center" key={generateKey()}>
-									<Search className="w-6 h-6" />
-									nmmun2023rnd@gmail.com
-								</span>,
-								<span className="gap-2 flex items-center" key={generateKey()}>
-									<Calendar className="w-6 h-6" />
-									nmmun2023logistics@gmail.com
-								</span>,
-								<span className="gap-2 flex items-center" key={generateKey()}>
-									<Shield className="w-6 h-6" />
-									nmmun2023secandrun@gmail.com
-								</span>,
-								<span className="gap-2 flex items-center" key={generateKey()}>
-									<PiggyBank className="w-6 h-6" />
-									nmmun2023finance@gmail.com
-								</span>,
+									<Mail className="w-6 h-6" /> nmmun2024.25@gmail.com
+								</span>
+							]}
+						/>
+
+						<SubHeading
+							className="mb-4"
+							animation={animation(av.FromLeft, {
+								delay: 2.6,
+							})}
+						>
+							Report Bugs
+						</SubHeading>
+
+						<List
+							animation={animation(av.FromLeft, {
+								delay: 2.7,
+							})}
+							elements={[
+								<a
+									href="https://github.com/Shawarma22/nmmun"
+									className="hover:text-primary hover:underline transition duration-300 ease-in-out flex gap-2 items-center mt-2"
+									target="_blank"
+									key={generateKey()}
+								>
+									<Github className="w-6 h-6" />
+									Github.com
+								</a>,
 							]}
 						/>
 					</div>
@@ -105,7 +112,7 @@ function ContactPage() {
 							<SubHeading
 								className="mb-4"
 								animation={animation(av.FromRight, {
-									delay: 2,
+									delay: 2.2,
 								})}
 							>
 								Address:{" "}
@@ -113,7 +120,7 @@ function ContactPage() {
 							<Paragraph
 								className="w-full md:w-2/3"
 								animation={animation(av.FromRight, {
-									delay: 2.1,
+									delay: 2.3,
 								})}
 							>
 								New Millennium School, Building 399, Road 3009, Block 330,
@@ -123,7 +130,7 @@ function ContactPage() {
 							<motion.div
 								variants={animationVariants}
 								{...animation(av.FromRight, {
-									delay: 2.2,
+									delay: 2.4,
 								})}
 							>
 								<iframe

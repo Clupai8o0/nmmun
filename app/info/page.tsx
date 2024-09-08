@@ -50,14 +50,14 @@ function InfoPage() {
 			>
 				<Title
 					animation={animation(av.FromDown, {
-						delay: 2.4,
+						delay: 2,
 					})}
 				>
 					INFORMATION
 				</Title>
 				<Paragraph
 					animation={animation(av.FromDown, {
-						delay: 2.5,
+						delay: 2.1,
 						opacity: 0.8,
 					})}
 				>
@@ -66,7 +66,7 @@ function InfoPage() {
 				</Paragraph>
 				<CTA
 					animation={animation(av.FromDown, {
-						delay: 2.6,
+						delay: 2.2,
 					})}
 				/>
 			</Hero>
@@ -97,6 +97,7 @@ function InfoPage() {
 							className="justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							Allocations Doc
 						</Button>
@@ -106,6 +107,7 @@ function InfoPage() {
 							className="justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							Security & Runner Allocations
 						</Button>
@@ -135,6 +137,7 @@ function InfoPage() {
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							NMMUN ROP
 						</Button>
@@ -144,6 +147,7 @@ function InfoPage() {
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							Crisis ROP
 						</Button>
@@ -169,6 +173,7 @@ function InfoPage() {
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
+							disabled
 						>
 							Code of Conduct
 						</Button>
@@ -181,7 +186,7 @@ function InfoPage() {
 				<div className="flex flex-col md:flex-row gap-8 mt-6">
 					<div className="md:w-1/2 flex flex-col items-start justify-start">
 						<SubHeading className="mb-8">
-							Day 1 - Friday, 17th November, 2023
+							Day 1 - Friday, 15th November, 2024
 						</SubHeading>
 						<TimelineContainer>
 							{itineraryDay1.map((timeline, i) => (
@@ -208,7 +213,7 @@ function InfoPage() {
 					</div>
 					<div className="md:w-1/2 flex flex-col items-start justify-start">
 						<SubHeading className="mb-8">
-							Day 2 - Saturday, 18th November, 2023
+							Day 2 - Saturday, 16th November, 2024
 						</SubHeading>
 						<TimelineContainer>
 							{itineraryDay2.map((timeline, i) => (

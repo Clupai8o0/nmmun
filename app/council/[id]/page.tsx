@@ -105,6 +105,7 @@ function Council({ params: { id } }: Props) {
 												animation
 												target="_blank"
 												key={generateKey()}
+												disabled
 											>
 												{bg.title}
 											</Button>

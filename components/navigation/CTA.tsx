@@ -31,7 +31,7 @@ const CTA = ({ className, animation, light }: Props) => {
 				Register
 			</Button>
 			<Button
-				href="/contact-us"
+				href="/contact"
 				variant="outline"
 				className={clsx(
 					"bg-transparent hover:bg-white hover:bg-opacity-20 hover:text-white",

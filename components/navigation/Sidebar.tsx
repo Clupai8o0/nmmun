@@ -82,19 +82,19 @@ const Sidebar = ({ className, dark }: Props) => {
 				<SheetFooter>
 					<div className="sm:flex sm:items-center sm:justify-between py-6">
 						<span className="text-sm text-gray-500 dark:text-gray-400">
-							© 2023 NMMUN™. All Rights Reserved.
+							© 2024 NMMUN™. All Rights Reserved.
 						</span>
 
 						<div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
 							<a
-								href="https://www.instagram.com/nmmun_23/"
+								href="https://www.instagram.com/nmmun_24/"
 								className="text-gray-500 hover:text-black"
 							>
 								<Instagram className="w-8 h-8" />
 								<span className="sr-only">Instagram Page</span>
 							</a>
 							<a
-								href="mailto:nmmun2023cs@gmail.com"
+								href="mailto:nmmun2024.25@gmail.com"
 								className="text-gray-500 hover:text-black"
 							>
 								<Mail className="w-8 h-8" />

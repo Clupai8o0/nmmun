@@ -57,7 +57,7 @@ export default function Home() {
 						delay: 2.5,
 					})}
 				>
-					2023-24
+					2024-25
 				</Lead>
 				<Paragraph
 					animation={animation(AnimationVariants.FromDown, {
@@ -94,7 +94,7 @@ export default function Home() {
 					<Background
 						color="bg-black"
 						img={{
-							src: "/hero/hero-home-4.jpg",
+							src: "/hero/quote.jpg",
 							alt: "A conference image",
 							opacity: 0.4,
 						}}
@@ -117,7 +117,7 @@ export default function Home() {
 				background={
 					<Background
 						color=""
-						img={{ src: "/home/theme-bg.png", alt: "a sand clock drawing" }}
+						img={{ src: "/home/green.webp", alt: "theme bg" }}
 					/>
 				}
 			>
@@ -126,46 +126,44 @@ export default function Home() {
 						className="mb-6 xl:w-3/4"
 						animation={onScrollAnimation(AnimationVariants.FromLeft)}
 					>
-						Zeroth Hour: Breaking the Silence
+						Grassroots to the Global Stage: Localizing Solutions to Global Challenges
 					</Heading>
 					<Paragraph
 						animation={onScrollAnimation(AnimationVariants.FromLeft, {
 							opacity: 0.8,
 						})}
 					>
-						Many of us are acutely aware of the social challenges that afflict
-						our society, significantly impacting the quality of life for people
-						worldwide. These issues demand our attention, and while there&apos;s
-						much we can do to address them, both as a global community and as
-						individuals, progress often seems to be postponed.
+						The world is rife with various problems of different kinds; international
+						disputes, refugee crises, food shortages, global epidemics at risk of 
+						becoming pandemics, and other problems that seem to be multiplying ever more.
+						The issues appear perpetual, but the solutions are within our grasp,
+						for they lie neither on an international or national level, rather they
+						lie on the local level from where the everyday man is capable of making a change.
 					</Paragraph>
 					<Paragraph
 						animation={onScrollAnimation(AnimationVariants.FromLeft, {
 							opacity: 0.8,
 						})}
 					>
-						For instance, the pandemic has frequently been used as a convenient
-						excuse by numerous governments to justify their failure to
-						effectively pursue the 2030 Sustainable Development Goals (SDGs),
-						even though inadequacies in addressing these issues existed long
-						before the pandemic emerged.
+						The pandemic was a crisis unlike any other as people were confused, worried, 
+						and anguished over what would happen next, as the future at the time seemed 
+						to be murky and bleak, yet these common citizens of everyday life 
+						themselves held mask-up campaigns, setting up community kitchens for 
+						those without jobs as community healthcare workers managed the crisis, 
+						all these acts would spread throughout the world as the local man of everyday
+						life dealt with critical issues with simple and easily implementable ideas.
 					</Paragraph>
 					<Paragraph
 						animation={onScrollAnimation(AnimationVariants.FromLeft, {
 							opacity: 0.8,
 						})}
 					>
-						This situation is symbolically referred to as &quot;Zeroth
-						Hour,&quot; carrying a dual meaning. It signifies the pressing
-						nature of the problems we face, emphasizing the limited time
-						available to find solutions. Additionally, it alludes to the
-						military term &quot;zero-hour,&quot; denoting the moment when a
-						planned operation commences. This metaphor underscores that delaying
-						action on these critical concerns only compounds the irreversible
-						damage they cause. We, as humans, find ourselves in a precarious
-						position where time is running out, and it&apos;s imperative that we
-						break this cycle of inaction as we approach our own &quot;zeroth
-						hour.&quot;
+						These common people and their everyday knowledge and skills are the 
+						grassroots of the world, something which has long since been ignored 
+						in favor of high-stakes multinational diplomacy on the global stage. 
+						Still, the time is here, the time to bring a new and fresh outlook 
+						on global issues by raising these grassroots and bringing them to 
+						the forefront and solving these issues with a local solution and idea.
 					</Paragraph>
 				</Details>
 			</Container>
@@ -195,7 +193,7 @@ export default function Home() {
 			<ImageContainerFull
 				id="why-us"
 				img={{
-					src: "/home/join-us.jpeg",
+					src: "/home/join-us.jpg",
 					alt: "conference in session",
 				}}
 				reverse

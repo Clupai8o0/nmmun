@@ -1,3 +1,9 @@
+# !!!
+
+Forked from https://github.com/clupai8o0/nmmun.
+This repo is for 2024-2025 NMMUN.
+So much work was put into this website by @cupai8o0 and team. It was obvious to carry it forward to the next batch.❤️💯
+
 # NMMUN
 
 Explore the world of diplomacy and global affairs with the New Millennium Model United Nations Conference. Engage in debates, draft resolutions, and broaden your horizons. Join us for an educational journey that shapes future leaders. This is a web project for NMMUN, built using Next.js to be aesthetically pleasing, smooth, and SEO friendly. Targeted towards the NMMUN participants, any alterations are to be made only by the IT team of that year's NMMUN after being approved by the Organizing Committee and Design Team.
@@ -160,6 +166,9 @@ Recommended extensions
 - [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) - My recommended theme
 
 ## Contact Information
+
+NMMUN'24 Head of IT - Hiranya Bansal
+[Instagram]()
 
 NMMUN'23 Head of IT - Samridh Limbu
 [Github](https://github.com/Clupai8o0)

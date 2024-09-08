@@ -8,12 +8,124 @@ export const councils: CouncilLink[] = [
 		title: "UNSC",
 		id: "unsc",
 		desc: [
-			"The UN Security Council (UNSC) is a significant body of the United Nations, based on the UN Charter. The organ is a major actor for the maintenance of international peace and security.",
-			"With its five permanent members who hold veto power, the Security Council overlooks anything that is happening in the world that concerns security maintenance and potential threats to peace. This council is considered an Advanced level committee.",
+			"The United Nations Security Council (UNSC) is one of the most powerful and influential bodies within the United Nations, tasked with maintaining international peace and security. ", 
+			"As a MUN council, the UNSC provides delegates with a platform to address some of the most pressing global issues, ranging from conflicts and humanitarian crises to the proliferation of weapons of mass destruction. The council is characterized by high-stakes diplomacy, intense negotiations, and the need for swift, decisive action.",
 		],
 		href: "/council/unsc",
 		icon: {
 			src: "/councils/unsc.png",
+			alt: "United Nations Security Council Logo",
+		},
+		topics: [
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
+		],
+		members: [
+			{
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
+			},
+		],
+	},
+	{
+		title: "UNCSTD",
+		id: "cstd",
+		desc: [
+			"The United Nations Commission on Science and Technology for Development (CSTD) is a key body within the UN, tasked with guiding the international community in harnessing science and technology to foster sustainable development. ", 
+			"As a MUN council, the CSTD provides delegates with a unique platform to explore the intersection of innovation, technology, and development, addressing critical issues that affect both developed and developing nations.",
+		],
+		href: "/council/cstd",
+		icon: {
+			src: "/councils/cstd.png",
+			alt: "United Nations Security Council Logo",
+		},
+		topics: [
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
+		],
+		members: [
+			{
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
+			},
+		],
+	},
+	{
+		title: "UNHRC",
+		id: "unhrc",
+		desc: [
+			"The United Nations Human Rights Council (UNHRC) is a critical body within the UN system responsible for promoting and protecting human rights around the world. ", 
+			"As a MUN council, the UNHRC provides delegates with a platform to address pressing human rights issues, investigate violations, and develop international norms and policies aimed at safeguarding the dignity and rights of individuals globally.",
+		],
+		href: "/council/unhrc",
+		icon: {
+			src: "/councils/unhrc.png",
+			alt: "United Nations Security Council Logo",
+		},
+		topics: [
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
+		],
+		members: [
+			{
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
+			},
+		],
+	},
+	{
+		title: "UNODC",
+		id: "unodc",
+		desc: [
+			"The United Nations Office on Drugs and Crime (UNODC) is a key agency within the UN system dedicated to addressing global challenges related to drugs, crime, terrorism, and corruption. ", 
+			"As a MUN council, the UNODC offers delegates the opportunity to engage with complex issues that threaten security, development, and human rights across the world. Delegates will work to develop strategies, policies, and international cooperation to combat these critical issues effectively.",
+		],
+		href: "/council/unodc",
+		icon: {
+			src: "/councils/unodc.png",
+			alt: "United Nations Security Council Logo",
+		},
+		topics: [
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
+		],
+		members: [
+			{
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
+			},
+		],
+	},
+	{
+		title: "IMF",
+		id: "imf",
+		desc: [
+			"The International Monetary Fund (IMF) is a global financial institution dedicated to promoting international monetary cooperation, securing financial stability, facilitating international trade, promoting high employment and sustainable economic growth, and reducing poverty around the world. ", 
+			"As a MUN council, the IMF offers delegates the opportunity to engage with complex economic issues, formulate financial policies, and collaborate on strategies to support global economic stability and growth.",
+		],
+		href: "/council/imf",
+		icon: {
+			src: "/councils/imf.png",
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
@@ -28,101 +140,8 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Adesh Shaiju",
-				src: "/councils/chairs/adesh.png",
-			},
-		],
-	},
-	{
-		title: "SOCHUM",
-		id: "sochum",
-		desc: [
-			"Social, Humanitarian, and Cultural Committee (SOCHUM), the Third Committee of the United Nations General Assembly, discusses issues regarding social problems at the individual level, particularly through the safeguard of marginalized or threatened groups, including indigenous people, women and children, and members of the press.",
-			"It promotes and enforces basic freedoms and ideals meant to be enjoyed by the international community such as the right to life, the expression of cultures, the freedom of political participation, the protection of children's rights, and the promotion of social development, among many others. This is considered a Beginner level NMMUN council.",
-		],
-		href: "/council/sochum",
-		icon: {
-			src: "/councils/sochum.png",
-			alt: "Social, Humanitarian, and Cultural Committee Logo",
-		},
-		topics: [
-			"Preserving Freedom of Press and Ensuring Journalistic Integrity in the Digital Era",
-			"Democratic Republic of the Congo (DRC) Crisis",
-		],
-		bgs: [
-			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/1OawTzSoq47mfViI2MfgFH6kZkdemAZKA/view?usp=drive_link",
-			},
-		],
-		members: [
-			{
-				name: "Caelyn Claudius",
-				src: "/councils/chairs/caelyn.png",
-			},
-			{
-				name: "Dhruvi Karia",
-				src: "/councils/chairs/dhruvi.png",
-			},
-		],
-	},
-	{
-		title: "SPECPOL",
-		id: "specpol",
-		desc: [
-			"The Special Political and Decolonization Committee (SPECPOL) is the fourth committee of the United Nations General Assembly. Its mission is to address the generational and historically based effects of colonialism that are present throughout the world.",
-			"This may include—but is not restricted to—exploitation based on race, class, gender, and other factors that may have resulted from countries' direct actions in the past. SPECPOL is considered a Beginner Level council.",
-		],
-		href: "/council/specpol",
-		icon: {
-			src: "/councils/specpol.png",
-			alt: "The Special Political and Decolonization Committee Logo",
-		},
-		topics: [
-			"Discussing the Senkaku Island Dispute",
-			"Discussing the Humanitarian and Economic Aspects of Neocolonialist Exploitation",
-		],
-		bgs: [
-			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/1idIZuqjySBwgbQTXGvxdbT8xDSZCJpMs/view?usp=drive_link",
-			},
-		],
-		members: [
-			{
-				name: "Niranjana Menon",
-				src: "/councils/chairs/niranjana.png",
-			},
-			{
-				name: "Vaidehi Pramod",
-				src: "/councils/chairs/vaidehi.png",
-			},
-		],
-	},
-	{
-		title: "WTO",
-		id: "wto",
-		desc: "The overall objective of the World Trade Organization is to help its members use trade as a means to raise living standards, create jobs and improve people's lives. The WTO operates a global system of trade rules, it acts as a forum for negotiating trade agreements, settles trade disputes between its members and supports the needs of developing countries. WTO is a Moderate Experience level NMMUN council.",
-		href: "/council/wto",
-		icon: { src: "/councils/wto.png", alt: "world trade organization Logo" },
-		topics: [
-			"The Rise of Green Protectionism and its Impact on Commerce",
-			"Trade-Related Aspects of Intellectual Property Rights",
-		],
-		bgs: [
-			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/1WYxZHkaHLB-sFkHbvmXnO0-6rtJEzwxp/view?usp=drive_link",
-			},
-		],
-		members: [
-			{
-				name: "Shyam Sundar",
-				src: "/councils/chairs/shyam.png",
-			},
-			{
-				name: "Mathew Luke",
-				src: "/councils/chairs/mathew.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -130,8 +149,8 @@ export const councils: CouncilLink[] = [
 		title: "UNEP",
 		id: "unep",
 		desc: [
-			"The United Nations Environment Program's mission is to inspire, inform, and enable nations and peoples to improve their quality of life without compromising that of future generations.",
-			"For over 50 years, UNEP has worked with governments, civil society, the private sector and UN entities to address humanity's most pressing environmental challenges - from restoring the ozone layer to protecting the world's seas and promoting a green, inclusive economy. UNEP is considered to be a Beginner level NMMUN council.",
+			"TThe United Nations Environment Programme (UNEP) is the leading global environmental authority within the UN system, tasked with setting the global environmental agenda, promoting sustainable development, and encouraging the wise use of natural resources. ",
+			"As a MUN council, UNEP provides delegates with a platform to address pressing environmental challenges, formulate policies, and foster international cooperation aimed at protecting the planet for current and future generations.",
 		],
 		href: "/council/unep",
 		icon: {
@@ -139,101 +158,158 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations environment programs Logo",
 		},
 		topics: [
-			"Ensuring the Accountability of Countries to Environmental Conventions",
-			"Overtourism and its impact on the environment",
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
 		],
 		members: [
 			{
-				name: "Aarefah K.",
-				src: "/councils/chairs/aarefah.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
+		],
+	},
+	{
+		title: "WHO",
+		id: "who",
+		desc: [
+			"The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health. The WHO's mission is to promote health, keep the world safe, and serve the vulnerable by addressing global health challenges. ", 
+			"As a MUN council, the WHO provides delegates with a platform to tackle pressing health issues, develop policies to improve global health, and coordinate international responses to health emergencies.",
+		],
+		href: "/council/who",
+		icon: {
+			src: "/councils/who.png",
+			alt: "United Nations Security Council Logo",
+		},
+		topics: [
+			"To be released",
+		],
+		bgs: [
 			{
-				name: "Vishrutta Jayashekhar",
-				src: "/councils/chairs/vishrutta.png",
+				title: "Background Guide in the works",
+				url: "#",
+			},
+		],
+		members: [
+			{
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
+			},
+		],
+	},
+	{
+		title: "ICJ",
+		id: "icj",
+		desc: [
+			"The International Court of Justice (ICJ) is the principal judicial organ of the United Nations, tasked with settling legal disputes between states and providing advisory opinions on legal questions referred to it by authorized international organs and agencies. ", 
+			"As a MUN council, the ICJ offers delegates a unique opportunity to engage in legal analysis, interpret international law, and adjudicate complex disputes between nations, simulating the role of judges in the world’s highest court.",
+		],
+		href: "/council/icj",
+		icon: {
+			src: "/councils/icj.png",
+			alt: "United Nations Security Council Logo",
+		},
+		topics: [
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
+		],
+		members: [
+			{
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
+			},
+		],
+	},
+	{
+		title: "FIFA",
+		id: "fifa",
+		desc: [
+			"The Fédération Internationale de Football Association (FIFA) is the global governing body for football (soccer), responsible for overseeing the organization and regulation of international competitions, setting the rules of the game, and promoting the sport worldwide. ", 
+			"As a MUN council, FIFA offers delegates the opportunity to engage in discussions and decision-making processes related to the management and development of football, addressing issues ranging from global tournaments to grassroots initiatives.",
+		],
+		href: "/council/fifa",
+		icon: {
+			src: "/councils/fifa.png",
+			alt: "United Nations Security Council Logo",
+		},
+		topics: [
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
+		],
+		members: [
+			{
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
 	{
 		title: "UNCSW",
 		id: "uncsw",
-		desc: "The Commission on the Status of Women (CSW) is the principal global intergovernmental body exclusively dedicated to the promotion of gender equality and the empowerment of women. The CSW is instrumental in promoting women's rights, documenting the reality of women's lives throughout the world, and shaping global standards on gender equality and the empowerment of women. UNCSW is a Beginner level NMMUN council.",
+		desc: [
+			"The United Nations Commission on the Status of Women (CSW) is the principal global intergovernmental body dedicated to promoting gender equality and the empowerment of women. ",
+			"As a MUN council, the CSW offers delegates the opportunity to engage in meaningful dialogue on issues affecting women and girls worldwide, shaping policies and recommendations that aim to advance gender equality and women’s rights.",
+		],
 		href: "/council/uncsw",
 		icon: {
 			src: "/councils/uncsw.png",
 			alt: "United Nations commission on the status of women Logo",
 		},
 		topics: [
-			"Discussing violence against women and the battered woman syndrome",
-			"Discussing technological change and education in the digital age for achieving gender equality and empowerment of women",
+			"To be released",
+		],
+		bgs: [
+			{
+				title: "Background Guide in the works",
+				url: "#",
+			},
 		],
 		members: [
 			{
-				name: "Aryan Arora",
-				src: "/councils/chairs/aryan.png",
-			},
-			{
-				name: "Aira Nair",
-				src: "/councils/chairs/aira.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
 	{
-		title: "UNCCPCJ",
-		id: "unccpcj",
+		title: "HCC",
+		id: "hcc",
 		desc: [
-			"The Commission on Crime Prevention and Criminal Justice (CCPCJ) was established by the Economic and Social Council (ECOSOC) as one of its functional commissions. The Commission acts as the principal policymaking body of the United Nations in the field of crime prevention and criminal justice.",
-			"The CCPCJ also offers Member States a forum for exchanging expertise, experience and information in order to develop national and international strategies, and to identify priorities for combating crime. UNCCPCJ is a Moderate Experience level NMMUN council.",
+			"The Historical Crisis Council (HCC) is a dynamic and immersive MUN council that simulates historical crises and pivotal moments in history, requiring delegates to navigate complex political, military, and social challenges. ", 
+			"Unlike traditional MUN councils, the HCC focuses on past events, asking delegates to analyze and respond to crises as they unfolded, making decisions based on historical contexts and real-time developments.",
 		],
-		href: "/council/unccpcj",
+		href: "/council/hcc",
 		icon: {
-			src: "/councils/unccpcj.png",
-			alt: "United Nations commission on crime prevention and criminal justice Logo",
+			src: "/councils/hcc.png",
+			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Addressing the challenges posed by Cybercrime and Online Terrorism.",
-			"Fighting international financial crime in an increasingly cashless economy.",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/17t1OO9yDCkGqXrRD72SGFqZVw83B1KJ0/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
 			{
-				name: "Sana Anas",
-				src: "/councils/chairs/sana.png",
-			},
-			{
-				name: "Bryan Biju",
-				src: "/councils/chairs/bryan.png",
-			},
-		],
-	},
-	{
-		title: "G20",
-		id: "g20",
-		desc: "The G20, also known as the Group of 20, is an intergovernmental organization made up of 19 independent nations, the European Union, and the African Union. It works to address important global economic issues like international financial stability, reducing greenhouse gas emissions, and sustainable development. G20 is a Beginner Level NMMUN council.",
-		href: "/council/g20",
-		icon: { src: "/councils/g20.png", alt: "group of 20 Logo" },
-		topics: [
-			"The Zeroth Hour: Last stretch to acheive sustainable development, noting the immense need for climate action",
-			"Technological transformation and digital public infrastructure ",
-		],
-		bgs: [
-			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/1Dg7QZ33qaaGQ7VpiyjeqBPXdkaIqeH7y/view?usp=drive_link",
-			},
-		],
-		members: [
-			{
-				name: "Kushagra Vashishth",
-				src: "/councils/chairs/kushagra.png",
-			},
-			{
-				name: "Anne Devassy",
-				src: "/councils/chairs/anne.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -241,174 +317,80 @@ export const councils: CouncilLink[] = [
 		title: "LOK SABHA",
 		id: "lok-sabha",
 		desc: [
-			"The Lok Sabha, constitutionally the House of the People, is the lower house of India's bicameral Parliament. The Constitution of India allows for a maximum of 550 members in the House, with 530 members representing the States and 20 representing the Union Territories.",
-			"At present, the Lok Sabha has 543 seats filled by elected representatives. Responsible for the proper functioning of the ruling government, Lok Sabha introduces and passes bills for defence, finance, and home affairs of the country. Lok Sabha is a Moderate Experience level council.",
+			"The Lok Sabha, or House of the People, is the lower house of India's Parliament, representing the will of the nation's citizens. It is a pivotal body in the legislative process, responsible for crafting, debating, and passing laws that impact the entire country. ",
+			"As a MUN council, the Lok Sabha provides delegates with a platform to engage in intense political debate, represent the diverse viewpoints of Indian states and constituencies, and navigate the complexities of parliamentary procedures.",
 		],
 		href: "/council/lok-sabha",
 		icon: { src: "/councils/lok-sabha.png", alt: "lok sabha Logo" },
 		topics: [
-			"Seeking To Restore Peace In the Seven Sisters by Deliberating on the Current Situation in the states of the North-Eastern Region of India with emphasis on the Validity of the Armed Forces Special Powers Act",
-			"Challenging the Remission Policy.",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/1MW1i0DR_wKA0cGLOm1MeyHT4SMSqGbX6/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
 			{
-				name: "Nikhil Nandi",
-				src: "/councils/chairs/nikhil.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
 	{
-		title: "IPL",
-		id: "ipl",
-		desc: "The Indian Premier League, is a twenty-20 cricket tournament played by the cricket players from all over the world. It is annually held in India and contested by ten city-based franchise teams. Each team competes in 14 games during the group stage, playing the other four teams in their group twice (once at home and once away), the other four teams once, and the remaining team twice. This is an Advanced level NMMUN council.",
-		href: "/council/ipl",
-		icon: { src: "/councils/ipl.svg", alt: "indian premier league Logo" },
-		topics: [
-			"Draft Auction (15 teams, 12-18 players)",
-			"Measures to prevent cheating (spot fixing) in the future.",
-		],
-		bgs: [
-			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/1By73AiglZ1Wv0Jxnzrb2USDZshgCFjP4/view?usp=sharing",
-			},
-		],
-		members: [
-			{
-				name: "Krish Verma",
-				src: "/councils/chairs/krish.png",
-			},
-			{
-				name: "Navodith Manoj",
-				src: "/councils/chairs/navodith.png",
-			},
-		],
-	},
-	{
-		title: "HJCC",
-		id: "hjcc",
-		desc: "HJCC is a unique Specialised Committee that allows delegate to travel through time to debate history's most iconic, important, and controversial issues. The fast-paced and unpredibuttonble nature of the Historical Joint Crisis Committee ensures that all delegates will never know what to expect next. Being an advanced crisis committee, the HJCC is a joint-crisis simulation that offers a unique experience designed for delegates with extensive experience and debate knowledge.",
-		href: "/council/hjcc",
-		icon: { src: "/councils/hjcc.png", alt: "hjcc Logo" },
-		topics: ["Cuban Missile Crisis (Soviets and US)"],
-		bgs: [
-			{
-				title: "Background Guide #1",
-				url: "https://drive.google.com/file/d/11ONrEytLy5ONBUkd-7ehSGAqlsG9cTrW/view?usp=drive_link",
-			},
-			{
-				title: "Background Guide #2",
-				url: "https://drive.google.com/file/d/16o1A3xEa42TXaixelGScPI6zQOiM6Jql/view?usp=drive_link",
-			},
-		],
-		members: [
-			{
-				name: "Rudra Dev Sumod",
-				src: "/councils/chairs/rudra.png",
-			},
-			{
-				name: "Kaashvi Subin",
-				src: "/councils/chairs/kaashvi.png",
-			},
-			{
-				name: "Hussain Mayoof",
-				src: "/councils/chairs/hussain.png",
-			},
-			{
-				name: "Prapti Dey",
-				src: "/councils/chairs/prapti.png",
-			},
-		],
-	},
-	{
-		title: "House of Representatives",
-		id: "house-of-representatives",
+		title: "JCC",
+		id: "jcc",
 		desc: [
-			"As per the Constitution, the U.S. House of Representatives makes and passes federal laws. The House is one of Congress's two chambers (the other is the U.S. Senate), and part of the federal government's legislative branch.",
-			"The number of voting representatives in the House is fixed by law at no more than 435, proportionally representing the population of the 50 states. This council discusses any issues relevant to the people of The United States of America, including agriculture, housing, trade, and more, and is considered a Moderate Experience level council.",
+			"The Joint Crisis Council (JCC) is an advanced MUN council designed to simulate complex, multi-faceted crises requiring coordinated responses from various entities. It combines elements of diplomacy, security, and humanitarian response, bringing together multiple councils or teams to address a single, overarching crisis. ", 
+			"Delegates work collaboratively and strategically across different areas of expertise to manage and resolve the crisis effectively.",
 		],
-		href: "/council/house-of-representatives",
+		href: "/council/jcc",
 		icon: {
-			src: "/councils/house-of-representatives.png",
-			alt: "house of representatives Logo",
+			src: "/councils/jcc.png",
+			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Gun Violence and Gun Control",
-			"Abortion- the US' Post-Roe Chapter",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/1aRAedaOZNV_fN0AMBanAVZkbyIbzL_c8/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
 			{
-				name: "Shlokh Palav",
-				src: "/councils/chairs/shlokh.png",
-			},
-			{
-				name: "Patric Benoy",
-				src: "/councils/chairs/patric.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
 	{
-		title: "SAARC",
-		id: "saarc",
+		title: "Suits",
+		id: "suits",
 		desc: [
-			"The South Asian Association for Regional Cooperation (SAARC) is an economic and political organization of eight countries in South Asia. It was established in 1985 when the Heads of State of Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka formally adopted the charter.",
-			"The organization promotes economic development and regional integration. SAARC maintains permanent diplomatic relations at the United Nations as an observer and has developed links with multilateral entities, including the European Union. SAARC is considered an Advanced level NMMUN council.",
+			"It is a fictional MUN council inspired by the television series 'Suits.' ", 
+			"This council simulates the high-stakes, dramatic world of corporate law, where delegates take on roles as top attorneys, clients, and judges navigating complex legal cases, negotiations, and corporate disputes. The council combines elements of legal strategy, courtroom drama, and corporate intrigue to create an engaging and dynamic simulation.",
 		],
-		href: "/council/saarc",
+		href: "/council/suits",
 		icon: {
-			src: "/councils/saarc.png",
-			alt: "south asian association for regional cooperation Logo",
+			src: "/councils/suits.png",
+			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"Examining the Economic Crisis in Sri Lanka and its Consequences",
-			"Addressing the Political and Economic situation of Afghanistan and its impact on the South Asian Subcontinent",
+			"To be released",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/1Ml-9zZYyPfvUoNuYIGQLv0yr6dupYACs/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
 			{
-				name: "Avvani S. Pawar",
-				src: "/councils/chairs/avvani.png",
-			},
-		],
-	},
-	{
-		title: "Fictional Crisis Committee",
-		id: "fictional-crisis-committee",
-		desc: "The Fictional Crisis Committee (FCC) offers a Model United Nations experience unlike any other. Delegates are challenged with fast-paced decision-making to solve complex, fictional crises, encouraging intense and heated discussions. This Specialised Committee of NMMUN'23 addresses topics that remain incredibly relevant to today's world, and specifically, to the theme for this year's NMMUN, “Zeroth Hour.” This is an Advanced Level Council.",
-		href: "/council/fictional-crisis-committee",
-		icon: { src: "/councils/fcc.png", alt: "fictional crisis committee Logo" },
-		topics: ["Indira Gandhi's Cabinet during the Emergency (The Emergency)"],
-		bgs: [
-			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/17qtTbFmg8w4Xh520B2abPgzenGYLYoF3/view?usp=sharing",
-			},
-		],
-		members: [
-			{
-				name: "Arnab Sengupta",
-				src: "/councils/chairs/arnab.png",
-			},
-			{
-				name: "Arya Rastogi",
-				src: "/councils/chairs/arya.png",
+				name: "Upcoming Chair",
+				src: "/councils/chairs/placeholder.png",
 			},
 		],
 	},
@@ -418,29 +400,24 @@ export const councils: CouncilLink[] = [
 export const teamLinks: TeamLink[] = [
 	{
 		title: "Secretariats",
-		href: "/team#gov",
+		href: "/team#secretariats",
 		icon: { src: "/teams/gov.png", alt: "" },
-		id: "gov",
+		id: "secretariats",
 		members: [
 			{
-				name: "Tanishka Bhatia",
+				name: "Lakshmi Bala",
 				pos: "Head of Organizing Committee",
-				src: "/teams/tanishka.png",
+				src: "/teams/lakshmi.png",
 			},
 			{
-				name: "Hetvi Shah",
-				pos: "Director General",
-				src: "/teams/hetvi.png",
+				name: "Rudra Dev Sumod",
+				pos: "Secratary General",
+				src: "/teams/rudra.png",
 			},
 			{
-				name: "Akshat P. Kumar",
-				pos: "Secretary General",
-				src: "/teams/akshat.png",
-			},
-			{
-				name: "Nandana Menon",
-				pos: "Head of R&D",
-				src: "/teams/nandana.png",
+				name: "Kushagra",
+				pos: "Head of Research & Development",
+				src: "/teams/kushagra.png",
 			},
 		],
 	},
@@ -451,42 +428,52 @@ export const teamLinks: TeamLink[] = [
 		id: "it",
 		members: [
 			{
-				name: "Samridh Limbu",
+				name: "Hiranya Bansal",
 				pos: "Head of IT",
-				src: "/teams/samridh.png",
+				src: "/teams/hiranya.png",
 			},
 			{
-				name: "Pranav Nambiar",
+				name: "Aarin S. Niranjane",
 				pos: "Member",
-				src: "/teams/pranav.png",
+				src: "/teams/aarinn1.png",
 			},
 			{
-				name: "Yuvraaj Suri",
+				name: "Vaibhav Raj Saxena",
 				pos: "Member",
-				src: "/teams/yuvraaj.png",
+				src: "/teams/vaibhav.png",
 			},
 			{
-				name: "Nawfaal Rahaman",
+				name: "Anirudh Ramasubramanian",
 				pos: "Member",
-				src: "/teams/nawfaal.png",
+				src: "/teams/placeholder.png",
 			},
 		],
 	},
 	{
-		title: "Design",
+		title: "Design & Decoration",
 		href: "/team#design",
 		icon: { src: "/teams/design.png", alt: "" },
 		id: "design",
 		members: [
 			{
-				name: "Anvi Tiwari",
-				pos: "Head of Design",
-				src: "/teams/anvi.png",
+				name: "Vaidehi Pramod",
+				pos: "Head of Design & Decoration",
+				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Zoha Noor",
+				name: "Krishang Mayur",
 				pos: "Member",
-				src: "/teams/zoha.png",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "Leann Dennis",
+				pos: "Member",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "Asmi Amit Vanare",
+				pos: "Member",
+				src: "/teams/placeholder.png",
 			},
 		],
 	},
@@ -497,24 +484,34 @@ export const teamLinks: TeamLink[] = [
 		id: "logistics",
 		members: [
 			{
-				name: "Romeir Ranjan",
+				name: "Ishaan Gupta",
 				pos: "Head of Logistics",
-				src: "/teams/romeir.png",
+				src: "/teams/ishaan.png",
 			},
 			{
-				name: "Nivya Sajiz",
+				name: "Tanvi Nair",
 				pos: "Member",
-				src: "/teams/nivya.png",
+				src: "/teams/tanvi.png",
 			},
 			{
-				name: "Sahil Singh",
+				name: "Anish Suresh Kumar",
 				pos: "Member",
-				src: "/teams/sahil.png",
+				src: "/teams/anish.png",
 			},
 			{
-				name: "Joel Joseph",
+				name: "Bryl Lizen Dias",
 				pos: "Member",
-				src: "/teams/joel.png",
+				src: "/teams/bryl.png",
+			},
+			{
+				name: "Nikhil Reddy",
+				pos: "Member",
+				src: "/teams/nikhil.png",
+			},
+			{
+				name: "Fathima Hazeeb",
+				pos: "Member",
+				src: "/teams/fathima.png",
 			},
 		],
 	},
@@ -525,78 +522,55 @@ export const teamLinks: TeamLink[] = [
 		id: "press",
 		members: [
 			{
-				name: "Kritika Gupta",
+				name: "Nathania Felix",
 				pos: "Head of Media & PR",
-				src: "/teams/kritika.png",
+				src: "/teams/nathania.png",
 			},
 			{
-				name: "Shashwat Srivastava",
+				name: "Gayatri Sharma",
 				pos: "Member",
-				src: "/teams/shashwat.png",
+				src: "/teams/gayatri.png",
 			},
 			{
-				name: "Akshi Jain",
+				name: "Diyashree Dinesh",
 				pos: "Member",
-				src: "/teams/akshi.png",
+				src: "/teams/dhiyashree.png",
+			},
+			{
+				name: "Arya Chaudhary",
+				pos: "Member",
+				src: "/teams/arya.png",
 			},
 		],
 	},
-	{
+/*	{
 		title: "Press",
 		href: "/team#media",
 		icon: { src: "/teams/media.png", alt: "" },
 		id: "media",
 		members: [
 			{
-				name: "Abdur Raheem",
-				pos: "Member",
-				src: "/teams/abdur.png",
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Shreyas Birje",
-				pos: "Member",
-				src: "/teams/shreyas.png",
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Mithilesh Tumugante",
-				pos: "Member",
-				src: "/teams/mithilesh.png",
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Chirag Ashwani",
-				pos: "Member",
-				src: "/teams/chirag.png",
+				name: "To be announced",
+				pos: "To be announced",
+				src: "/teams/placeholder.png",
 			},
 		],
-	},
-	{
-		title: "Decoration",
-		href: "/team#decor",
-		icon: { src: "/teams/decor.png", alt: "" },
-		id: "decor",
-		members: [
-			{
-				name: "Zara Kulsum",
-				pos: "Head of Decoration",
-				src: "/teams/zara.png",
-			},
-			{
-				name: "Juwairia Mariam",
-				pos: "Member",
-				src: "/teams/juwairia.png",
-			},
-			{
-				name: "Sana Kelushkar",
-				pos: "Member",
-				src: "/teams/sana.png",
-			},
-			{
-				name: "Diya Zacharia",
-				pos: "Member",
-				src: "/teams/diya.png",
-			},
-		],
-	},
+	}, */
 	{
 		title: "Research & Development",
 		href: "/team#rnd",
@@ -604,24 +578,19 @@ export const teamLinks: TeamLink[] = [
 		id: "rnd",
 		members: [
 			{
-				name: "Sreya Sasi",
+				name: "Arya Rastogi",
 				pos: "Member",
-				src: "/teams/sreya.png",
+				src: "/teams/arya.r.png",
 			},
 			{
-				name: "Antara Dongre",
+				name: "Akunth Khanna",
 				pos: "Member",
-				src: "/teams/antara.png",
+				src: "/teams/akunth.png",
 			},
 			{
-				name: "Mohammed Kaif",
+				name: "Aishwarya",
 				pos: "Member",
-				src: "/teams/kaif.png",
-			},
-			{
-				name: "Samarth",
-				pos: "Member",
-				src: "/teams/samarth.png",
+				src: "/teams/placeholder.png",
 			},
 		],
 	},
@@ -632,9 +601,9 @@ export const teamLinks: TeamLink[] = [
 		id: "security",
 		members: [
 			{
-				name: "Ayman Siddiqui",
+				name: "Abhinav Patnaik",
 				pos: "Head of Security & Runner",
-				src: "/teams/ayman.png",
+				src: "/teams/abhinav.png",
 			},
 		],
 	},
@@ -645,14 +614,24 @@ export const teamLinks: TeamLink[] = [
 		id: "finance",
 		members: [
 			{
-				name: "Mohammed Ehaan",
+				name: "Dhruvi Karia",
 				pos: "Head of Finance",
-				src: "/teams/ehaan.png",
+				src: "/teams/placeholder.png",
 			},
 			{
-				name: "Surya Sai",
+				name: "Ashi Bhatt",
 				pos: "Member",
-				src: "/teams/surya.png",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "Saranya Balasubramanian",
+				pos: "Member",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "Mohammed Omar",
+				pos: "Member",
+				src: "/teams/placeholder.png",
 			},
 		],
 	},
@@ -663,14 +642,14 @@ export const teamLinks: TeamLink[] = [
 		id: "food",
 		members: [
 			{
-				name: "Ali Dar",
+				name: "Dhruv Karia",
 				pos: "Head of Food",
-				src: "/teams/ali.png",
+				src: "/teams/dhruv.png",
 			},
 			{
-				name: "Shreya Sham",
+				name: "Saurav Sanal",
 				pos: "Member",
-				src: "/teams/shreya.png",
+				src: "/teams/saurav.png",
 			},
 		],
 	},
