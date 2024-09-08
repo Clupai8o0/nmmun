@@ -199,7 +199,7 @@ function RegisterPage() {
 						})}
 					>
 						<span className="underline font-bold">
-							Last Date for applicants for NMS Students
+							Last Date for NMS applicants
 						</span>{" "}
 						- 11th September, 2024
 					</Paragraph>
@@ -209,7 +209,7 @@ function RegisterPage() {
 						})}
 					>
 						<span className="underline font-bold">
-							Last Date for applicants for non NMS Students
+							Last Date for non NMS applicants
 						</span>{""}
 						- To be announced
 					</Paragraph>
@@ -298,10 +298,25 @@ function RegisterPage() {
 					/>
 					<Paragraph animation={onScrollAnimation(av.FromLeft)}>
 						<span className="underline font-bold">
-							Last Date for applicants
+							Last Date for NMS applicants
+						</span>{" "}
+						- 26th September, 2024
+					</Paragraph>
+					<Paragraph animation={onScrollAnimation(av.FromLeft)}>
+						<span className="underline font-bold">
+							Last Date for non NMS applicants
 						</span>{" "}
 						- To be announced
 					</Paragraph>
+					<Animate animation={onScrollAnimation(av.FromLeft)}>
+						<Button
+							href="https://forms.gle/DHdTfJqs7SQc4YyVA"
+							className="mt-12"
+							animation
+						>
+							Applications for NMS Students
+						</Button>
+					</Animate>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 						<Button
 							href="https://forms.gle/U89v8mHjhTgddzc87"
