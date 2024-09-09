@@ -415,7 +415,7 @@ export const teamLinks: TeamLink[] = [
 				src: "/teams/rudra.png",
 			},
 			{
-				name: "Kushagra",
+				name: "Kushagra Vashishth",
 				pos: "Head of Research & Development",
 				src: "/teams/kushagra.png",
 			},
@@ -463,7 +463,7 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Krishang Mayur",
 				pos: "Member",
-				src: "/teams/krishang.png",
+				src: "/teams/placeholder.png",
 			},
 			{
 				name: "Leann Dennis",
@@ -523,6 +523,16 @@ export const teamLinks: TeamLink[] = [
 				pos: "Member",
 				src: "/teams/ridhima.png",
 			},
+			{
+				name: "Hadassah Crystaline",
+				pos: "Member",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "Diya Rajiv",
+				pos: "Member",
+				src: "/teams/placeholder.png",
+			},
 		],
 	},
 	{
@@ -542,45 +552,35 @@ export const teamLinks: TeamLink[] = [
 				src: "/teams/gayatri.png",
 			},
 			{
-				name: "Diyashree Dinesh",
+				name: "Dhiyashree Dhinesh",
 				pos: "Member",
 				src: "/teams/dhiyashree.png",
 			},
-			{
-				name: "Arya Chaudhary",
-				pos: "Member",
-				src: "/teams/arya.png",
-			},
 		],
 	},
-/*	{
+	{
 		title: "Press",
 		href: "/team#media",
 		icon: { src: "/teams/media.png", alt: "" },
 		id: "media",
 		members: [
 			{
-				name: "To be announced",
-				pos: "To be announced",
+				name: "Arya Chaudhary",
+				pos: "Head of Press",
+				src: "/teams/arya.png",
+			},
+			{
+				name: "Barani Balaji",
+				pos: "Member",
 				src: "/teams/placeholder.png",
 			},
 			{
-				name: "To be announced",
-				pos: "To be announced",
-				src: "/teams/placeholder.png",
-			},
-			{
-				name: "To be announced",
-				pos: "To be announced",
-				src: "/teams/placeholder.png",
-			},
-			{
-				name: "To be announced",
-				pos: "To be announced",
+				name: "Prisha Raghuram",
+				pos: "Member",
 				src: "/teams/placeholder.png",
 			},
 		],
-	}, */
+	}, 
 	{
 		title: "Research & Development",
 		href: "/team#rnd",
