@@ -128,9 +128,8 @@ export const councils: CouncilLink[] = [
 			src: "/councils/imf.png",
 			alt: "United Nations Security Council Logo",
 		},
-		topics: [
-			"Addressing Sino-Indian Aggressions",
-			"Efforts to Rid the World of Weapons of Mass Destruction Including Nuclear Weapons",
+			topics: [
+			"To be released",
 		],
 		bgs: [
 			{
