@@ -73,27 +73,16 @@ function RegisterPage() {
 							opacity: 0.8,
 						})}
 					>
-						NMS applicants are kindly requested to complete their application
-						process by filling out the Google Form. Additionally, it is
-						essential to print the provided consent form, carefully fill it with
-						the required information, and subsequently submit the signed consent
-						form, accompanied by a payment of 20 BHD, to their respective HRT.
-						Your adherence to this procedure ensures a seamless application
-						process.
+						NMS applicants are kindly requested to complete their application 
+						process by filling out the Google Form. Additionally, it is 
+						essential to print your google form response accompanied by a 
+						payment of 20 BHD, to their respective HRT. Your adherence to 
+						this procedure ensures a seamless application process.
 					</Paragraph>
-					<Animate animation={onScrollAnimation(av.FromLeft)}>
-						<Button
-							href="https://drive.google.com/file/d/1PGiSj_jH86DUrttfOQTucsJfcVZYUYV5/view"
-							className="mt-6 mb-12 justify-start"
-							animation
-							target="_blank"
-							disabled
-						>
-							Consent Form in the works
-						</Button>
-					</Animate>
 
-					<SubHeading animation={onScrollAnimation(av.FromLeft)}>
+					<SubHeading 
+						className="mt-4"
+						animation={onScrollAnimation(av.FromLeft)}>
 						Non-NMS Applicants
 					</SubHeading>
 					<Paragraph
@@ -314,17 +303,7 @@ function RegisterPage() {
 							className="mt-12"
 							animation
 						>
-							Applications for NMS Students
-						</Button>
-					</Animate>
-					<Animate animation={onScrollAnimation(av.FromLeft)}>
-						<Button
-							href="https://forms.gle/U89v8mHjhTgddzc87"
-							className="mt-12"
-							animation
-							disabled
-						>
-							Application to be announced
+							Applications for both NMS and non NMS Students
 						</Button>
 					</Animate>
 				</Details>

@@ -99,7 +99,7 @@ function InfoPage() {
 							target="_blank"
 							disabled
 						>
-							Allocations Doc
+							Coming soon
 						</Button>
 
 						<Button
@@ -109,7 +109,7 @@ function InfoPage() {
 							target="_blank"
 							disabled
 						>
-							Security & Runner Allocations
+							Coming soon
 						</Button>
 					</motion.div>
 				</Details>
@@ -139,7 +139,7 @@ function InfoPage() {
 							target="_blank"
 							disabled
 						>
-							NMMUN ROP
+							Coming soon
 						</Button>
 
 						<Button
@@ -149,7 +149,7 @@ function InfoPage() {
 							target="_blank"
 							disabled
 						>
-							Crisis ROP
+							Coming soon
 						</Button>
 					</motion.div>
 
@@ -175,7 +175,7 @@ function InfoPage() {
 							target="_blank"
 							disabled
 						>
-							Code of Conduct
+							Coming soon
 						</Button>
 					</motion.div>
 				</Details>
