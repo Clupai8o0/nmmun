@@ -190,7 +190,7 @@ function RegisterPage() {
 						<span className="underline font-bold">
 							Last Date for NMS applicants
 						</span>{" "}
-						- 11th September, 2024
+						- Closed
 					</Paragraph>
 					<Paragraph
 						animation={onScrollAnimation(av.FromLeft, {
@@ -207,8 +207,9 @@ function RegisterPage() {
 							href="https://forms.gle/DzrdayBH12kPoqBh7"
 							className="mt-12"
 							animation
+							disabled
 						>
-							Applications for NMS Students
+							Applications for NMS Students closed
 						</Button>
 					</Animate>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>

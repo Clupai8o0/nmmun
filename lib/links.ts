@@ -9,7 +9,8 @@ export const councils: CouncilLink[] = [
 		id: "unsc",
 		desc: [
 			"The United Nations Security Council (UNSC) is one of the most powerful and influential bodies within the United Nations, tasked with maintaining international peace and security. ", 
-			"As a MUN council, the UNSC provides delegates with a platform to address some of the most pressing global issues, ranging from conflicts and humanitarian crises to the proliferation of weapons of mass destruction. The council is characterized by high-stakes diplomacy, intense negotiations, and the need for swift, decisive action.",
+			"As a MUN council, the UNSC provides delegates with a platform to address some of the most pressing global issues, ranging from conflicts and humanitarian crises to the proliferation of weapons of mass destruction. The council is characterized by high-stakes diplomacy, intense negotiations, and the need for swift, decisive action. ",
+			"This council is an advanced council with it's own specialized procedures and special gimmicks, those picking this should be well versed with MUNs and debating.",
 		],
 		href: "/council/unsc",
 		icon: {
@@ -37,7 +38,8 @@ export const councils: CouncilLink[] = [
 		id: "cstd",
 		desc: [
 			"The United Nations Commission on Science and Technology for Development (CSTD) is a key body within the UN, tasked with guiding the international community in harnessing science and technology to foster sustainable development. ", 
-			"As a MUN council, the CSTD provides delegates with a unique platform to explore the intersection of innovation, technology, and development, addressing critical issues that affect both developed and developing nations.",
+			"As a MUN council, the CSTD provides delegates with a unique platform to explore the intersection of innovation, technology, and development, addressing critical issues that affect both developed and developing nations. ",
+			"This council is a beginner council and ideal for those who are new to MUNs or debating.",
 		],
 		href: "/council/cstd",
 		icon: {
@@ -65,7 +67,8 @@ export const councils: CouncilLink[] = [
 		id: "unhrc",
 		desc: [
 			"The United Nations Human Rights Council (UNHRC) is a critical body within the UN system responsible for promoting and protecting human rights around the world. ", 
-			"As a MUN council, the UNHRC provides delegates with a platform to address pressing human rights issues, investigate violations, and develop international norms and policies aimed at safeguarding the dignity and rights of individuals globally.",
+			"As a MUN council, the UNHRC provides delegates with a platform to address pressing human rights issues, investigate violations, and develop international norms and policies aimed at safeguarding the dignity and rights of individuals globally. ",
+			"This council is a beginner council and ideal for those who are new to MUNs or debating.",
 		],
 		href: "/council/unhrc",
 		icon: {
@@ -93,7 +96,8 @@ export const councils: CouncilLink[] = [
 		id: "unodc",
 		desc: [
 			"The United Nations Office on Drugs and Crime (UNODC) is a key agency within the UN system dedicated to addressing global challenges related to drugs, crime, terrorism, and corruption. ", 
-			"As a MUN council, the UNODC offers delegates the opportunity to engage with complex issues that threaten security, development, and human rights across the world. Delegates will work to develop strategies, policies, and international cooperation to combat these critical issues effectively.",
+			"As a MUN council, the UNODC offers delegates the opportunity to engage with complex issues that threaten security, development, and human rights across the world. Delegates will work to develop strategies, policies, and international cooperation to combat these critical issues effectively. ",
+			"This council is a beginner council and ideal for those who are new to MUNs or debating.",
 		],
 		href: "/council/unodc",
 		icon: {
@@ -121,7 +125,8 @@ export const councils: CouncilLink[] = [
 		id: "imf",
 		desc: [
 			"The International Monetary Fund (IMF) is a global financial institution dedicated to promoting international monetary cooperation, securing financial stability, facilitating international trade, promoting high employment and sustainable economic growth, and reducing poverty around the world. ", 
-			"As a MUN council, the IMF offers delegates the opportunity to engage with complex economic issues, formulate financial policies, and collaborate on strategies to support global economic stability and growth.",
+			"As a MUN council, the IMF offers delegates the opportunity to engage with complex economic issues, formulate financial policies, and collaborate on strategies to support global economic stability and growth. ",
+			"This council is an intermediate council and meant for those who are fairly experienced with MUNs or debating in general.",
 		],
 		href: "/council/imf",
 		icon: {
@@ -149,7 +154,8 @@ export const councils: CouncilLink[] = [
 		id: "unep",
 		desc: [
 			"TThe United Nations Environment Programme (UNEP) is the leading global environmental authority within the UN system, tasked with setting the global environmental agenda, promoting sustainable development, and encouraging the wise use of natural resources. ",
-			"As a MUN council, UNEP provides delegates with a platform to address pressing environmental challenges, formulate policies, and foster international cooperation aimed at protecting the planet for current and future generations.",
+			"As a MUN council, UNEP provides delegates with a platform to address pressing environmental challenges, formulate policies, and foster international cooperation aimed at protecting the planet for current and future generations. ",
+			"This council is a beginner council and ideal for those who are new to MUNs or debating.",
 		],
 		href: "/council/unep",
 		icon: {
@@ -177,7 +183,8 @@ export const councils: CouncilLink[] = [
 		id: "who",
 		desc: [
 			"The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health. The WHO's mission is to promote health, keep the world safe, and serve the vulnerable by addressing global health challenges. ", 
-			"As a MUN council, the WHO provides delegates with a platform to tackle pressing health issues, develop policies to improve global health, and coordinate international responses to health emergencies.",
+			"As a MUN council, the WHO provides delegates with a platform to tackle pressing health issues, develop policies to improve global health, and coordinate international responses to health emergencies. ",
+			"This council is a beginner council and ideal for those who are new to MUNs or debating.",
 		],
 		href: "/council/who",
 		icon: {
@@ -205,7 +212,8 @@ export const councils: CouncilLink[] = [
 		id: "icj",
 		desc: [
 			"The International Court of Justice (ICJ) is the principal judicial organ of the United Nations, tasked with settling legal disputes between states and providing advisory opinions on legal questions referred to it by authorized international organs and agencies. ", 
-			"As a MUN council, the ICJ offers delegates a unique opportunity to engage in legal analysis, interpret international law, and adjudicate complex disputes between nations, simulating the role of judges in the world’s highest court.",
+			"As a MUN council, the ICJ offers delegates a unique opportunity to engage in legal analysis, interpret international law, and adjudicate complex disputes between nations, simulating the role of judges in the world’s highest court. ",
+			"This council is an advanced council with it's own specialized procedures and special gimmicks, those picking this should be well versed with MUNs and debating.",
 		],
 		href: "/council/icj",
 		icon: {
@@ -233,7 +241,8 @@ export const councils: CouncilLink[] = [
 		id: "fifa",
 		desc: [
 			"The Fédération Internationale de Football Association (FIFA) is the global governing body for football (soccer), responsible for overseeing the organization and regulation of international competitions, setting the rules of the game, and promoting the sport worldwide. ", 
-			"As a MUN council, FIFA offers delegates the opportunity to engage in discussions and decision-making processes related to the management and development of football, addressing issues ranging from global tournaments to grassroots initiatives.",
+			"As a MUN council, FIFA offers delegates the opportunity to engage in discussions and decision-making processes related to the management and development of football, addressing issues ranging from global tournaments to grassroots initiatives. ",
+			"This council is an intermediate council and meant for those who are fairly experienced with MUNs or debating in general.",
 		],
 		href: "/council/fifa",
 		icon: {
@@ -261,7 +270,8 @@ export const councils: CouncilLink[] = [
 		id: "uncsw",
 		desc: [
 			"The United Nations Commission on the Status of Women (CSW) is the principal global intergovernmental body dedicated to promoting gender equality and the empowerment of women. ",
-			"As a MUN council, the CSW offers delegates the opportunity to engage in meaningful dialogue on issues affecting women and girls worldwide, shaping policies and recommendations that aim to advance gender equality and women’s rights.",
+			"As a MUN council, the CSW offers delegates the opportunity to engage in meaningful dialogue on issues affecting women and girls worldwide, shaping policies and recommendations that aim to advance gender equality and women’s rights. ",
+			"This council is an intermediate council and meant for those who are fairly experienced with MUNs or debating in general.",
 		],
 		href: "/council/uncsw",
 		icon: {
@@ -289,7 +299,8 @@ export const councils: CouncilLink[] = [
 		id: "hcc",
 		desc: [
 			"The Historical Crisis Council (HCC) is a dynamic and immersive MUN council that simulates historical crises and pivotal moments in history, requiring delegates to navigate complex political, military, and social challenges. ", 
-			"Unlike traditional MUN councils, the HCC focuses on past events, asking delegates to analyze and respond to crises as they unfolded, making decisions based on historical contexts and real-time developments.",
+			"Unlike traditional MUN councils, the HCC focuses on past events, asking delegates to analyze and respond to crises as they unfolded, making decisions based on historical contexts and real-time developments. ",
+			"This council is an advanced council with it's own specialized procedures and special gimmicks, those picking this should be well versed with MUNs and debating.",
 		],
 		href: "/council/hcc",
 		icon: {
@@ -317,7 +328,8 @@ export const councils: CouncilLink[] = [
 		id: "lok-sabha",
 		desc: [
 			"The Lok Sabha, or House of the People, is the lower house of India's Parliament, representing the will of the nation's citizens. It is a pivotal body in the legislative process, responsible for crafting, debating, and passing laws that impact the entire country. ",
-			"As a MUN council, the Lok Sabha provides delegates with a platform to engage in intense political debate, represent the diverse viewpoints of Indian states and constituencies, and navigate the complexities of parliamentary procedures.",
+			"As a MUN council, the Lok Sabha provides delegates with a platform to engage in intense political debate, represent the diverse viewpoints of Indian states and constituencies, and navigate the complexities of parliamentary procedures. ",
+			"This council is an intermediate council and meant for those who are fairly experienced with MUNs or debating in general.",
 		],
 		href: "/council/lok-sabha",
 		icon: { src: "/councils/lok-sabha.png", alt: "lok sabha Logo" },
@@ -342,7 +354,8 @@ export const councils: CouncilLink[] = [
 		id: "jcc",
 		desc: [
 			"The Joint Crisis Council (JCC) is an advanced MUN council designed to simulate complex, multi-faceted crises requiring coordinated responses from various entities. It combines elements of diplomacy, security, and humanitarian response, bringing together multiple councils or teams to address a single, overarching crisis. ", 
-			"Delegates work collaboratively and strategically across different areas of expertise to manage and resolve the crisis effectively.",
+			"Delegates work collaboratively and strategically across different areas of expertise to manage and resolve the crisis effectively. ",
+			"This council is an advanced council with it's own specialized procedures and special gimmicks, those picking this should be well versed with MUNs and debating.",
 		],
 		href: "/council/jcc",
 		icon: {
@@ -370,7 +383,8 @@ export const councils: CouncilLink[] = [
 		id: "suits",
 		desc: [
 			"It is a fictional MUN council inspired by the television series 'Suits.' ", 
-			"This council simulates the high-stakes, dramatic world of corporate law, where delegates take on roles as top attorneys, clients, and judges navigating complex legal cases, negotiations, and corporate disputes. The council combines elements of legal strategy, courtroom drama, and corporate intrigue to create an engaging and dynamic simulation.",
+			"This council simulates the high-stakes, dramatic world of corporate law, where delegates take on roles as top attorneys, clients, and judges navigating complex legal cases, negotiations, and corporate disputes. The council combines elements of legal strategy, courtroom drama, and corporate intrigue to create an engaging and dynamic simulation. ",
+			"This council is an advanced council with it's own specialized procedures and special gimmicks, those picking this should be well versed with MUNs and debating.",
 		],
 		href: "/council/suits",
 		icon: {
