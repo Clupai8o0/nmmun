@@ -577,7 +577,7 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Devansh V Sharma",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/devansh.png",
 			},
 		],
 	},
@@ -601,6 +601,16 @@ export const teamLinks: TeamLink[] = [
 				name: "Prisha Raghuram",
 				pos: "Member",
 				src: "/teams/prisha.png",
+			},
+			{
+				name: "Vishakha Sharma",
+				pos: "Member",
+				src: "/teams/vishakha.png",
+			},
+			{
+				name: "Nidhi Nambiar",
+				pos: "Member",
+				src: "/teams/nidhi.png",
 			},
 		],
 	}, 

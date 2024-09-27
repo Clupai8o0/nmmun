@@ -290,7 +290,7 @@ function RegisterPage() {
 						<span className="underline font-bold">
 							Last Date for NMS applicants
 						</span>{" "}
-						- 26th September, 2024
+						- To be announced
 					</Paragraph>
 					<Paragraph animation={onScrollAnimation(av.FromLeft)}>
 						<span className="underline font-bold">
