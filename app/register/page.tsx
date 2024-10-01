@@ -200,7 +200,7 @@ function RegisterPage() {
 						<span className="underline font-bold">
 							Last Date for non NMS applicants
 						</span>{""}
-						- To be announced
+						- 12th October 2024
 					</Paragraph>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 						<Button
@@ -214,12 +214,11 @@ function RegisterPage() {
 					</Animate>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 					<Button
-							href="https://forms.gle/DzrdayBH12kPoqBh7"
+							href="https://forms.gle/2AQDvS9oeeefQcLP9"
 							className="mt-12"
 							animation
-							disabled
 						>
-							Application for non NMS Students in the works
+							Non-NMS Student Applications Now Open
 						</Button>
 					</Animate>
 				</Details>
@@ -304,7 +303,7 @@ function RegisterPage() {
 							className="mt-12"
 							animation
 						>
-							Applications for both NMS and non NMS Students
+							NMS and Non-NMS Student Applications Now Open
 						</Button>
 					</Animate>
 				</Details>
@@ -387,12 +386,11 @@ function RegisterPage() {
 					</Paragraph>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 						<Button
-							href="https://forms.gle/3Jc3ZANZPAEBmtVDA"
+							href="https://forms.gle/HTRZFiax6dXv3e9A9"
 							className="mt-12"
 							animation
-							disabled
 						>
-							Application to be announced
+							NMS and Non-NMS Student Applications Now Open
 						</Button>
 					</Animate>
 				</Details>
