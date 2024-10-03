@@ -370,7 +370,7 @@ function RegisterPage() {
 					</SubHeading>
 					<List
 						elements={[
-							"The application is only open to students of Grades X-XII.",
+							"The application is only open to NMS students of Grades X-XII.",
 							"Interviews will be held in person at New Millennium School or online via Google Meets.",
 							"Applicants are requested to check their emails regularly for further updates.",
 						]}
