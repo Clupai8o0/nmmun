@@ -390,7 +390,7 @@ function RegisterPage() {
 							className="mt-12"
 							animation
 						>
-							NMS and Non-NMS Student Applications Now Open
+							NMS Applications Now Open
 						</Button>
 					</Animate>
 				</Details>
