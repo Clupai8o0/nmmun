@@ -18,7 +18,8 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Addressing the threat of Cyber warfare and ensuring international cyber security.",
+			"Maintaining failsafe and contingencies for nuclear, chemical or biochemical attacks.",
 		],
 		bgs: [
 			{
@@ -28,7 +29,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Agrima Kalra",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Siddharth Ramesh",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -47,7 +52,8 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Promoting digital inclusion and bridging the digital divide in developing countries",
+			"Balancing privacy and security in the era of digital surveillance.",
 		],
 		bgs: [
 			{
@@ -57,7 +63,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Ameya Iyer",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Joshua Tiji",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -76,7 +86,8 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Freedom of Speech vs Hate Speech, defining the boundaries and protecting human dignity.",
+			"Securing sanctuary: Upholding the rights of displace populations in an era of global upheaval.",
 		],
 		bgs: [
 			{
@@ -86,7 +97,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Deeksha Singh",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Vedavathy Venu Thonnakkal",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -105,7 +120,8 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"The Grass is Greener: Reconciling Cannabis legalisation with international drug control framework",
+			"Connecting the dots: Addressing the intersections, between organized crime, corruption and human trafficking",
 		],
 		bgs: [
 			{
@@ -115,7 +131,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Rohan Atul Singhvi",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Nayonika Nair",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -134,17 +154,22 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Investor state dispute settlement mechanisms: Evaluating the Legitimacy and National Sovereignty.",
+			"Addressing the Global Debt Crisis.",
 		],
 		bgs: [
 			{
-				title: "Background Guide",
-				url: "https://drive.google.com/file/d/18WtCMTKBncpHlk8N66J0pk83GwL0J_Wd/view?usp=drive_link",
+				title: "Background Guide in the works",
+				url: "#",
 			},
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Aayush Mehta",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Gayathri Sangisetti",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -163,7 +188,7 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations environment programs Logo",
 		},
 		topics: [
-			"To be released",
+			"Shaping a Sustainable Future: Youth Voices in the Global Environment Agenda.",
 		],
 		bgs: [
 			{
@@ -173,7 +198,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Hibah Abdul Kareem",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Samhitha Jagadish",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -192,7 +221,8 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Balancing public health and personal freedom, navigating the ethical dilemma of mandatory vaccination policies.",
+			"Providing Healthcare to war-torn countries or countries during war.",
 		],
 		bgs: [
 			{
@@ -202,7 +232,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Noel Emmanuel Binu",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Radhika Ganesan",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -221,7 +255,7 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Republic of the Congo vs Belgium Republic of the Congo vs Belgium",
 		],
 		bgs: [
 			{
@@ -231,7 +265,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Ishaan V Binesh",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Shiven Thareja",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -250,7 +288,8 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Auctioning",
+			"Addressing the problems of racism, sexual abuse and discrimination in football.",
 		],
 		bgs: [
 			{
@@ -260,7 +299,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Anirudh Sachin Nair",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Avran Mathew Thomas",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -279,7 +322,8 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations commission on the status of women Logo",
 		},
 		topics: [
-			"To be released",
+			"Empowering women in STEM.",
+			"Cultural relativism vs Universal woman’s rights: Respecting traditions or upholding human rights?",
 		],
 		bgs: [
 			{
@@ -289,7 +333,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Riddhi Mayur",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Ayana Jaiswal",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -308,7 +356,7 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Chernobyl",
 		],
 		bgs: [
 			{
@@ -318,7 +366,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Anne Devassy",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Prapti Dey",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -332,9 +384,13 @@ export const councils: CouncilLink[] = [
 			"This council is an intermediate council and meant for those who are fairly experienced with MUNs or debating in general.",
 		],
 		href: "/council/lok-sabha",
-		icon: { src: "/councils/lok-sabha.png", alt: "lok sabha Logo" },
+		icon: { 
+			src: "/councils/lok-sabha.png", 
+			alt: "lok sabha Logo" 
+		},
 		topics: [
-			"To be released",
+			"Rewriting the rules, modernizing India’s electoral landscape",
+			"Uniform Civil Code",
 		],
 		bgs: [
 			{
@@ -344,7 +400,7 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Sreechaitra M.S",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -363,7 +419,7 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Russia-Ukraine Crisis",
 		],
 		bgs: [
 			{
@@ -373,7 +429,19 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Zoraiz Al Raz",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Sreyas Sreevalsan",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Mihir Anand Pappu",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Inushka Ananth",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
@@ -392,7 +460,7 @@ export const councils: CouncilLink[] = [
 			alt: "United Nations Security Council Logo",
 		},
 		topics: [
-			"To be released",
+			"Grassroots to the Global Stage: Localising Solutions to Global Challenges",
 		],
 		bgs: [
 			{
@@ -402,7 +470,11 @@ export const councils: CouncilLink[] = [
 		],
 		members: [
 			{
-				name: "Upcoming Chair",
+				name: "Nikhil Nandi",
+				src: "/councils/chairs/placeholder.png",
+			},
+			{
+				name: "Darsh Thareja",
 				src: "/councils/chairs/placeholder.png",
 			},
 		],
