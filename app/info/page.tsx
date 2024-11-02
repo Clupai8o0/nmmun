@@ -109,7 +109,7 @@ function InfoPage() {
 							target="_blank"
 							
 						>
-							Secretary allocations
+							Security and Runner Allocations
 						</Button>
 					</motion.div>
 				</Details>
