@@ -125,8 +125,8 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/1Lgji_fFg0zPkEiJRfybgDjUbkk9OACh9/view",
 			},
 		],
 		members: [
@@ -226,8 +226,8 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/1Zb5X5iYuQ7574wuBHaJGJJeSH0soEnrE/view",
 			},
 		],
 		members: [
@@ -423,8 +423,8 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/1Noe6tZJw3rdkAmrP7vqdRJCh6vPurywj/view",
 			},
 		],
 		members: [
