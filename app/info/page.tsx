@@ -93,23 +93,23 @@ function InfoPage() {
 						{...onScrollAnimation(av.FromLeft)}
 					>
 						<Button
-							href="https://drive.google.com/file/d/186NDyprRwU2J1_RnGi4sGeumMIgQp4Vw/view?usp=sharing"
+							href="https://drive.google.com/file/d/1MgUO6GSv7WVhl9S88_qawshsRx-qDRr2/view?usp=sharing"
 							className="justify-start"
 							animation
 							target="_blank"
-							disabled
+							
 						>
-							Coming soon
+							Delegate Allocations
 						</Button>
 
 						<Button
-							href="https://drive.google.com/file/d/1OTNAaC7nz0bAuAEqOPuM_mC-5Kr3nz_5/view?usp=sharing"
+							href="https://drive.google.com/file/d/1KUm4i_Mh_Hpa6SwVitRyWi5ApqMANboT/view?usp=sharing"
 							className="justify-start"
 							animation
 							target="_blank"
-							disabled
+							
 						>
-							Coming soon
+							Secretary allocations
 						</Button>
 					</motion.div>
 				</Details>
