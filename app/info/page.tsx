@@ -133,24 +133,15 @@ function InfoPage() {
 						{...onScrollAnimation(av.FromLeft)}
 					>
 						<Button
-							href="https://drive.google.com/file/d/1G9Vd54WJ-OWGQIu1gIxBTHgJzu_siE4q/view?usp=sharing"
+							href="https://drive.google.com/file/d/1Bzm2gIJgnPcLRm9m9smKHD-Jl4iHlK3D/view"
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
-							disabled
+							
 						>
-							Coming soon
+							Rules of Procedure
 						</Button>
 
-						<Button
-							href="https://drive.google.com/file/d/1gmpq_rD97OObd9hA0SDLK05FWLfTKoYA/view?usp=sharing"
-							className="mt-6 mb-12 justify-start"
-							animation
-							target="_blank"
-							disabled
-						>
-							Coming soon
-						</Button>
 					</motion.div>
 
 					<Heading className="mt-8" animation={onScrollAnimation(av.FromLeft)}>
@@ -169,13 +160,13 @@ function InfoPage() {
 						{...onScrollAnimation(av.FromLeft)}
 					>
 						<Button
-							href="https://drive.google.com/file/d/17vB7Kj5mLbXobuKwgLvmoOTG2NH-d80W/view?usp=sharing"
+							href="https://drive.google.com/file/d/1VkBRo8y9DVINLIolCW85iLu93DUcNIj0/view"
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
-							disabled
+							
 						>
-							Coming soon
+							Code of Conduct
 						</Button>
 					</motion.div>
 				</Details>
