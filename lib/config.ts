@@ -8,12 +8,9 @@ export const isDevelopment = () => status === "DEVELOPMENT"; //* check project s
 
 //* banner content states (banner doesn't appear unless content is there)
 export const banner: EventStates = {
-	beforeEvent: "The website is in heavy development so if you find any bugs, please don't hesitate to contact us.", //todo: test it out if you like
-	// beforeEvent:
-	// 	"NMMUN 2024 registrations are open. Join us quickly before the deadline!!",
+	beforeEvent: "Curious about your role in the upcoming MUN conference? Check out the Allocations page under the Information tab!",
 	duringEvent: "NMMUN 2024 has started. We wish all the very best!!",
-	afterEvent:
-		"NMMUN 2024 is over. Thank you for joining and we hope to see you next year!!",
+	afterEvent: "NMMUN 2024 is over. Thank you for joining and we hope to see you next year!!",
 };
 
 //* Hero text

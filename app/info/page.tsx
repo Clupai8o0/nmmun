@@ -137,7 +137,6 @@ function InfoPage() {
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
-							disabled
 						>
 							Rules of Procedure
 						</Button>
@@ -164,7 +163,6 @@ function InfoPage() {
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
-							disabled
 						>
 							Code of Conduct
 						</Button>

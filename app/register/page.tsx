@@ -209,7 +209,7 @@ function RegisterPage() {
 							animation
 							disabled
 						>
-							Applications for NMS Students closed
+							Applications closed
 						</Button>
 					</Animate>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
@@ -219,7 +219,7 @@ function RegisterPage() {
 							animation
 							disabled
 						>
-							Applications for non NMS students closed
+							Applications closed
 						</Button>
 					</Animate>
 				</Details>
@@ -290,21 +290,22 @@ function RegisterPage() {
 						<span className="underline font-bold">
 							Last Date for NMS applicants
 						</span>{" "}
-						- To be announced
+						- Closed
 					</Paragraph>
 					<Paragraph animation={onScrollAnimation(av.FromLeft)}>
 						<span className="underline font-bold">
 							Last Date for non NMS applicants
 						</span>{" "}
-						- To be announced
+						- Closed
 					</Paragraph>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 						<Button
 							href="https://forms.gle/DHdTfJqs7SQc4YyVA"
 							className="mt-12"
 							animation
+							disabled
 						>
-							NMS and Non-NMS Student Applications Now Open
+							Applications closed
 						</Button>
 					</Animate>
 				</Details>

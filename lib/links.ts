@@ -23,14 +23,14 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/186YqKsN-mJmp2vOIMeI7AW7IPOUmNHCp/view",
 			},
 		],
 		members: [
 			{
 				name: "Agrima Kalra",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/agrima.png",
 			},
 			{
 				name: "Siddharth Ramesh",
@@ -57,14 +57,14 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/1VFsanNnhsUTmv2DWrxAutXHBRjM4TcT-/view",
 			},
 		],
 		members: [
 			{
 				name: "Ameya Iyer",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/ameya.png",
 			},
 			{
 				name: "Joshua Tiji",
@@ -91,18 +91,18 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://docs.google.com/document/d/1QmrYxT4A0o4f0E2tVQSaWjLI9CFcTIdY/edit?usp=drive_link&ouid=108012744093641750260&rtpof=true&sd=true",
 			},
 		],
 		members: [
 			{
 				name: "Deeksha Singh",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/deeksha.png",
 			},
 			{
 				name: "Vedavathy Venu Thonnakkal",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/vedavathy.png",
 			},
 		],
 	},
@@ -132,11 +132,11 @@ export const councils: CouncilLink[] = [
 		members: [
 			{
 				name: "Rohan Atul Singhvi",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/rohan.png",
 			},
 			{
 				name: "Nayonika Nair",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/nayonika.png",
 			},
 		],
 	},
@@ -159,18 +159,22 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Topic 1 Background Guide",
+				url: "https://drive.google.com/file/d/1GHvsRlR_BmKyfKN_Ni5RtpZ8QzzwY7e-/view",
+			},
+			{
+				title: "Topic 2 Background Guide",
+				url: "https://drive.google.com/file/d/19x-qcC3uG8_7cQLfc_0bRTXEdNC417y3/view",
 			},
 		],
 		members: [
 			{
 				name: "Aayush Mehta",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/aayush.png",
 			},
 			{
 				name: "Gayathri Sangisetti",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/gayathri.png",
 			},
 		],
 	},
@@ -192,18 +196,18 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/1ykbhOBLw7LgAeaH69hKyBWjAJ-8k8_Wp/view",
 			},
 		],
 		members: [
 			{
 				name: "Hibah Abdul Kareem",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/hibah.png",
 			},
 			{
 				name: "Samhitha Jagadish",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/samhitha.png",
 			},
 		],
 	},
@@ -233,11 +237,11 @@ export const councils: CouncilLink[] = [
 		members: [
 			{
 				name: "Noel Emmanuel Binu",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/noel.png",
 			},
 			{
 				name: "Radhika Ganesan",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/radhika.png",
 			},
 		],
 	},
@@ -259,18 +263,18 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/1Xo3hE3HMX-vsgf66bvM8aBwYz_gLIr5L/view",
 			},
 		],
 		members: [
 			{
 				name: "Ishaan V Binesh",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/ishaan.png",
 			},
 			{
 				name: "Shiven Thareja",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/shiven.png",
 			},
 		],
 	},
@@ -293,18 +297,18 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/1GC9H_qp_7nUat4OskswdTiCywarMe0Yw/view",
 			},
 		],
 		members: [
 			{
 				name: "Anirudh Sachin Nair",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/anirudh.png",
 			},
 			{
 				name: "Avran Mathew Thomas",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/avran.png",
 			},
 		],
 	},
@@ -327,18 +331,18 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/1rPZAe3oA60U4pjoejYEjIRjAaLp0PRY3/view",
 			},
 		],
 		members: [
 			{
 				name: "Riddhi Mayur",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/riddhi.png",
 			},
 			{
 				name: "Ayana Jaiswal",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/ayana.png",
 			},
 		],
 	},
@@ -360,8 +364,8 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide in the works",
-				url: "#",
+				title: "Background Guide",
+				url: "https://drive.google.com/file/d/1lEdpxNPZtq3cJbqr5hjTXfI5fZRDUdGh/view",
 			},
 		],
 		members: [
@@ -401,7 +405,7 @@ export const councils: CouncilLink[] = [
 		members: [
 			{
 				name: "Sreechaitra M.S",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/sreechaitra.png",
 			},
 		],
 	},
@@ -423,18 +427,22 @@ export const councils: CouncilLink[] = [
 		],
 		bgs: [
 			{
-				title: "Background Guide",
+				title: "Russian side Background Guide",
 				url: "https://drive.google.com/file/d/1Noe6tZJw3rdkAmrP7vqdRJCh6vPurywj/view",
+			},
+			{
+				title: "Ukraine side Background Guide",
+				url: "https://drive.google.com/file/d/1kaEuRbhFzs_-MRz2jEkGWLkjmAddc67e/view",
 			},
 		],
 		members: [
 			{
 				name: "Zoraiz Al Raz",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/zoraiz.png",
 			},
 			{
 				name: "Sreyas Sreevalsan",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/sreyas.png",
 			},
 			{
 				name: "Mihir Anand Pappu",
@@ -637,11 +645,6 @@ export const teamLinks: TeamLink[] = [
 				src: "/teams/nathania.png",
 			},
 			{
-				name: "Gayatri Sharma",
-				pos: "Member",
-				src: "/teams/gayatri.png",
-			},
-			{
 				name: "Dhiyashree Dhinesh",
 				pos: "Member",
 				src: "/teams/dhiyashree.png",
@@ -650,6 +653,11 @@ export const teamLinks: TeamLink[] = [
 				name: "Devansh V Sharma",
 				pos: "Member",
 				src: "/teams/devansh.png",
+			},
+			{
+				name: "Nadiya Abid Hussain",
+				pos: "Member",
+				src: "/teams/placeholder.png",
 			},
 		],
 	},
@@ -665,9 +673,14 @@ export const teamLinks: TeamLink[] = [
 				src: "/teams/arya.png",
 			},
 			{
-				name: "Barani Balaji",
+				name: "Gayatri Sharma",
 				pos: "Member",
-				src: "/teams/barani.png",
+				src: "/teams/gayatri.png",
+			},
+			{
+				name: "Muhammed Zahin",
+				pos: "Member",
+				src: "/teams/placeholder.png",
 			},
 			{
 				name: "Prisha Raghuram",
