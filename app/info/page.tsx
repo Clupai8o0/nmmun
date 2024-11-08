@@ -93,7 +93,7 @@ function InfoPage() {
 						{...onScrollAnimation(av.FromLeft)}
 					>
 						<Button
-							href="https://docs.google.com/spreadsheets/d/1k0_su8xk4_B9fx0tGRCg-rZRAg_n8Eay/edit?usp=sharing&ouid=108012744093641750260&rtpof=true&sd=true"
+							href="https://drive.google.com/file/d/1dbF8wQGEVb9_8X0HfmaG5UGricsGjB9H/view"
 							className="justify-start"
 							animation
 							target="_blank"
