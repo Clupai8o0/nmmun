@@ -140,6 +140,14 @@ function InfoPage() {
 						>
 							Rules of Procedure
 						</Button>
+						<Button
+							href="https://docs.google.com/document/d/1-_a4YMIKyBn6ibaMVL5S_FqFeJfmt396/edit?usp=sharing&ouid=108012744093641750260&rtpof=true&sd=true"
+							className="mt-6 mb-12 justify-start"
+							animation
+							target="_blank"
+						>
+							Crisis Rules of Procedure
+						</Button>
 
 					</motion.div>
 
