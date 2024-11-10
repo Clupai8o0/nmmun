@@ -384,15 +384,16 @@ function RegisterPage() {
 						<span className="underline font-bold">
 							Last Date for applicants
 						</span>{" "}
-						- To be announced
+						- Closed
 					</Paragraph>
 					<Animate animation={onScrollAnimation(av.FromLeft)}>
 						<Button
 							href="https://forms.gle/HTRZFiax6dXv3e9A9"
 							className="mt-12"
 							animation
+							disabled
 						>
-							NMS and non NMS Applications Now Open
+							Applications closed
 						</Button>
 					</Animate>
 				</Details>
