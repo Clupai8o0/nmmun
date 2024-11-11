@@ -29,16 +29,77 @@ export const eventDateInWords = "15th & 16th November, 2024";
 //* Itinerary
 export const itineraryDay1 = [
 	{
-		time: "Stay tuned!",
-		name: "To be announced"
-		time: "Stay tuned!",
-		name: "To be announced"
+		time: "8:00-8:45 a.m.",
+		name: "Registration",
 	},
+	{
+		time: "8:45-9:30 a.m.",
+		name: "Opening Ceremony",
+	},
+	{
+		time: "9:30-9:45 a.m.",
+		name: "Breakfast (In Council)",
+	},
+	{
+		time: "9:45-12:30 p.m.",
+		name: "Council Session One",
+	},
+	{
+		time: "12:30-2:00 p.m.",
+		name: "Lunch Break",
+	},
+	{
+		time: "2:00-4:00 p.m.",
+		name: "Council Session Two",
+	},
+	{
+		time: "4:00-4:15 p.m.",
+		name: "Snacks Break",
+	},
+	{
+		time: "4:15-5:00 p.m.",
+		name: "Council Session Three",
+	},
+	{
+		time: "End",
+	},
+
 ];
 export const itineraryDay2 = [
 	{
-		time: "Stay tuned!",
-		name: "To be announced"
+		time: "8:00-10:00 a.m.",
+		name: "Council Session Four",
+	},
+	{
+		time: "10:00-10:30 a.m.",
+		name: "Breakfast (In Council)",
+	},
+	{
+		time: "10:30-12:30 p.m.",
+		name: "Council Session Five",
+	},
+	{
+		time: "12:30-2:00 p.m.",
+		name: "Lunch Break",
+	},
+	{
+		time: "2:00-3:30 p.m.",
+		name: "Council Session Six",
+	},
+	{
+		time: "3:30-3:45 p.m.",
+		name: "Snacks Break",
+	},
+	{
+		time: "3:45-4:45 p.m.",
+		name: "Council Session Seven",
+	},
+	{
+		time: "4:45-6:00 p.m.",
+		name: "Closing Ceremony",
+	},
+	{
+		time: "end",
 	},
 ];
 
