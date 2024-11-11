@@ -31,6 +31,8 @@ export const itineraryDay1 = [
 	{
 		time: "Stay tuned!",
 		name: "To be announced"
+		time: "Stay tuned!",
+		name: "To be announced"
 	},
 ];
 export const itineraryDay2 = [
