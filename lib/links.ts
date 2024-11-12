@@ -662,12 +662,12 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Abhiram Senthilkumar",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/abhiram.png",
 			},
 			{
 				name: "Abhijith Roseben Pradeep",
 				pos: "Member",
-				src: "/teams/placeholder.png",
+				src: "/teams/abhijith.png",
 			},
 		],
 	},
