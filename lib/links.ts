@@ -657,6 +657,16 @@ export const teamLinks: TeamLink[] = [
 			{
 				name: "Nadiya Abid Hussain",
 				pos: "Member",
+				src: "/teams/nadiya.png",
+			},
+			{
+				name: "Abhiram Senthilkumar",
+				pos: "Member",
+				src: "/teams/placeholder.png",
+			},
+			{
+				name: "Abhijith Roseben Pradeep",
+				pos: "Member",
 				src: "/teams/placeholder.png",
 			},
 		],
