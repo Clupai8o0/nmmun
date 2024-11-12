@@ -34,7 +34,7 @@ export const councils: CouncilLink[] = [
 			},
 			{
 				name: "Siddharth Ramesh",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/sid.png",
 			},
 		],
 	},
@@ -371,7 +371,7 @@ export const councils: CouncilLink[] = [
 		members: [
 			{
 				name: "Anne Devassy",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/anne.png",
 			},
 			{
 				name: "Prapti Dey",
@@ -446,11 +446,11 @@ export const councils: CouncilLink[] = [
 			},
 			{
 				name: "Mihir Anand Pappu",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/mihir.png",
 			},
 			{
 				name: "Inushka Ananth",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/inushka.png",
 			},
 		],
 	},
@@ -479,11 +479,11 @@ export const councils: CouncilLink[] = [
 		members: [
 			{
 				name: "Nikhil Nandi",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/nikhil.png",
 			},
 			{
 				name: "Darsh Thareja",
-				src: "/councils/chairs/placeholder.png",
+				src: "/councils/chairs/darsh.png",
 			},
 		],
 	},

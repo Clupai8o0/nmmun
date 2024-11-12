@@ -99,13 +99,14 @@ export const itineraryDay2 = [
 		name: "Closing Ceremony",
 	},
 	{
-		time: "end",
+		time: "End",
 	},
 ];
 
 //* Dress code
 export const dressCodeMen = [
 	"All participants must ensure that they are in formal attire.",
+	"Attendees in grades 6-8 may wear a formal shirt, trousers, and tie should a suitably sized suit jacket not be available.",
 	"No T-shirts are allowed under the suit jacket, only formal shirts.",
 	"Ties must not have any informal prints on them and must be tied neatly.",
 	"Dress pants only. No jeans or shorts of any kind.",
@@ -117,6 +118,7 @@ export const dressCodeWomen = [
 	"Suits must be neat and formal and must not have informal prints of any kind.",
 	"Informal dresses are not permitted. Formal dresses along with a blazer (optional) only.",
 	"Kindly wear formal pants/skirts only. Skirt length must reach the knees; otherwise, you will not be allowed to enter the conference.",
+	"Sleeveless blouses are not permitted",
 	"Refrain from wearing fluorescent/neon colors.",
 	"Dress pants only. No jeans or shorts of any kind.",
 	"Dress shoes and heels are permitted. No sneakers or sandals are allowed.",
