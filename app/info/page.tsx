@@ -93,7 +93,7 @@ function InfoPage() {
 						{...onScrollAnimation(av.FromLeft)}
 					>
 						<Button
-							href="https://drive.google.com/file/d/1dbF8wQGEVb9_8X0HfmaG5UGricsGjB9H/view"
+							href="https://drive.google.com/file/d/1jYIpqE064SD_bVpMxsy8D8PD1GpRth7a/view"
 							className="justify-start"
 							animation
 							target="_blank"
@@ -167,7 +167,7 @@ function InfoPage() {
 						{...onScrollAnimation(av.FromLeft)}
 					>
 						<Button
-							href="https://drive.google.com/file/d/1VkBRo8y9DVINLIolCW85iLu93DUcNIj0/view"
+							href="https://drive.google.com/file/d/1-qXMKhHf4MIvsXGWw3T5fnFNqK0W3g1e/view"
 							className="mt-6 mb-12 justify-start"
 							animation
 							target="_blank"
