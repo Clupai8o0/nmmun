@@ -203,7 +203,7 @@ export const councils: CouncilLink[] = [
 		members: [
 			{
 				name: "Hibah Abdul Kareem",
-				src: "/councils/chairs/hibah.png",
+				src: "/councils/chairs/placeholder.png",
 			},
 			{
 				name: "Samhitha Jagadish",
