@@ -1,176 +1,100 @@
-# !!!
+# NMMUN — New Millennium Model United Nations 2024-25
 
-Forked from https://github.com/clupai8o0/nmmun.
-This repo is for 2024-2025 NMMUN.
-So much work was put into this website by @cupai8o0 and team. It was obvious to carry it forward to the next batch.❤️💯
+Explore the world of diplomacy and global affairs with the New Millennium Model United Nations Conference. This site presents the 2024-2025 event: councils, schedules, registration guidance, and team profiles, built with Next.js for a smooth, animated, and SEO-aware experience.
 
-# NMMUN
+## What it does
+- Publishes event information, dress code, itineraries, and rules of procedure.
+- Highlights councils and chair details with per-council background guides.
+- Guides delegates, chairs, runners, and security through registration steps and timelines.
+- Shares media, contact points, and location details for the conference.
 
-Explore the world of diplomacy and global affairs with the New Millennium Model United Nations Conference. Engage in debates, draft resolutions, and broaden your horizons. Join us for an educational journey that shapes future leaders. This is a web project for NMMUN, built using Next.js to be aesthetically pleasing, smooth, and SEO friendly. Targeted towards the NMMUN participants, any alterations are to be made only by the IT team of that year's NMMUN after being approved by the Organizing Committee and Design Team.
+## Key features
+- **Data-driven content:** Navigation, councils, teams, table-of-content blocks, and cards are driven from `lib/links.ts`; hero and banner copy, event schedule, itineraries, and dress code live in `lib/config.ts`.
+- **Event awareness:** Countdown timer and call-to-action behavior use `useTime` plus `eventDate`/`eventEndDate` settings to show the right state before, during, and after the event.
+- **Rich sections per page:** Councils list with per-council detail routes (`/council/[id]`), info page with itinerary timelines and dress code checklists, register page with payment guidance and Google Form links, contact page with map/embed and direct channels, and gallery/team pages wired for media and profile grids.
+- **Animations and UI:** Framer Motion-driven transitions, Embla-based hero carousel, shadcn/ui components (Radix primitives), Tailwind CSS theme tokens, and Lucide icons for consistent styling.
+- **SEO helpers:** `lib/metadata.ts` centralizes Open Graph/Twitter metadata generation for each route.
+- **Legacy continuity:** Forked from the 2023 build by @Clupai8o0 and team, carried forward for the 2024-2025 batch with the same component system.
 
-## Table of Content
+## Tech stack
+- Next.js 14 (App Router) with React 18 and TypeScript.
+- Tailwind CSS with shadcn/ui (Radix UI), tailwind-merge, and tailwindcss-animate.
+- Framer Motion for animations; Embla carousel (+ autoplay) for hero slides.
+- Lucide React icons, clsx, class-variance-authority, cmdk utilities.
 
-- [Prerequisite](#prerequisite)
-- [About this project](#about-this-project)
-- [Installation](#installation)
-- [Development Setup](#development-setup)
-- [Project Structure](#project-structure)
-- [Configurations](#configurations)
-- [Components](#components)
-- [Layouts](#layouts)
-- [Styling](#styling)
-- [Animation](#animation)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [Additional Resources](#additional-resources)
-- [Contact Information](#contact-information)
-
-## Prerequisite
-
-- Basic knowledge in HTML, CSS, and JS
-- Some knowledge in React.js
-- At least one web project
-- Completed TODO.md
-
-## About this Project
-
-This project is built using [Next.js](https://nextjs.org/). Though experience in Next.js isn't required as [React.js](https://react.dev/) (or JavaScript) knowledge should be enough to make basic changes. Big changes on the other hand, like adding new pages and routes requires experience in Next.js. In that situation, I would recommend this [tutorial](https://youtu.be/wm5gMKuwSYk?si=9tTceNfV_CIPP4Ka). If you lack experience in React.js as well watch this [tutorial](https://youtu.be/b9eMGE7QtTk?si=-T_NzTsGCF6_wIdH).
-
-## Installation
-
-Download [Git](https://git-scm.com/downloads) & [Node.js](https://nodejs.org/en), and follow the procedure to install them. Once you do, open git bash or any terminal of your choice, in your desired folder, then clone the repo, and install the dependencies.
+## Architecture overview
+- `app/`: Route handlers and pages (home, councils, council/[id], gallery, info, register, team, contact) plus global styles and root layout.
+- `components/`: Reusable content (Hero, FAQ, Timer, Timeline), layouts (BaseLayout, Container, Background), navigation (Navbar, CTA, TableOfContent, Sidebar), typography primitives, and shadcn/ui elements.
+- `hooks/useTime.ts`: Event-aware countdown and state helpers.
+- `lib/`: Configuration for event copy/timing (`config.ts`), navigation/council/team/link data (`links.ts`), metadata generation (`metadata.ts`), animations, types, and utilities.
+- `public/`: Static assets (hero imagery, council/team badges, icons).
 
 ```
-git clone https://github.com/<your username>/nmmun.git
+app/
+  page.tsx (home)
+  councils/, council/[id]/, gallery/, info/, register/, team/, contact/
+components/
+  content/, layouts/, navigation/, typography/, ui/
+lib/
+  config.ts, links.ts, metadata.ts, animations.ts, types.ts, utils.ts
+```
+
+## Getting started (local)
+
+### Prerequisites
+- Node.js >= 18.7, npm, and Git.
+- Working knowledge of HTML/CSS/JS; React familiarity helps for page-level changes.
+- Review `TODO.md` and existing conventions before contributing.
+
+### Install
+```bash
+git clone https://github.com/<your-username>/nmmun.git
 cd nmmun
 npm install
 ```
 
-## Development Setup
-
-Open the folder in your desired code editor. Create a file .env.local ()
-
-```powershell
+### Environment variables
+Create `.env.local` to control environment-aware behavior:
+```bash
 NEXT_PUBLIC_STATUS=DEVELOPMENT
 ```
 
-Start the development server
-
-```
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) on your browser
-
-## Project Structure
-
-Main project structure
-
-```powershell
-├── /app                # main folder where all pages and content is rendered
-├── /components         # the components and layouts to assist content creation
-├── /hooks              # react hooks to help
-├── /lib                # all the helper functions and configurations
-├── /public             # the static content (images)
-├── tailwind.config.ts  # color and font configuration
-├── README.md           # important information about the project
-└── TODO.md             # All the to-dos
+### Run
+```bash
+npm run dev    # start Next.js in development mode
+npm run build  # production build
+npm start      # serve built app
+npm run lint   # lint via next lint
 ```
 
-Main App Directory
+Open http://localhost:3000 after `npm run dev`.
 
-```powershell
-├── /app
-│   ├── /contact      # contact us page
-│   ├── /council/id   # individual council page
-│   ├── /councils     # councils page
-│   ├── /gallery      # gallery page
-│   ├── /info         # information page
-│   ├── /register     # mun registration page
-│   ├── /team         # organizing committee page
-│   ├── layout.tsx    # ignore
-│   ├── page.tsx      # home page
-│   └── global.css    # main css file
-└── ...
-```
+## Usage
+- Update hero copy, banners, event timing, itineraries, and dress code in `lib/config.ts`.
+- Manage navigation, councils (including topics, background guides, and chair profiles), teams, register/info table-of-content cards in `lib/links.ts`.
+- Adjust SEO metadata defaults per page in `lib/metadata.ts`.
+- Edit page content/layouts under `app/**/page.tsx`; assets live in `public/`.
+- Components and layouts are intended to stay stable; prefer data/config changes over structural rewrites when possible, and document any major component edits.
 
-Components Directory
-
-```powershell
-├── ...
-├── /components
-│   ├── /content      # all components that render some content
-│   ├── /layouts      # layout components
-│   ├── /navigation   # components that assist navigation
-│   ├── /typography   # heading and paragraph components
-│   └── /ui           # shadcn ui components (leave as it is)
-└── ...
-```
-
-## Configurations
-
-There are 4 ways to configure content
-
-```powershell
-1. /lib/config.ts     # for configuring hero text, banner text, event date, info page content
-2. /lib/links.ts      # for configuring the navbar links and the council and team page links & content
-3. /lib/metadata.ts   # for configuring the metadata of each page
-4. /app/**/page.ts    # configuring the content in each page
-```
-
-## Components
-
-Guidelines for creating and organizing components.
-
-## Layouts
-
-Explanation of layout components and their usage.
-
-## Styling
-
-Preferred styling methods and examples.
-
-## Animation
+## Testing / Quality
+- Lint: `npm run lint`.
+- No automated tests are present in this repository.
 
 ## Deployment
+- Suitable for Vercel or any Next.js host; no deployment config is checked in.
+- The domain is managed on NameCheap; coordinate with the most recent Head of IT for access (renewal each September 17th).
 
-The deployment and domain are entirely up to you. You can either:
+## Project status / Roadmap
+- See `TODO.md` for tracked items. Pending items include: flipping `NEXT_PUBLIC_STATUS` to production when ready, font weight specification, color refinements, JS docs, consolidating shared classnames, and centralizing more data/config.
 
-1. Deploy the project independently on [Vercel](https://vercel.com/).
-2. Contribute changes to this project.
+## Credits / Contributors
+- Originally built by @Clupai8o0 and team; maintained for NMMUN 2024-2025.
+- Contact channels: Instagram `@nmmun_24`, email `nmmun2024.25@gmail.com`, bug reports via https://github.com/Shawarma22/nmmun.
+- NMMUN'24 Head of IT: Hiranya Bansal.  
+  NMMUN'23 Head of IT: Samridh Limbu — [GitHub](https://github.com/Clupai8o0) · [Instagram](https://instagram.com/clupai8o0) · Email: limbusamaka@icloud.com.
 
-Domain is on [NameCheap](https://namecheap.com/), you need only contact the last Head of IT (check [contact information](#contact-information)) and gain domain access from them (it needs renewal every September 17th).
-
-## Contributing
-
-The NMMUN project source code is built in such a way that you shouldn't have to make any alterations in the components and layouts. The only alterations required should be in the /lib/config.ts file and the individual page styling anc content. I would recommend not altering components and layouts code as much to avoid errors, but if big changes are made please update the README.md and comment your changes when contributing.
-
-## Additional Resources
-
-Don't limit your ideas. If you have a creative vision or idea and don't know how to proceed with it, contact me (Head of IT 2023) or check out the resources below.
-
-- [TypeScript](https://www.typescriptlang.org/docs/)
-- [React.js](https://react.dev/)
-- [Next.js](https://nextjs.org)
-- UI components - [Shad CN](https://ui.shadcn.com/)
-- CSS classes - [Tailwind](https://tailwindcss.com/)
-- Animations - [Framer Motion](https://www.framer.com/motion/)
-
-Recommended extensions
-
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-- [Better Components](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Colorful comments
-- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Preview markdown code
-- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Avoid spelling mistakes
-- [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) - My recommended theme
-
-## Contact Information
-
-NMMUN'24 Head of IT - Hiranya Bansal
-[Instagram]()
-
-NMMUN'23 Head of IT - Samridh Limbu
-[Github](https://github.com/Clupai8o0)
-[Instagram](https://instagram.com/clupai8o0)
-Email - limbusamaka@icloud.com
+## Additional resources
+- [TypeScript](https://www.typescriptlang.org/docs/) · [React.js](https://react.dev/) · [Next.js](https://nextjs.org)
+- UI components: [shadcn/ui](https://ui.shadcn.com/) · [Tailwind](https://tailwindcss.com/)
+- Animations: [Framer Motion](https://www.framer.com/motion/)
+- Recommended extensions: Tailwind CSS IntelliSense, Better Comments, Markdown Preview Enhanced, Color Highlight, Code Spell Checker, Monokai Pro
